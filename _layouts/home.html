@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+      .hero-image {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 50% 50% url(/assets/arthroscopy.jpg);
+        background-size: 100%;
+      }
+      .solicita {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 50% 50% url(/assets/solicita.jpg);
+        background-size: 100%;
+      }
+      .gmaps {
+        width: 100%;
+      }
+
+      a {
+        color: white;
+      }
+
+      button a {
+        color: inherit;
+      }
+
+      @media (min-width: 544px) {
+        .nav-container {
+          position: absolute;
+          width: 100%;
+        }
+
+        .hero-image {
+          padding: 12em 0;
+          background-size: 150%;
+        }
+        .solicita {
+          padding: 6em;
+        }
+      }
+      @media (max-width: 544px) {
+        .hero-image {
+          background-size: 180%;
+        }
+
+        .solicita {
+          background-size: 180%;
+        }
+
+        .hero-image .lead {
+          padding-top: 2em;
+        }
+
+        .hero-image h1 {
+          font-size: 180%;
+        }
+
+        .nav-container {
+          background-color: #333;
+
+        }
+      }
+
+    </style>
+
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+  </head>
+  <body>
+
+    <div class="nav-container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/"><img width="40" src="/assets/logo.png" class="mr-3" /> Dr Sammy Orozco</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Dr. Orozco <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Servicios
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Artroscopia</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tel:57 (2) 487 80 89 ">57 (2) 487 80 89</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid hero-image text-light mb-5">
+      <div class="container text-center">
+        <p class="lead">Especialista en</p>
+        <h1 class="display-4">Artroscopia y Traumatologia Deportiva</h1>
+      </div>
+    </div>
+
+    <section class="container mb-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Dr. Sammy Orozco</h2>
+          <p>
+            Especialista en <strong>Cirugía Ortopédica y Traumatología</strong>. Con Sub especialidad en cirugía Artroscópica. Miembro de la <strong>sociedad colombiana de cirugía de ortopedia y traumatología</strong> (SCCOT), <strong>sociedad colombiana de artroscopia y traumatología deportiva</strong> (SOCARTD), <strong>asociación colombiana de cirugía artroscópica</strong> (ACCART), <strong>artroscopy association of north america&nbsp;</strong>(AANA), <strong>sociedad latinoamericana de artroscopia, rodilla y deporte</strong> (SLARD), <strong>International Society of Arthroscopy, Knee Surgery and Orthopaedic Sports Medicine</strong> (ISAKOS).
+          </p>
+          <h2>​Formación</h2>
+          <p>
+            ​Medicina y cirugía (Universidad del Cauca)<br />
+            Especialista Cirugía Ortopédica y Traumatología (Hospital de Ortopedia y Traumatología Magdalena de las Salinas)<br />
+            Sub Especialidad en Cirugía Artroscópica (Instituto Mexicano del Seguro Social – Universidad Nacional Autónoma de México UNAM)
+          </p>
+        </div>
+        <div class="col-md-6">
+          <figure class="figure">
+            <img src="/assets/sammy.jpg" class="img-fluid rounded" alt="Dr. Sammy Orozco" />
+            <figcaption class="figure-caption">Dr. Sammy Orozco</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-md-4 mb-5">
+          <img src="/assets/artroscopia.jpg" class="img-fluid rounded mb-2" alt="Artroscopia" />
+          <h3 class="mb-3">Artroscopia</h3>
+          <p>La artroscopia es una técnica mínimamente invasiva usada en cirugía Ortopédica y Traumatológica que consiste en la introducción de una cámara a través de una pequeña incisión en la piel de unos 5-8 mm que permite ver, estudiar y tratar la articulación en mejores condiciones que en la cirugía abierta tradicional.</p>
+        </div>
+        <div class="col-md-4 mb-5">
+          <img src="/assets/deportiva.jpg" class="img-fluid rounded mb-2" alt="Medicina Deportiva​" />
+          <h3 class="mb-3">Medicina Deportiva​</h3>
+          <p>La medicina del deporte es la especialidad médica que estudia los efectos del ejercicio del deporte y, en general, de la actividad física, en el organismo humano, desde el punto de vista del tratamiento de las enfermedades y lesiones.</p>
+        </div>
+        <div class="col-md-4 mb-5">
+          <img src="/assets/tratamientos.jpg" class="img-fluid rounded mb-2" alt="Tratamientos Biológicos" />
+          <h3 class="mb-3">Tratamientos Biológicos</h3>
+          <p>PLASMA RICO EN PLAQUETAS<br />VISCOSUPLEMENTACIÓN</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="jumbotron jumbotron-fluid text-light solicita mb-5">
+      <div class="container text-center">
+        <h1 class="display-4 mb-5">Solicita tu cita ahora mismo</h1>
+        <button type="button" class="btn btn-light btn-lg"><a href="mailto:Consultoriomedico809@hotmail.com">Cita online</a></button>
+      </div>
+    </div>
+
+    <section class="container mb-5">
+      <div class="row justify-content-around">
+        <img src="/assets/sccot.jpg" class="img-fluid col-xs-3" />
+        <img src="/assets/aana.gif" class="img-fluid col-xs-3" />
+        <img src="/assets/slard.gif" class="img-fluid col-xs-3" />
+        <img src="/assets/isakos.gif" class="img-fluid col-xs-3" />
+      </div>
+    </section>
+
+    <section class="container mb-5">
+      <h2>Contacto</h2>
+          <div class="card text-white bg-info border-0">
+            <div class="card-header bg-white ">
+              <img class="img-fluid" src="/assets/farallones.png" />
+            </div>
+            <div class="card-body">
+              <h3>Centro Medico Clínica Farallones</h3>
+              <h5 class="card-title">Horario de consulta</h5>
+              <p class="card-text">Lunes: 9h a 14h <br />
+                Miercoles: 9h a 14h<br />
+                Jueves: 9h a 14h
+              </p>
+              <hr />
+              <h5>Consultorio 809</h5>
+              <p><a href="mailto:Consultoriomedico809@hotmail.com">Consultoriomedico809@hotmail.com</a></p>
+              <p><strong>Teléfonos.</strong> <a href="tel:57 (2) 487 80 89">57 (2) 487 80 89</a> / <a href="tel:513 64 56">513 64 56</a></p>
+            </div>
+          </div>
+    </section>
+
+    <iframe class="gmaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6026.821889156671!2d-76.53344317968818!3d3.450414436222906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a7c70d7395ef%3A0x52fa4a86af2e0c01!2sClinica%20Farallones!5e0!3m2!1sen!2sau!4v1587478834877!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    <footer class="text-center bg-dark text-white">
+      <div class="container py-5">
+        <h2 class="mb-4"><a href="/"><img src="/assets/logo.png" width="50" class="img-fluid" /> Dr Sammy Orozco</a></h2>
+        <h3>Centro Medico Clínica Farallones</h3>
+        <hr />
+        <h4>Consultorio 809</h4>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
