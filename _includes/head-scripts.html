@@ -21,7 +21,7 @@
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 50% 50% url(/assets/solicita.jpg);
         background-size: 100%;
       }
-      .gmaps {
+      iframe {
         width: 100%;
       }
 
@@ -45,6 +45,14 @@
         }
         .solicita {
           padding: 6em;
+        }
+
+        .nav-link {
+          font-size: 120%;
+        }
+
+        .spaced {
+          line-height: 1.8;
         }
       }
       @media (max-width: 544px) {
@@ -106,24 +114,24 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item active px-3">
               <a class="nav-link" href="/">Dr. Orozco <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li class="nav-item dropdown px-3">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Servicios
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="/artroscopia">Artroscopia</a>
+                <a class="dropdown-item" href="/artroscopia" >Artroscopia</a>
                 <a class="dropdown-item" href="/medicina-deportiva">Medicina Deportiva​</a>
                 <a class="dropdown-item" href="/tratamientos-biologicos">Tratamientos Biológicos</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contacto</a>
+            <li class="nav-item px-3">
+              <a class="nav-link text-light" href="#contact">Contacto</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="tel:57 (2) 487 80 89 ">57 (2) 487 80 89</a>
+            <li class="nav-item px-3">
+              <a class="nav-link text-light" href="tel:57 (2) 487 80 89 ">57 (2) 487 80 89</a>
             </li>
           </ul>
         </div>
