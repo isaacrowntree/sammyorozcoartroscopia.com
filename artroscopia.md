@@ -4,9 +4,12 @@ layout: default
 hero: artroscopia
 ---
 
+La artroscopia es una técnica mínimamente invasiva usada en cirugía Ortopédica y Traumatológica que consiste en la introducción de una cámara a través de una pequeña incisión en la piel de unos 5-8 mm que permite ver, estudiar y tratar la articulación en mejores condiciones que en la cirugía abierta tradicional.
+
 Normalmente se necesitan al menos dos "portales" o incisiones para poder realizar la cirugía, aunque en ocasiones se precisa de algún portal más para poder realizar la reparación y tratamiento de las lesiones que podemos encontrarnos.
 
-​Es una técnica novedosa y moderna, muy relacionada con la medicina deportiva por ser menos invasiva que la cirugía abierta, lo cual aporta una serie de beneficios entre los que destaca la preservación articular así como la rápida recuperación.
+Es una técnica novedosa y moderna, muy relacionada con la medicina deportiva por ser menos invasiva que la cirugía abierta, lo cual aporta una serie de beneficios entre los que destaca la preservación articular así como la rápida recuperación.
+
 
 **Rodilla**
 
@@ -16,11 +19,14 @@ Cuando la lesión se encuentra en la zona denominada blanca-blanca, la sutura de
 
 Ambas cirugías tienen sus pros y sus contras, pero siempre debe prevalecer el principio de preservación articular, para así evitar la artrosis de rodilla.
 
+![Ligamentarias](/assets/knee.png "Ligamentarias")
+
 **Lesiones ligamentarias**: las lesiones de ligamentos son bastante frecuentes a nivel de la rodilla, y muy temidas por las consecuencias que conllevan. Las lesiones que más frecuentemente solemos encontrar son las lesiones del Ligamento Cruzado Anterior o LCA.
 La lesión del LCA suele requerir cirugía para su reparación y reconstrucción, pues el LCA constituye uno de los elementos estabilizadores más importante de la rodilla.
 La reparación del LCA se realiza a través de Artroscopia, sustituyendo el ligamento roto por un nuevo ligamento, que puede ser obtenido del propio paciente (injerto procedente de isquiotibiales, o tendón rotuliano) o incluso de banco de tejidos.
 Al igual que el LCA, también se puede lesionar el Ligamento Cruzado Posterior o LCP,  el cual también puede ser reparado a través de artroscopia con muy buenos resultados.
 En ambas situaciones, la aplicación de sustancias biológicas como Plasma Rico en Plaquetas o PRP facilitan la integración del nuevo ligamento así como aceleran la recuperación del paciente, por lo que está recomendado sobre todo en pacientes deportistas o con alta demanda.
+
 
 **Lesiones condrales**: este tipo de lesiones condicionan lo que se conoce como artrosis. El cartílago es una capa nacarada que rodea los huesos en la zona de las articulaciones y que cumple la función de "almohadilla". Esta capa puede sufrir lesiones derivadas de diversas enfermedades como infecciones, reumatismos, traumatismos,... pero sobre todo, lo más frecuente es que sufran lesiones derivadas del desgaste. Este tipo de lesiones pueden ser tratadas con diversas técnicas, las cuales siempre van a buscar la regeneración del cartílago que hemos perdido. Para ello podemos realizar raspado y "micro fracturas" que buscarán eliminar el tejido no viable y favorecer la colonización por células formadores de cartílago para "rellenar" el defecto condral.
 

@@ -4,10 +4,23 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <style>
+      body {
+        font-family: 'Merriweather', serif !important;
+      }
+      .nav-container, footer {
+        background-color: #529858;
+      }
+      .nav-item {
+        background-color: white;
+      }
+      .navbar-brand {
+        color: #000 !important;
+      }
+
       .hero-artroscopia {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 50% 50% url(/assets/hero-artroscopia.jpg);
       }
@@ -26,18 +39,48 @@
       }
 
       a {
-        color: white;
+        color: #003965;
       }
 
       button a {
         color: inherit;
       }
 
+      .img-container:hover .overlay {
+        bottom: 0;
+        height: 100%;
+      }
+
+      .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: #529858;
+        opacity: 0.8;
+        overflow: hidden;
+        width: 100%;
+        height:0;
+        transition: .2s ease;
+      }
+      .overlay a {
+        color: #011f36;
+        font-weight: bold;
+      }
+
+      .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+
       @media (min-width: 544px) {
-        .nav-container {
-          position: absolute;
-          width: 100%;
-        }
 
         .hero-artroscopia, .hero-deportiva, .hero-tratamientos {
           padding: 12em 0;
@@ -53,6 +96,10 @@
 
         .spaced {
           line-height: 1.8;
+        }
+        .navbar-brand {
+          font-size: 180%;
+          color: #000 !important;
         }
       }
       @media (max-width: 544px) {
@@ -72,8 +119,11 @@
           font-size: 180%;
         }
 
-        .nav-container {
-          background-color: #333;
+        .navbar-brand {
+          font-size: 100%;
+        }
+        .navbar-brand img {
+          width: 30px;
         }
       }
 
@@ -108,17 +158,17 @@
 
     <div class="nav-container">
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="/"><img width="40" src="/assets/logo.png" class="mr-3" /> Dr Sammy Orozco</a>
+        <a class="navbar-brand" href="/"><img width="65" src="/assets/logo.png" class="mr-3" /> Dr. Sammy Orozco</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active px-3">
-              <a class="nav-link" href="/">Dr. Orozco <span class="sr-only">(current)</span></a>
+            <li class="nav-item px-3 mx-3 border border-dark">
+              <a class="nav-link text-dark" href="/">Dr. Orozco <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item dropdown px-3">
-              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li class="nav-item dropdown mx-3 px-3 border border-dark">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Servicios
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -127,11 +177,8 @@
                 <a class="dropdown-item" href="/tratamientos-biologicos">Tratamientos Biológicos</a>
               </div>
             </li>
-            <li class="nav-item px-3">
-              <a class="nav-link text-light" href="#contact">Contacto</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link text-light" href="tel:57 (2) 487 80 89 ">57 (2) 487 80 89</a>
+            <li class="nav-item px-3 mx-3 border border-dark">
+              <a class="nav-link text-dark" href="/#contact">Contacto</a>
             </li>
           </ul>
         </div>

@@ -4,7 +4,8 @@ layout: default
 hero: tratamientos
 ---
 
-PLASMA RICO EN PLAQUETAS:
+**PLASMA RICO EN PLAQUETAS**
+
 También conocido como PRP, o más comúnmente factores de crecimiento.
 Este tipo de terapia se basa en la acción potencialmente cicatrizante y de regeneración que poseen las plaquetas. Las plaquetas poseen unas proteínas activas biológicamente que se encarga de la regeneración de los tejidos.
 
@@ -16,5 +17,8 @@ Los factores de crecimiento están indicadas principalmente en lesiones osteo-te
 
 Cabe destacar que la acción de este tipo de tratamiento depende de la concentración de plaquetas que se consiga, y ésta va a depender de la biología del paciente (número de plaquetas del paciente) así como el sistema de concentración.
 
-VISCOSUPLEMENTACIÓN:
-Los visco suplementos sirven como sustitutos del ácido hialurónico natural en el líquido de la articulación que se degrada en las personas que sufren osteoartritis (OA). El ácido hialurónico actúa como lubricante y amortiguador, permitiendo que la articulación se mueva sin problemas. ​​
+![ejemplo](/assets/example.png "ejemplo")
+
+**VISCOSUPLEMENTACIÓN**
+
+Los visco suplementos sirven como sustitutos del ácido hialurónico natural en el líquido de la articulación que se degrada en las personas que sufren osteoartritis (OA). El ácido hialurónico actúa como lubricante y amortiguador, permitiendo que la articulación se mueva sin problemas.
