@@ -21,8 +21,13 @@
         color: #000 !important;
       }
 
+      .hero-home {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 50% 50% url(/assets/home.jpg);
+        background-size: 100%;
+      }
+
       .hero-artroscopia {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 50% 50% url(/assets/hero-artroscopia.jpg);
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 50% 80% url(/assets/hero-artroscopia.jpg);
       }
       .hero-deportiva {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 50% 50% url(/assets/hero-deportiva.jpg);
@@ -87,7 +92,7 @@
 
       @media (min-width: 544px) {
 
-        .hero-artroscopia, .hero-deportiva, .hero-tratamientos {
+        .hero-home, .hero-artroscopia, .hero-deportiva, .hero-tratamientos {
           padding: 12em 0;
           background-size: 150%;
         }
@@ -108,7 +113,7 @@
         }
       }
       @media (max-width: 544px) {
-        .hero-artroscopia, .hero-deportiva, .hero-tratamientos {
+        .hero-home, .hero-artroscopia, .hero-deportiva, .hero-tratamientos {
           background-size: 180%;
         }
 
@@ -116,11 +121,11 @@
           background-size: 180%;
         }
 
-        .hero-artroscopia .lead {
+        .hero-home .lead {
           padding-top: 2em;
         }
 
-        .hero-artroscopia h1, .hero-deportiva, .hero-tratamientos {
+        .hero-home h1, .hero-artroscopia, .hero-deportiva, .hero-tratamientos {
           font-size: 180%;
         }
 
