@@ -1,0 +1,56 @@
+{% include head-scripts.html %}
+    <div class="jumbotron jumbotron-fluid hero-{{ page.hero }} text-light mb-5">
+      <div class="container text-center">
+        <h1 class="display-4">{{ page.title }}</h1>
+      </div>
+    </div>
+
+    <section class="container page-content">
+      <h1 class="mb-5">{{ page.title }}</h1>
+
+      {{ content }}
+
+      <div class="row">
+        <div class="col-md-3 text-center mb-5">
+          <a href="#rodilla.md">
+            <img src="/assets/rodilla.jpg" class="border border-info img-fluid mb-3" alt="Rodilla">
+            <button class="btn btn-success btn-lg">Rodilla</button>
+          </a>
+        </div>
+        <div class="col-md-3 text-center mb-5">
+          <a href="#hombro.md">
+            <img src="/assets/hombro.jpg" class="border border-info img-fluid mb-3" alt="Hombro">
+            <button class="btn btn-success btn-lg">Hombro</button>
+          </a>
+        </div>
+        <div class="col-md-3 text-center mb-5">
+          <a href="#tobillo.md">
+            <img src="/assets/tobillo.png" class="border border-info img-fluid mb-3" alt="Tobillo">
+            <button class="btn btn-success btn-lg">Tobillo</button>
+          </a>
+        </div>
+        <div class="col-md-3 text-center mb-5">
+          <a href="#tunel.md">
+            <img src="/assets/tunel.png" class="border border-info img-fluid mb-3" alt="Túnel">
+            <button class="btn btn-success btn-lg">Túnel</button>
+          </a>
+        </div>
+      </div>
+
+
+      {% for page in site.pages %}
+        {% if page.type == 'arthroscopy' %}
+          <h3 id="{{ page.name }}">{{ page.title }}</h3>
+          {{ page.content | markdownify }}
+        {% endif %}
+      {% endfor %}
+
+      <div class="text-right my-5">
+        <hr />
+        <button type="button" class="btn btn-outline-secondary">
+          <a href="#top">Back to top <i class="fa fa-hand-o-up" aria-hidden="true"></i></a>
+        </button>
+      </div>
+    </section>
+
+{% include footer-scripts.html %}
