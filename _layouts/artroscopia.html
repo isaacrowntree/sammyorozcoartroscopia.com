@@ -6,7 +6,7 @@
     </div>
 
     <section class="container page-content">
-      <h1 class="mb-5">{{ page.title }}</h1>
+      <h1 class="mb-5"id="artroscopia">{{ page.title }}</h1>
 
       {{ content }}
 
@@ -42,15 +42,15 @@
         {% if page.type == 'arthroscopy' %}
           <h3 id="{{ page.name }}">{{ page.title }}</h3>
           {{ page.content | markdownify }}
+          <div class="text-right my-5">
+            <hr />
+            <button type="button" class="btn btn-outline-secondary">
+              <a href="#artroscopia">Back to top <i class="fa fa-hand-o-up" aria-hidden="true"></i></a>
+            </button>
+          </div>
         {% endif %}
       {% endfor %}
 
-      <div class="text-right my-5">
-        <hr />
-        <button type="button" class="btn btn-outline-secondary">
-          <a href="#top">Back to top <i class="fa fa-hand-o-up" aria-hidden="true"></i></a>
-        </button>
-      </div>
     </section>
 
 {% include footer-scripts.html %}
