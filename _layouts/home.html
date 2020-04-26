@@ -20,6 +20,22 @@
             Especialista Cirugía Ortopédica y Traumatología (Hospital de Ortopedia y Traumatología Magdalena de las Salinas)<br />
             Sub Especialidad en Cirugía Artroscópica (Instituto Mexicano del Seguro Social – Universidad Nacional Autónoma de México UNAM)
           </p>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapsed" aria-expanded="false" aria-controls="collapsed">Leer mas</button>
+
+          <div class="collapse py-3" id="collapsed">
+            <p class="spaced text-justify">
+              Cirujano adjunto del centro médico Farallones desde donde ejerce su especialidad
+              destacando  tratamiento de conservación articular, cirugía artroscópica, medicina
+              deportiva y tratamientos biológicos (PRP y VISCOSUPLEMENTACIÓN).
+              Todos los tratamientos y técnicas quirúrgicas empleadas están enfocadas a la
+              recuperación completa en el menor tiempo posible.
+            </p>
+            <p>
+              <strong>Teléfonos.</strong>
+              <a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a> / <a href="tel:{{ site.phone2 }}">{{ site.phone2 }}</a>
+              <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+            </p>
+          </div>
         </div>
         <div class="col-md-6">
           <figure class="figure">
@@ -30,8 +46,8 @@
                   <h2>Dr. Sammy Orozco</h2>
                   <p>
                     <strong>Teléfonos.</strong>
-                    <a href="tel:57 (2) 487 8089">57 (2) 487 8089</a> / <a href="tel:513 64 56">513 64 56</a>
-                    <p><a href="mailto:consultoriomedico809@hotmail.com">consultoriomedico809@hotmail.com</a></p>
+                    <a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a> / <a href="tel:{{ site.phone2 }}">{{ site.phone2 }}</a>
+                    <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
                   </p>
                 </div>
               </div>
@@ -68,7 +84,7 @@
     <div class="jumbotron jumbotron-fluid text-light solicita mb-5">
       <div class="container text-center">
         <h1 class="display-4 mb-5">Solicita tu cita ahora mismo</h1>
-        <button type="button" class="btn btn-warning btn-lg"><a href="mailto:Consultoriomedico809@hotmail.com">Cita online</a></button>
+        <button type="button" class="btn btn-warning btn-lg"><a href="mailto:{{ site.email }}">Cita online</a></button>
       </div>
     </div>
 
@@ -93,8 +109,8 @@
               <h3>Centro Médico Clínica Farallones</h3>
               <p>Calle 9c # 50 - 25</p>
               <h5>Consultorio 809</h5>
-              <p><a href="mailto:consultoriomedico809@hotmail.com">consultoriomedico809@hotmail.com</a></p>
-              <p><strong>Teléfonos.</strong> <a href="tel:57 (2) 487 8089">57 (2) 487 8089</a> / <a href="tel:513 64 56">513 64 56</a></p>
+              <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+              <p><strong>Teléfonos.</strong> <a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a> / <a href="tel:{{ site.phone2 }}">{{ site.phone2 }}</a></p>
 
               <hr />
 
