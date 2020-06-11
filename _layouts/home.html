@@ -84,7 +84,7 @@
     <div class="jumbotron jumbotron-fluid text-light solicita mb-5">
       <div class="container text-center">
         <h1 class="display-4 mb-5">Solicita tu cita ahora mismo</h1>
-        <button type="button" class="btn btn-warning btn-lg"><a href="mailto:{{ site.email }}">Cita online</a></button>
+        <button type="button" class="btn btn-warning btn-lg"><a href="#cita-online">Cita online</a></button>
       </div>
     </div>
 
@@ -105,19 +105,25 @@
               <img class="img-fluid" src="/assets/farallones.png" />
             </div>
             <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Centro Médico Clínica Farallones</h3>
 
-              <h3>Centro Médico Clínica Farallones</h3>
-              <p>Calle 9c # 50 - 25</p>
-              <h5>Consultorio 809</h5>
-              <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-              <p><strong>Teléfonos.</strong> <a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a> / <a href="tel:{{ site.phone2 }}">{{ site.phone2 }}</a></p>
+                  <p>Calle 9c # 50 - 25</p>
+                  <h5>Consultorio 809</h5>
+                  <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+                  <p><strong>Teléfonos.</strong> <a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a> / <a href="tel:{{ site.phone2 }}">{{ site.phone2 }}</a></p>
 
-              <hr />
+                  <hr />
 
-              <h5 class="card-title">Horario de atención</h5>
-              <p class="card-text">Lunes a Viernes: 8am - 12pm y 2pm - 6pm
-              </p>
-
+                  <h5 class="card-title">Horario de atención</h5>
+                  <p class="card-text">Lunes a Viernes: 8am - 12pm y 2pm - 6pm
+                  </p>
+                </div>
+                <div class="col-md-6" id="cita-online">
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfi70MSIcpxxmaQZrrlC7knOYtjKmUUZGZFhjSZLlzNin8b7A/viewform?embedded=true" width="100%" height="812" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+              </div>
             </div>
           </div>
     </section>
