@@ -1,10 +1,8 @@
 ---
-title: Tratamientos Biológicos
+title: Plasma Rico en Plaquetas
 layout: default
 hero: tratamientos
 ---
-
-**PLASMA RICO EN PLAQUETAS**
 
 También conocido como PRP, o más comúnmente factores de crecimiento.
 Este tipo de terapia se basa en la acción potencialmente cicatrizante y de regeneración que poseen las plaquetas. Las plaquetas poseen unas proteínas activas biológicamente que se encarga de la regeneración de los tejidos.
