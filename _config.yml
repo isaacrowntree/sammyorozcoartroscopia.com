@@ -44,6 +44,9 @@ social:
 logo: /assets/logo.png
 seo:
   type: MedicalBusiness
+  name: Dr. Sammy Orozco - Especialista en Artroscopia y Traumatología Deportiva
+  description: Dr. Sammy Orozco, especialista en Cirugía Ortopédica, Traumatología y Artroscopia Deportiva en Cali, Colombia. Tratamientos especializados en rodilla, hombro, tobillo y más con técnicas mínimamente invasivas.
+  image: /assets/sammy.jpg
   specialties:
     - Cirugía Ortopédica
     - Traumatología
@@ -56,6 +59,30 @@ seo:
     - Medicina Deportiva
     - Tratamientos Biológicos
     - Plasma Rico en Plaquetas
+  address:
+    streetAddress: Calle 9c # 50 - 25, Consultorio 709
+    addressLocality: Cali
+    addressRegion: Valle del Cauca
+    addressCountry: CO
+    postalCode: "760001"
+  geo:
+    latitude: 3.4100740975178354
+    longitude: -76.54180428524194
+  openingHours:
+    - dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+      opens: "08:00"
+      closes: "18:00"
+  sameAs:
+    - https://www.facebook.com/drsammyorozco
+    - https://www.linkedin.com/in/drsammyorozco
+    - https://twitter.com/drsammyorozco
+  medicalAudience:
+    - type: MedicalAudience
+      audienceType: MedicalResearcher
+    - type: MedicalAudience
+      audienceType: MedicalPractitioner
+    - type: MedicalAudience
+      audienceType: Patient
 
 # Build settings
 plugins:

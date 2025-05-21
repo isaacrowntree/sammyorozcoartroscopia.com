@@ -1,31 +1,84 @@
     <footer class="text-center text-white">
       <div class="container py-5">
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <h3 class="mb-4"><img src="/assets/logo.png" width="50" class="img-fluid" alt="Logo Dr. Sammy Orozco" /> Dr. Sammy Orozco</h3>
-            <p><i class="fas fa-user-md mr-2"></i> Especialista en Cirugía Ortopédica, Traumatología y Artroscopia</p>
-            <p><i class="fas fa-graduation-cap mr-2"></i> Formación en México y Colombia</p>
+        <div class="row g-5">
+          <div class="col-lg-4 mb-4">
+            <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-4">
+              <div class="logo-circle bg-white me-3" style="width: 45px; height: 45px;">
+                <span class="logo-text" style="font-size: 32px;">S</span>
+              </div>
+              <h3 class="mb-0 fw-bold">Dr. Sammy Orozco</h3>
+            </div>
+            <div class="bg-success-subtle text-success p-4 rounded-4">
+              <p class="mb-2"><i class="fas fa-user-md me-2"></i>Especialista en Cirugía Ortopédica, Traumatología y Artroscopia</p>
+              <p class="mb-0"><i class="fas fa-graduation-cap me-2"></i>Formación en México y Colombia</p>
+            </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <h3 class="mb-3">Contacto</h3>
-            <p><i class="fas fa-hospital mr-2"></i> Centro Médico Clínica Farallones</p>
-            <p><i class="fas fa-map-marker-alt mr-2"></i> Calle 9c # 50 - 25, Consultorio 709</p>
-            <p><i class="fas fa-phone mr-2"></i> <a href="tel:{{ site.phone1 }}" class="text-white">{{ site.phone1 }}</a> / <a href="tel:{{ site.phone2 }}" class="text-white">{{ site.phone2 }}</a></p>
-            <p><i class="fas fa-envelope mr-2"></i> <a href="mailto:{{ site.email }}" class="text-white">{{ site.email }}</a></p>
+          <div class="col-lg-4 mb-4">
+            <div class="card bg-success-subtle border-0 rounded-4 h-100">
+              <div class="card-body p-4">
+                <h3 class="text-success mb-4 fw-bold">Contacto</h3>
+                <div class="d-flex align-items-start mb-3">
+                  <i class="fas fa-hospital text-success mt-1 me-3"></i>
+                  <p class="text-success mb-0">Centro Médico Clínica Farallones</p>
+                </div>
+                <div class="d-flex align-items-start mb-3">
+                  <i class="fas fa-map-marker-alt text-success mt-1 me-3"></i>
+                  <p class="text-success mb-0">Calle 9c # 50 - 25<br>Consultorio 709</p>
+                </div>
+                <div class="d-flex align-items-start mb-3">
+                  <i class="fas fa-phone text-success mt-1 me-3"></i>
+                  <p class="text-success mb-0">
+                    <a href="tel:{{ site.phone1 }}" class="text-success">{{ site.phone1 }}</a><br>
+                    <a href="tel:{{ site.phone2 }}" class="text-success">{{ site.phone2 }}</a>
+                  </p>
+                </div>
+                <div class="d-flex align-items-start">
+                  <i class="fas fa-envelope text-success mt-1 me-3"></i>
+                  <p class="text-success mb-0">
+                    <a href="mailto:{{ site.email }}" class="text-success">{{ site.email }}</a>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-4">
-            <h3 class="mb-3">Especialidades</h3>
-            <ul class="list-unstyled">
-              <li><a href="/artroscopia" class="text-white"><i class="fas fa-angle-right mr-2"></i> Artroscopia</a></li>
-              <li><a href="/medicina-deportiva" class="text-white"><i class="fas fa-angle-right mr-2"></i> Medicina Deportiva</a></li>
-              <li><a href="/tratamientos-biologicos" class="text-white"><i class="fas fa-angle-right mr-2"></i> Plasma Rico en Plaquetas</a></li>
-              <li><a href="/rodilla" class="text-white"><i class="fas fa-angle-right mr-2"></i> Artroscopia de Rodilla</a></li>
-              <li><a href="/hombro" class="text-white"><i class="fas fa-angle-right mr-2"></i> Artroscopia de Hombro</a></li>
-            </ul>
+          <div class="col-lg-4">
+            <div class="card bg-success-subtle border-0 rounded-4 h-100">
+              <div class="card-body p-4">
+                <h3 class="text-success mb-4 fw-bold">Especialidades</h3>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-3">
+                    <a href="/artroscopia" class="text-success d-flex align-items-center">
+                      <i class="fas fa-chevron-right me-2"></i>Artroscopia
+                    </a>
+                  </li>
+                  <li class="mb-3">
+                    <a href="/medicina-deportiva" class="text-success d-flex align-items-center">
+                      <i class="fas fa-chevron-right me-2"></i>Medicina Deportiva
+                    </a>
+                  </li>
+                  <li class="mb-3">
+                    <a href="/tratamientos-biologicos" class="text-success d-flex align-items-center">
+                      <i class="fas fa-chevron-right me-2"></i>Plasma Rico en Plaquetas
+                    </a>
+                  </li>
+                  <li class="mb-3">
+                    <a href="/rodilla" class="text-success d-flex align-items-center">
+                      <i class="fas fa-chevron-right me-2"></i>Artroscopia de Rodilla
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/hombro" class="text-success d-flex align-items-center">
+                      <i class="fas fa-chevron-right me-2"></i>Artroscopia de Hombro
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-        <hr class="my-4">
-        <p>&copy; {{ site.time | date: '%Y' }} Dr. Sammy Orozco. Todos los derechos reservados.</p>
+        <div class="mt-5 pt-4 border-top border-success">
+          <p class="mb-0 text-success">© {{ site.time | date: '%Y' }} Dr. Sammy Orozco. Todos los derechos reservados.</p>
+        </div>
       </div>
     </footer>
 
@@ -74,25 +127,38 @@
     }
     </script>
 
-    <!-- Bootstrap JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- Bootstrap and JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
-    <!-- Smooth scrolling -->
+    <!-- Smooth scrolling for anchor links -->
     <script>
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
           e.preventDefault();
           
-          const target = document.querySelector(this.getAttribute('href'));
-          if (target) {
-            window.scrollTo({
-              top: target.offsetTop - 70,
-              behavior: 'smooth'
-            });
-          }
+          const targetId = this.getAttribute('href').substring(1);
+          if (!targetId) return;
+          
+          const targetElement = document.getElementById(targetId);
+          if (!targetElement) return;
+          
+          window.scrollTo({
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+          });
         });
       });
+      
+      // Add active class to current nav item
+      const currentLocation = location.pathname;
+      const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+      const navLinksLength = navLinks.length;
+      
+      for (let i = 0; i < navLinksLength; i++) {
+        if (navLinks[i].getAttribute('href') === currentLocation) {
+          navLinks[i].classList.add('active');
+        }
+      }
     </script>
   </body>
 </html>
