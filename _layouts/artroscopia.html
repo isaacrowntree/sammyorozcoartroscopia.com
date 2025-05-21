@@ -2,55 +2,118 @@
     <div class="jumbotron jumbotron-fluid hero-{{ page.hero }} text-light mb-5">
       <div class="container text-center">
         <h1 class="display-4">{{ page.title }}</h1>
+        <p class="lead">Técnicas mínimamente invasivas para el tratamiento de lesiones articulares</p>
       </div>
     </div>
 
-    <section class="container page-content">
-      <h1 class="mb-5"id="artroscopia">{{ page.title }}</h1>
-
-      {{ content }}
-
+    <section class="container page-content mb-5">
       <div class="row">
-        <div class="col-md-3 text-center mb-5">
-          <a href="#rodilla.md">
-            <img src="/assets/rodilla.jpg" class="border border-info img-fluid mb-3" alt="Rodilla">
-            <button class="btn btn-success btn-lg">Rodilla</button>
-          </a>
+        <div class="col-lg-8">
+          <article>
+            <h2 class="mb-4" id="artroscopia">{{ page.title }}</h2>
+            <div class="content-main mb-5">
+              {{ content }}
+            </div>
+
+            <h3 class="mb-4">Tipos de Artroscopia</h3>
+            <div class="row mb-5">
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                  <img src="/assets/rodilla.jpg" class="card-img-top" alt="Artroscopia de Rodilla">
+                  <div class="card-body text-center">
+                    <h4 class="card-title h5">Rodilla</h4>
+                    <a href="#rodilla.md" class="btn btn-success btn-sm stretched-link">Ver detalles</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                  <img src="/assets/hombro.jpg" class="card-img-top" alt="Artroscopia de Hombro">
+                  <div class="card-body text-center">
+                    <h4 class="card-title h5">Hombro</h4>
+                    <a href="#hombro.md" class="btn btn-success btn-sm stretched-link">Ver detalles</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                  <img src="/assets/tobillo.png" class="card-img-top" alt="Artroscopia de Tobillo">
+                  <div class="card-body text-center">
+                    <h4 class="card-title h5">Tobillo</h4>
+                    <a href="#tobillo.md" class="btn btn-success btn-sm stretched-link">Ver detalles</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                  <img src="/assets/tunel.png" class="card-img-top" alt="Síndrome del Túnel Carpiano">
+                  <div class="card-body text-center">
+                    <h4 class="card-title h5">Túnel Carpiano</h4>
+                    <a href="#tunel.md" class="btn btn-success btn-sm stretched-link">Ver detalles</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {% for page in site.pages %}
+              {% if page.type == 'arthroscopy' %}
+                <div class="arthroscopy-section mb-5">
+                  <h3 id="{{ page.name }}" class="bg-success text-white p-3 rounded">{{ page.title }}</h3>
+                  <div class="py-3">
+                    {{ page.content | markdownify }}
+                  </div>
+                  <div class="text-right">
+                    <a href="#artroscopia" class="btn btn-outline-success"><i class="fas fa-arrow-up mr-2"></i>Volver a Artroscopia</a>
+                  </div>
+                  <hr class="my-4">
+                </div>
+              {% endif %}
+            {% endfor %}
+          </article>
         </div>
-        <div class="col-md-3 text-center mb-5">
-          <a href="#hombro.md">
-            <img src="/assets/hombro.jpg" class="border border-info img-fluid mb-3" alt="Hombro">
-            <button class="btn btn-success btn-lg">Hombro</button>
-          </a>
-        </div>
-        <div class="col-md-3 text-center mb-5">
-          <a href="#tobillo.md">
-            <img src="/assets/tobillo.png" class="border border-info img-fluid mb-3" alt="Tobillo">
-            <button class="btn btn-success btn-lg">Tobillo</button>
-          </a>
-        </div>
-        <div class="col-md-3 text-center mb-5">
-          <a href="#tunel.md">
-            <img src="/assets/tunel.png" class="border border-info img-fluid mb-3" alt="Túnel">
-            <button class="btn btn-success btn-lg">Túnel</button>
-          </a>
+        
+        <div class="col-lg-4">
+          <div class="sidebar-widget card mb-4 border-success">
+            <div class="card-header bg-success text-white">
+              <h3 class="mb-0 h5"><i class="fas fa-stethoscope mr-2"></i>Otros Servicios</h3>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="/medicina-deportiva"><i class="fas fa-angle-right mr-2 text-success"></i>Medicina Deportiva</a></li>
+              <li class="list-group-item"><a href="/tratamientos-biologicos"><i class="fas fa-angle-right mr-2 text-success"></i>Plasma Rico en Plaquetas</a></li>
+            </ul>
+          </div>
+          
+          <div class="sidebar-widget card mb-4 border-success">
+            <div class="card-header bg-success text-white">
+              <h3 class="mb-0 h5"><i class="fas fa-info-circle mr-2"></i>Contacto</h3>
+            </div>
+            <div class="card-body">
+              <p><i class="fas fa-phone-alt mr-2 text-success"></i><a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a></p>
+              <p><i class="fas fa-envelope mr-2 text-success"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+              <a href="/#contact" class="btn btn-success btn-block"><i class="fas fa-calendar-check mr-2"></i>Solicitar Cita</a>
+            </div>
+          </div>
+          
+          <div class="sidebar-widget card mb-4">
+            <div class="card-body">
+              <h3 class="h5 mb-3">Beneficios de la Artroscopia</h3>
+              <ul class="list-unstyled">
+                <li class="mb-2"><i class="fas fa-check-circle text-success mr-2"></i>Técnica mínimamente invasiva</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success mr-2"></i>Menor tiempo de recuperación</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success mr-2"></i>Reducción del dolor post-operatorio</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success mr-2"></i>Menor riesgo de infección</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success mr-2"></i>Cicatrices más pequeñas</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success mr-2"></i>Menor pérdida de sangre</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-
-
-      {% for page in site.pages %}
-        {% if page.type == 'arthroscopy' %}
-          <h3 id="{{ page.name }}">{{ page.title }}</h3>
-          {{ page.content | markdownify }}
-          <div class="text-right my-5">
-            <hr />
-            <button type="button" class="btn btn-outline-secondary">
-              <a href="#artroscopia">Volver arriba <i class="fa fa-hand-o-up" aria-hidden="true"></i></a>
-            </button>
-          </div>
-        {% endif %}
-      {% endfor %}
-
+      
+      <div class="mt-4 d-flex justify-content-between align-items-center">
+        <a href="/" class="btn btn-outline-success"><i class="fas fa-home mr-2"></i>Inicio</a>
+        <a href="#top" class="btn btn-outline-secondary"><i class="fas fa-arrow-up mr-2"></i>Volver arriba</a>
+      </div>
     </section>
 
 {% include footer-scripts.html %}

@@ -18,16 +18,49 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Dr. Sammy Orozco
+title: Dr. Sammy Orozco - Especialista en Artroscopia y Traumatología Deportiva
 email: consultoriomedico809@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Página web del doctor Sammy Orozco, especialista en Artroscopia y Traumatologia Deportiva.
-keywords: artroscopia, doctor orozco, dr orozco, dr sammy, fractura, hospital farallones, cali, medicina deportiva, ortopedia, protesis de cadera, prp, traumatologia
+  Dr. Sammy Orozco, especialista en Cirugía Ortopédica, Traumatología y Artroscopia Deportiva en Cali, Colombia. 
+  Tratamientos especializados en rodilla, hombro, tobillo y más con técnicas mínimamente invasivas.
+keywords: artroscopia, doctor orozco, dr sammy orozco, fractura, cirugía ortopédica, hospital farallones, cali, medicina deportiva, ortopedia, prótesis de cadera, prp, traumatología, cirugía artroscópica
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sammyorozcoartroscopia.com" # the base hostname & protocol for your site
 phone1: 317 583 4699
 phone2: 513 64 56
+location: Centro Médico Clínica Farallones, Calle 9c # 50 - 25, Consultorio 709, Cali, Colombia
+consultation_hours: Lunes a Viernes 8:00 AM - 6:00 PM
 
+# Social media
+social:
+  name: Dr. Sammy Orozco
+  links:
+    # Add social media profiles when available
+    # - https://twitter.com/drsammyorozco
+    # - https://www.facebook.com/drsammyorozco
+    # - https://www.linkedin.com/in/drsammyorozco
+
+# SEO settings
+logo: /assets/logo.png
+seo:
+  type: MedicalBusiness
+  specialties:
+    - Cirugía Ortopédica
+    - Traumatología
+    - Cirugía Artroscópica
+    - Medicina Deportiva
+  services:
+    - Artroscopia de Rodilla
+    - Artroscopia de Hombro
+    - Artroscopia de Tobillo
+    - Medicina Deportiva
+    - Tratamientos Biológicos
+    - Plasma Rico en Plaquetas
+
+# Build settings
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

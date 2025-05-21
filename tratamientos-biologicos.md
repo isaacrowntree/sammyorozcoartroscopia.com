@@ -1,19 +1,65 @@
 ---
-title: Plasma Rico en Plaquetas
+title: Tratamientos Biológicos
 layout: default
 hero: tratamientos
+description: Tratamientos biológicos con plasma rico en plaquetas (PRP) y viscosuplementación para lesiones articulares y tendinosas. Dr. Sammy Orozco, especialista en Cali, Colombia.
+keywords: plasma rico en plaquetas, PRP, viscosuplementación, tratamientos biológicos, regeneración, lesiones articulares, tendinitis, artrosis, medicina regenerativa, cali
+subtitle: Medicina regenerativa para lesiones osteoarticulares y tendinosas
 ---
 
-También conocido como PRP, o más comúnmente factores de crecimiento.
-Este tipo de terapia se basa en la acción potencialmente cicatrizante y de regeneración que poseen las plaquetas. Las plaquetas poseen unas proteínas activas biológicamente que se encarga de la regeneración de los tejidos.
+## Plasma Rico en Plaquetas (PRP)
 
-El PRP consiste en la extracción de sangre del paciente para posteriormente extraer y concentrar las plaquetas. El segundo paso es realizar una infiltración con esta concentración en la lesión que presenta el paciente.
+El Plasma Rico en Plaquetas (PRP) es un tratamiento biológico avanzado que utiliza las propias células y factores de crecimiento del paciente para acelerar la recuperación y regeneración de tejidos dañados. Este tratamiento se basa en la obtención de una fracción de la sangre del paciente, rica en plaquetas, que contiene numerosos factores de crecimiento capaces de estimular la regeneración tisular.
 
-Una vez en la lesión esta concentración estimula la multiplicación de las células sanas que hay alrededor de la lesión, aumenta la angiogénesis (creación de vasos sanguíneos para aportar nutrientes y oxígeno) y favorece la diferenciación de las células madres que existen en los tejidos para que den lugar a células sanas del tejido lesionado.
+### Proceso de Obtención del PRP
 
-Los factores de crecimiento están indicadas principalmente en lesiones osteo-tendinosas,  además se puede usar en roturas de meniscos y en el tratamiento de patologías del cartílago. En este caso las condropatías severas (grado III y IV) no serían la mejor indicación, pues no ayuda a regenerar cartílago, pero si a disminuir la inflamación de los tejidos que existen favoreciendo que no progrese la degeneración de esos tejidos. El plasma rico en plaquetas si está indicado sobre todo en condromalacias leves (grado I y II).
+El procedimiento para obtener PRP es sencillo y consta de los siguientes pasos:
 
-Cabe destacar que la acción de este tipo de tratamiento depende de la concentración de plaquetas que se consiga, y ésta va a depender de la biología del paciente (número de plaquetas del paciente) así como el sistema de concentración.
+1. **Extracción sanguínea**: Se extrae una pequeña cantidad de sangre del paciente (similar a un análisis rutinario)
+2. **Centrifugación**: La sangre se centrifuga para separar sus componentes y obtener la fracción rica en plaquetas
+3. **Aplicación**: El plasma rico en plaquetas se inyecta en la zona lesionada mediante técnicas guiadas por ecografía para mayor precisión
+
+### Principales Indicaciones del PRP
+
+El PRP se utiliza con excelentes resultados en múltiples afecciones del sistema musculoesquelético, entre las que destacan:
+
+- **Lesiones tendinosas**: Tendinitis, tendinosis, epicondilitis (codo de tenista), fascitis plantar
+- **Lesiones musculares**: Roturas fibrilares, contracturas, recuperación postquirúrgica
+- **Lesiones articulares**: Artrosis de rodilla, cadera, tobillo y hombro
+- **Lesiones ligamentosas**: Esguinces y lesiones de ligamentos crónicos
+- **Lesiones cartilaginosas**: Defectos condrales y osteocondrales
+
+## Viscosuplementación
+
+La viscosuplementación es un tratamiento que consiste en la inyección intraarticular de ácido hialurónico, un componente natural del líquido sinovial que actúa como lubricante y amortiguador en las articulaciones. Este tratamiento está especialmente indicado en pacientes con artrosis, donde la cantidad y calidad del líquido sinovial se encuentra disminuida.
+
+### Beneficios de la Viscosuplementación
+
+- **Mejora la lubricación articular**: Restaura las propiedades viscoelásticas del líquido sinovial
+- **Reduce el dolor**: Disminuye la inflamación y el dolor articular
+- **Efecto protector del cartílago**: Ayuda a prevenir la degradación adicional del cartílago
+- **Mejora la movilidad**: Permite mayor funcionalidad de la articulación
+
+### Aplicaciones Clínicas
+
+La viscosuplementación se utiliza principalmente en:
+
+- Artrosis de rodilla (gonartrosis)
+- Artrosis de cadera (coxartrosis)
+- Artrosis de tobillo
+- Artrosis de hombro
+
+## Ventajas de los Tratamientos Biológicos
+
+Los tratamientos biológicos como el PRP y la viscosuplementación ofrecen numerosas ventajas:
+
+- **Mínimamente invasivos**: No requieren cirugía
+- **Seguros**: Al utilizar componentes del propio paciente (autólogos), minimizan el riesgo de reacciones adversas
+- **Efectivos**: Proporcionan alivio del dolor y mejora funcional en la mayoría de pacientes
+- **Regenerativos**: No solo tratan los síntomas, sino que promueven la reparación de los tejidos
+- **Compatibles**: Pueden combinarse con otros tratamientos conservadores o quirúrgicos
+
+En nuestra consulta realizamos una evaluación individualizada para determinar si estos tratamientos son adecuados para cada paciente, considerando factores como el tipo de lesión, la edad, el nivel de actividad y la presencia de otras condiciones médicas.
 
 ![ejemplo](/assets/example.png "ejemplo")
 

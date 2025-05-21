@@ -1,130 +1,230 @@
 {% include head-scripts.html %}
 
+    <!-- Hero section -->
     <div class="jumbotron jumbotron-fluid hero-home text-light mb-5">
       <div class="container text-center">
         <p class="lead">Especialista en</p>
-        <h1 class="display-4">Artroscopia y Traumatologia Deportiva</h1>
+        <h1 class="display-4">Artroscopia y Traumatología Deportiva</h1>
+        <a href="#contact" class="btn btn-warning btn-lg mt-4">Solicitar Cita</a>
       </div>
     </div>
 
+    <!-- About the doctor section -->
     <section class="container mb-5" id="sammyOrozco">
       <div class="row">
-        <div class="col-md-6">
-          <h2 class="my-3">Dr. Sammy Orozco</h2>
-          <p class="spaced text-justify mb-5">
-            Especialista en <strong>Cirugía Ortopédica y Traumatología</strong>. Con Sub especialidad en cirugía Artroscópica. Miembro de la <strong>sociedad colombiana de cirugía de ortopedia y traumatología</strong> (SCCOT), <strong>sociedad colombiana de artroscopia y traumatología deportiva</strong> (SOCARTD), <strong>asociación colombiana de cirugía artroscópica</strong> (ACCART), <strong>artroscopy association of north america&nbsp;</strong>(AANA), <strong>sociedad latinoamericana de artroscopia, rodilla y deporte</strong> (SLARD), <strong>International Society of Arthroscopy, Knee Surgery and Orthopaedic Sports Medicine</strong> (ISAKOS).
+        <div class="col-lg-6 mb-4">
+          <h2 class="mb-4">Dr. Sammy Orozco</h2>
+          <p class="spaced text-justify mb-4">
+            Especialista en <strong>Cirugía Ortopédica y Traumatología</strong> con Subespecialidad en <strong>Cirugía Artroscópica</strong>. Miembro activo de prestigiosas asociaciones médicas como la <strong>Sociedad Colombiana de Cirugía de Ortopedia y Traumatología</strong> (SCCOT), <strong>Sociedad Colombiana de Artroscopia y Traumatología Deportiva</strong> (SOCARTD), <strong>Asociación Colombiana de Cirugía Artroscópica</strong> (ACCART), <strong>Artroscopy Association of North America</strong> (AANA), <strong>Sociedad Latinoamericana de Artroscopia, Rodilla y Deporte</strong> (SLARD) y <strong>International Society of Arthroscopy, Knee Surgery and Orthopaedic Sports Medicine</strong> (ISAKOS).
           </p>
-          <h2 class="my-3">​Formación</h2>
-          <p class="spaced text-justify">
-            ​Medicina y cirugía (Universidad del Cauca)<br />
-            Especialista Cirugía Ortopédica y Traumatología (Hospital de Ortopedia y Traumatología Magdalena de las Salinas)<br />
-            Sub Especialidad en Cirugía Artroscópica (Instituto Mexicano del Seguro Social – Universidad Nacional Autónoma de México UNAM)
-          </p>
-          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapsed" aria-expanded="false" aria-controls="collapsed">Leer mas</button>
+          
+          <h3 class="mb-3">Formación Académica</h3>
+          <div class="card border-success mb-4">
+            <div class="card-body">
+              <ul class="list-unstyled spaced mb-0">
+                <li class="mb-2"><i class="fas fa-graduation-cap mr-2 text-success"></i>Medicina y Cirugía (Universidad del Cauca)</li>
+                <li class="mb-2"><i class="fas fa-graduation-cap mr-2 text-success"></i>Especialista en Cirugía Ortopédica y Traumatología (Hospital de Ortopedia y Traumatología Magdalena de las Salinas)</li>
+                <li><i class="fas fa-graduation-cap mr-2 text-success"></i>Subespecialidad en Cirugía Artroscópica (Instituto Mexicano del Seguro Social – Universidad Nacional Autónoma de México UNAM)</li>
+              </ul>
+            </div>
+          </div>
+          
+          <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#collapsed" aria-expanded="false" aria-controls="collapsed">Leer más <i class="fas fa-chevron-down ml-1"></i></button>
 
           <div class="collapse py-3" id="collapsed">
-            <p class="spaced text-justify">
-              Cirujano adjunto del centro médico Farallones desde donde ejerce su especialidad
-              destacando  tratamiento de conservación articular, cirugía artroscópica, medicina
-              deportiva y plasma rico en plaquetas (PRP y VISCOSUPLEMENTACIÓN).
-              Todos los tratamientos y técnicas quirúrgicas empleadas están enfocadas a la
-              recuperación completa en el menor tiempo posible.
-            </p>
-            <p>
-              <strong>Teléfonos.</strong>
-              <a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a> / <a href="tel:{{ site.phone2 }}">{{ site.phone2 }}</a>
-              <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <figure class="figure">
-            <div class="img-container">
-              <img src="/assets/sammy.jpg" class="img-fluid rounded border border-info" alt="Dr. Sammy Orozco" />
-              <div class="overlay">
-                <div class="overlay-text text-light">
-                  <h2>Dr. Sammy Orozco</h2>
-                  <p>
-                    <strong>Teléfonos.</strong>
-                    <a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a> / <a href="tel:{{ site.phone2 }}">{{ site.phone2 }}</a>
-                    <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-                  </p>
+            <div class="card card-body border-success">
+              <p class="spaced text-justify mb-3">
+                Cirujano adjunto del Centro Médico Farallones donde ejerce su especialidad
+                destacando tratamientos de conservación articular, cirugía artroscópica, medicina
+                deportiva y plasma rico en plaquetas (PRP y VISCOSUPLEMENTACIÓN).
+                Todos los tratamientos y técnicas quirúrgicas empleadas están enfocadas a la
+                recuperación completa en el menor tiempo posible.
+              </p>
+              <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <div>
+                  <h5><i class="fas fa-phone-alt mr-2 text-success"></i>Teléfonos</h5>
+                  <p><a href="tel:{{ site.phone1 }}" class="mr-2">{{ site.phone1 }}</a> / <a href="tel:{{ site.phone2 }}">{{ site.phone2 }}</a></p>
+                </div>
+                <div>
+                  <h5><i class="fas fa-envelope mr-2 text-success"></i>Email</h5>
+                  <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
                 </div>
               </div>
             </div>
-            <figcaption class="figure-caption">Dr. Sammy Orozco</figcaption>
-          </figure>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="img-container mb-4">
+            <img src="/assets/sammy.jpg" class="img-fluid rounded" alt="Dr. Sammy Orozco - Especialista en Artroscopia y Traumatología Deportiva" />
+            <div class="overlay">
+              <div class="overlay-text">
+                <h2>Dr. Sammy Orozco</h2>
+                <p class="mb-2">Cirugía Ortopédica y Traumatología</p>
+                <div class="d-flex justify-content-center">
+                  <a href="tel:{{ site.phone1 }}" class="btn btn-light btn-sm mx-1"><i class="fas fa-phone-alt mr-1"></i> Llamar</a>
+                  <a href="mailto:{{ site.email }}" class="btn btn-light btn-sm mx-1"><i class="fas fa-envelope mr-1"></i> Email</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-success">
+            <div class="card-header bg-success text-white">
+              <h4 class="mb-0"><i class="fas fa-user-md mr-2"></i>Especialidades</h4>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="fas fa-check-circle text-success mr-2"></i>Artroscopia de Rodilla</li>
+              <li class="list-group-item"><i class="fas fa-check-circle text-success mr-2"></i>Artroscopia de Hombro</li>
+              <li class="list-group-item"><i class="fas fa-check-circle text-success mr-2"></i>Artroscopia de Tobillo</li>
+              <li class="list-group-item"><i class="fas fa-check-circle text-success mr-2"></i>Traumatología Deportiva</li>
+              <li class="list-group-item"><i class="fas fa-check-circle text-success mr-2"></i>Tratamientos Biológicos (PRP)</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="container">
+    <!-- Services section -->
+    <section class="container mb-5" id="servicios">
+      <h2 class="text-center mb-5">Nuestros Servicios</h2>
       <div class="row">
-        <div class="col-md-4 text-center mb-5">
-          <a href="/artroscopia">
-            <img src="/assets/artroscopia.jpg" class="border border-info img-fluid mb-3" alt="Artroscopia">
-            <button class="btn btn-success btn-lg">Artroscopia</button>
-          </a>
+        <div class="col-md-4 text-center mb-4">
+          <div class="card h-100 shadow-sm hover-effect">
+            <div class="card-body d-flex flex-column">
+              <div class="service-img-container mb-3">
+                <img src="/assets/artroscopia.jpg" class="img-fluid rounded" alt="Artroscopia">
+              </div>
+              <h3>Artroscopia</h3>
+              <p class="text-muted flex-grow-1">Técnica mínimamente invasiva para el diagnóstico y tratamiento de lesiones articulares</p>
+              <a href="/artroscopia" class="btn btn-success">Más Información</a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 text-center mb-5">
-          <a href="/medicina-deportiva">
-            <img src="/assets/medicina.jpg" class="border border-info img-fluid mb-3" alt="Medicina Deportiva">
-            <button class="btn btn-success btn-lg">Medicina Deportiva</button>
-          </a>
+        <div class="col-md-4 text-center mb-4">
+          <div class="card h-100 shadow-sm hover-effect">
+            <div class="card-body d-flex flex-column">
+              <div class="service-img-container mb-3">
+                <img src="/assets/medicina.jpg" class="img-fluid rounded" alt="Medicina Deportiva">
+              </div>
+              <h3>Medicina Deportiva</h3>
+              <p class="text-muted flex-grow-1">Tratamiento especializado de lesiones relacionadas con actividades deportivas</p>
+              <a href="/medicina-deportiva" class="btn btn-success">Más Información</a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 text-center mb-5">
-          <a href="/tratamientos-biologicos">
-            <img src="/assets/7509biologicos.jpg" class="border border-info img-fluid mb-3" alt="Tratamientos Biológicos">
-            <button class="btn btn-success btn-lg">Plasma Rico en Plaquetas</button>
-          </a>
+        <div class="col-md-4 text-center mb-4">
+          <div class="card h-100 shadow-sm hover-effect">
+            <div class="card-body d-flex flex-column">
+              <div class="service-img-container mb-3">
+                <img src="/assets/7509biologicos.jpg" class="img-fluid rounded" alt="Tratamientos Biológicos">
+              </div>
+              <h3>Plasma Rico en Plaquetas</h3>
+              <p class="text-muted flex-grow-1">Tratamiento regenerativo que acelera la recuperación de lesiones musculares y articulares</p>
+              <a href="/tratamientos-biologicos" class="btn btn-success">Más Información</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- Call to action section -->
     <div class="jumbotron jumbotron-fluid text-light solicita mb-5">
       <div class="container text-center">
-        <h1 class="display-4 mb-5">Solicita tu cita ahora mismo</h1>
-        <button type="button" class="btn btn-warning btn-lg"><a href="#cita-online">Cita online</a></button>
+        <h2 class="display-4 mb-4">Solicita tu cita ahora mismo</h2>
+        <p class="lead mb-4">Atención especializada para el diagnóstico y tratamiento de sus problemas ortopédicos</p>
+        <a href="#contact" class="btn btn-warning btn-lg"><i class="fas fa-calendar-check mr-2"></i>Contactar para Cita</a>
       </div>
     </div>
 
-    <section class="container mb-5">
-      <div class="row justify-content-around">
-        <img src="/assets/sccot.jpg" class="img-fluid col-xs-2" />
-        <img src="/assets/accart.jpg" class="img-fluid col-xs-2" />
-        <img src="/assets/aana.gif" class="img-fluid col-xs-2" />
-        <img src="/assets/slard.gif" class="img-fluid col-xs-2" />
-        <img src="/assets/isakos.gif" class="img-fluid col-xs-2" />
+    <!-- Associations section -->
+    <section class="container mb-5" id="asociaciones">
+      <h2 class="text-center mb-4">Asociaciones Médicas</h2>
+      <p class="text-center mb-4">El Dr. Sammy Orozco es miembro activo de prestigiosas asociaciones médicas nacionales e internacionales:</p>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-6 col-md-2 mb-4">
+          <img src="/assets/sccot.jpg" class="img-fluid" alt="Sociedad Colombiana de Cirugía Ortopédica y Traumatología" />
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+          <img src="/assets/accart.jpg" class="img-fluid" alt="Asociación Colombiana de Cirugía Artroscópica" />
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+          <img src="/assets/aana.gif" class="img-fluid" alt="Artroscopy Association of North America" />
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+          <img src="/assets/slard.gif" class="img-fluid" alt="Sociedad Latinoamericana de Artroscopia, Rodilla y Deporte" />
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+          <img src="/assets/isakos.gif" class="img-fluid" alt="International Society of Arthroscopy, Knee Surgery and Orthopaedic Sports Medicine" />
+        </div>
       </div>
     </section>
 
+    <!-- Contact section -->
     <section class="container mb-5" id="contact">
-      <h2>Contacto</h2>
-          <div class="card text-white bg-info border-0">
-            <div class="card-header bg-white ">
-              <img class="img-fluid" src="/assets/farallones.png" />
+      <h2 class="text-center mb-4">Contacto y Ubicación</h2>
+      <div class="row">
+        <div class="col-lg-6 mb-4">
+          <div class="card border-0 shadow">
+            <div class="card-header bg-success text-white">
+              <h3 class="mb-0"><i class="fas fa-map-marker-alt mr-2"></i>Centro Médico Clínica Farallones</h3>
             </div>
             <div class="card-body">
               <div class="row">
-                <div class="col-md-6">
-                  <h3>Centro Médico Clínica Farallones</h3>
-
-                  <p>Calle 9c # 50 - 25</p>
-                  <h5>Consultorio 709</h5>
-                  <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-                  <p><strong>Teléfonos.</strong> <a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a> / <a href="tel:{{ site.phone2 }}">{{ site.phone2 }}</a></p>
+                <div class="col-md-6 mb-3">
+                  <h4><i class="fas fa-location-arrow mr-2 text-success"></i>Dirección</h4>
+                  <p>Calle 9c # 50 - 25<br>Consultorio 709<br>Cali, Colombia</p>
                 </div>
+                <div class="col-md-6 mb-3">
+                  <h4><i class="fas fa-phone-alt mr-2 text-success"></i>Teléfonos</h4>
+                  <p>
+                    <a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a><br>
+                    <a href="tel:{{ site.phone2 }}">{{ site.phone2 }}</a>
+                  </p>
+                </div>
+              </div>
+              <div class="mb-3">
+                <h4><i class="fas fa-envelope mr-2 text-success"></i>Email</h4>
+                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+              </div>
+              <div>
+                <h4><i class="fas fa-clock mr-2 text-success"></i>Horario de Atención</h4>
+                <p>Lunes a Viernes: 8:00 AM - 6:00 PM</p>
               </div>
             </div>
           </div>
-          <br /><!--
-
-        <h2 id="reservar">Reservar</h2>
-        <script src="//widget.simplybook.me/v2/widget/widget.js"></script>
-<script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/drsammyorozco.simplybook.me","theme":"classic","theme_settings":{"timeline_hide_unavailable":"0","timeline_show_end_time":"0","timeline_modern_display":"as_slots","sb_base_color":"#fdfdfd","display_item_mode":"block","body_bg_color":"#fdfdfd","sb_review_image":"","sb_company_label_color":"#ffffff","hide_img_mode":"0","sb_busy":"#dad2ce","sb_available":"#d3e0f1"},"timeline":"modern","datepicker":"top_calendar","is_rtl":false,"app_config":{"allow_switch_to_ada":0,"predefined":[]}});</script>
-    -->
+          
+          <div class="card border-0 shadow mt-4">
+            <div class="card-header bg-success text-white">
+              <h3 class="mb-0"><i class="fas fa-paper-plane mr-2"></i>Solicitar Cita</h3>
+            </div>
+            <div class="card-body">
+              <form action="https://formspree.io/f/xbjnbowp" method="POST">
+                <div class="form-group">
+                  <label for="name">Nombre Completo</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Teléfono</label>
+                  <input type="tel" class="form-control" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Mensaje</label>
+                  <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success btn-block"><i class="fas fa-calendar-check mr-2"></i>Enviar Solicitud</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="embed-responsive embed-responsive-4by3 shadow rounded">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.753887703216!2d-76.54180428524194!3d3.4100740975178354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6ae63805b6f%3A0x393ee0baff430b0f!2sLos%20Farallones%20Children&#39;s%20and%20Maternity%20Clinic!5e0!3m2!1ses!2sco!4v1587560303928!5m2!1ses!2sco" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
     </section>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.753887703216!2d-76.54180428524194!3d3.4100740975178354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6ae63805b6f%3A0x393ee0baff430b0f!2sLos%20Farallones%20Children&#39;s%20and%20Maternity%20Clinic!5e0!3m2!1sen!2sau!4v1587560303928!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 {% include footer-scripts.html %}
