@@ -2,7 +2,7 @@
 title: Artroscopia de Hombro
 layout: default
 type: arthroscopy
-hero: artroscopia
+hero: hombro
 description: Tratamiento especializado de lesiones de hombro mediante artroscopia. Especialista en reparación del manguito rotador, inestabilidad y lesiones del labrum. Dr. Sammy Orozco, Cali, Colombia.
 keywords: artroscopia hombro, manguito rotador, labrum, inestabilidad hombro, luxación, slap, cirugía artroscópica hombro, artroscopia cali
 subtitle: Tratamiento mínimamente invasivo para lesiones del manguito rotador e inestabilidad

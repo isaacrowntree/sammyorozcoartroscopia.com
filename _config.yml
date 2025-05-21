@@ -53,12 +53,21 @@ seo:
     - Cirugía Artroscópica
     - Medicina Deportiva
   services:
-    - Artroscopia de Rodilla
-    - Artroscopia de Hombro
-    - Artroscopia de Tobillo
-    - Medicina Deportiva
-    - Tratamientos Biológicos
-    - Plasma Rico en Plaquetas
+    - name: Artroscopia de Rodilla
+      type: MedicalProcedure
+      description: Tratamiento mínimamente invasivo para lesiones de menisco, ligamentos y cartílago
+    - name: Artroscopia de Hombro
+      type: MedicalProcedure
+      description: Tratamiento especializado para lesiones del hombro mediante técnicas artroscópicas
+    - name: Artroscopia de Tobillo
+      type: MedicalProcedure
+      description: Tratamiento mínimamente invasivo para lesiones articulares del tobillo
+    - name: Medicina Deportiva
+      type: MedicalTherapy
+      description: Tratamiento especializado de lesiones relacionadas con actividades deportivas
+    - name: Plasma Rico en Plaquetas (PRP)
+      type: MedicalTherapy
+      description: Tratamiento regenerativo que acelera la recuperación de lesiones musculares y articulares
   address:
     streetAddress: Calle 9c # 50 - 25, Consultorio 709
     addressLocality: Cali
@@ -83,6 +92,49 @@ seo:
       audienceType: MedicalPractitioner
     - type: MedicalAudience
       audienceType: Patient
+  person:
+    type: Person
+    name: Dr. Sammy Orozco
+    jobTitle: Especialista en Cirugía Ortopédica y Traumatología
+    image: /assets/sammy.jpg
+    alumniOf:
+      - type: CollegeOrUniversity
+        name: Universidad del Cauca
+        description: Medicina y Cirugía
+      - type: Hospital
+        name: Hospital de Ortopedia y Traumatología Magdalena de las Salinas
+        description: Especialista en Cirugía Ortopédica y Traumatología
+      - type: CollegeOrUniversity
+        name: Instituto Mexicano del Seguro Social – Universidad Nacional Autónoma de México UNAM
+        description: Subespecialidad en Cirugía Artroscópica
+    memberOf:
+      - type: Organization
+        name: Sociedad Colombiana de Cirugía de Ortopedia y Traumatología
+        abbreviation: SCCOT
+      - type: Organization
+        name: Sociedad Colombiana de Artroscopia y Traumatología Deportiva
+        abbreviation: SOCARTD
+      - type: Organization
+        name: Asociación Colombiana de Cirugía Artroscópica
+        abbreviation: ACCART
+      - type: Organization
+        name: Artroscopy Association of North America
+        abbreviation: AANA
+      - type: Organization
+        name: Sociedad Latinoamericana de Artroscopia, Rodilla y Deporte
+        abbreviation: SLARD
+      - type: Organization
+        name: International Society of Arthroscopy, Knee Surgery and Orthopaedic Sports Medicine
+        abbreviation: ISAKOS
+    medicalSpecialty:
+      - Cirugía Ortopédica
+      - Traumatología
+      - Cirugía Artroscópica
+      - Medicina Deportiva
+    sameAs:
+      - https://www.facebook.com/drsammyorozco
+      - https://www.linkedin.com/in/drsammyorozco
+      - https://twitter.com/drsammyorozco
 
 # Build settings
 plugins:

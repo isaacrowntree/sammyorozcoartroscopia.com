@@ -2,7 +2,7 @@
 title: Artroscopia de Rodilla
 layout: default
 type: arthroscopy
-hero: artroscopia
+hero: rodilla
 description: Tratamiento de lesiones de rodilla mediante artroscopia. Especialista en reparación de meniscos, ligamentos y cartílago. Dr. Sammy Orozco, Cali, Colombia.
 keywords: artroscopia rodilla, meniscos, ligamento cruzado anterior, lca, condromalacia, cartílago, cirugía artroscópica rodilla, artroscopia cali
 subtitle: Tratamiento mínimamente invasivo para lesiones de menisco, ligamentos y cartílago

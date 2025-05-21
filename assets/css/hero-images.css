@@ -1,0 +1,75 @@
+/* Hero background images for different pages */
+
+/* Artroscopia main page */
+.hero-artroscopia {
+    background: url('/assets/pages/scope-4256715_1280.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+/* Medicina Deportiva page */
+.hero-deportiva {
+    background: url('/assets/pages/skate-6781021_1280.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+/* Tratamientos Biológicos page */
+.hero-tratamientos {
+    background: url('/assets/pages/hand-4566535_1280.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+/* Individual arthroscopy pages */
+.hero-rodilla {
+    background: url('/assets/pages/surgery-1807541_1280.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.hero-hombro {
+    background: url('/assets/pages/operation-1807543_1280.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.hero-tobillo {
+    background: url('/assets/pages/surgery-1822458_1280.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.hero-tunel {
+    background: url('/assets/pages/doctor-650534_1280.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+/* Common hero section styles */
+.hero-artroscopia::before,
+.hero-deportiva::before,
+.hero-tratamientos::before,
+.hero-rodilla::before,
+.hero-hombro::before,
+.hero-tobillo::before,
+.hero-tunel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(25,135,84,0.5) 100%);
+    z-index: 1;
+}
+
+.jumbotron-fluid {
+    position: relative;
+    padding: 6rem 0;
+    margin-bottom: 0;
+}
+
+.jumbotron-fluid .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Ensure text is readable over the background */
+.jumbotron-fluid.text-light {
+    color: #fff !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+} 

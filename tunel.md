@@ -2,7 +2,7 @@
 title: Síndrome del Túnel Carpiano
 layout: default
 type: arthroscopy
-hero: artroscopia
+hero: tunel
 description: Tratamiento especializado del síndrome del túnel carpiano mediante técnicas mínimamente invasivas. Dr. Sammy Orozco, especialista en Cali, Colombia.
 keywords: síndrome túnel carpiano, liberación túnel carpiano, cirugía mano, nervio mediano, dolor muñeca, entumecimiento dedos, endoscopia túnel carpiano, cali
 subtitle: Tratamiento mínimamente invasivo para la liberación del nervio mediano

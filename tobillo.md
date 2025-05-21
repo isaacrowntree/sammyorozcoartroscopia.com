@@ -2,7 +2,7 @@
 title: Artroscopia de Tobillo
 layout: default
 type: arthroscopy
-hero: artroscopia
+hero: tobillo
 description: Tratamiento de lesiones de tobillo mediante artroscopia. Especialista en lesiones osteocondrales, impingement y artritis. Dr. Sammy Orozco, Cali, Colombia.
 keywords: artroscopia tobillo, lesiones osteocondrales, impingement, esguinces crónicos, inestabilidad tobillo, cirugía artroscópica tobillo, artroscopia cali
 subtitle: Tratamiento mínimamente invasivo para lesiones articulares del tobillo
