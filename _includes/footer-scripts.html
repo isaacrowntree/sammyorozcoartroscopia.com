@@ -1,83 +1,136 @@
-    <footer class="text-center text-white">
-      <div class="container py-5">
-        <div class="row g-5">
-          <div class="col-lg-4 mb-4">
-            <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-4">
-              <div class="logo-circle bg-white me-3" style="width: 45px; height: 45px;">
-                <span class="logo-text" style="font-size: 32px;">S</span>
-              </div>
-              <h3 class="mb-0 fw-bold">Dr. Sammy Orozco</h3>
+    <!-- Floating Appointment Button (Mobile) -->
+    <div class="d-md-none position-fixed bottom-0 start-0 w-100 p-3 bg-white shadow-lg" style="z-index: 1030;">
+      <a href="/booking" class="btn btn-warning w-100 rounded-pill shadow-sm">
+        <i class="fas fa-calendar-check me-2"></i>Agendar Cita
+      </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="pt-0">
+      <!-- Appointment CTA Banner -->
+      <div class="py-5" style="background: linear-gradient(135deg, #198754 0%, #146c43 100%);">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-7 mb-4 mb-lg-0">
+              <h2 class="text-white fw-bold mb-3">¡Agende su cita ahora!</h2>
+              <p class="lead text-white-50 mb-0">Seleccione el día y la hora que mejor le convenga con nuestro sistema de citas en línea</p>
             </div>
-            <div class="bg-success-subtle text-success p-4 rounded-4">
-              <p class="mb-2"><i class="fas fa-user-md me-2"></i>Especialista en Cirugía Ortopédica, Traumatología y Artroscopia</p>
-              <p class="mb-0"><i class="fas fa-graduation-cap me-2"></i>Formación en México y Colombia</p>
-            </div>
-          </div>
-          <div class="col-lg-4 mb-4">
-            <div class="card bg-success-subtle border-0 rounded-4 h-100">
-              <div class="card-body p-4">
-                <h3 class="text-success mb-4 fw-bold">Contacto</h3>
-                <div class="d-flex align-items-start mb-3">
-                  <i class="fas fa-hospital text-success mt-1 me-3"></i>
-                  <p class="text-success mb-0">Centro Médico Clínica Farallones</p>
-                </div>
-                <div class="d-flex align-items-start mb-3">
-                  <i class="fas fa-map-marker-alt text-success mt-1 me-3"></i>
-                  <p class="text-success mb-0">Calle 9c # 50 - 25<br>Consultorio 709</p>
-                </div>
-                <div class="d-flex align-items-start mb-3">
-                  <i class="fas fa-phone text-success mt-1 me-3"></i>
-                  <p class="text-success mb-0">
-                    <a href="tel:{{ site.phone1 }}" class="text-success">{{ site.phone1 }}</a><br>
-                    <a href="tel:{{ site.phone2 }}" class="text-success">{{ site.phone2 }}</a>
-                  </p>
-                </div>
-                <div class="d-flex align-items-start">
-                  <i class="fas fa-envelope text-success mt-1 me-3"></i>
-                  <p class="text-success mb-0">
-                    <a href="mailto:{{ site.email }}" class="text-success">{{ site.email }}</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card bg-success-subtle border-0 rounded-4 h-100">
-              <div class="card-body p-4">
-                <h3 class="text-success mb-4 fw-bold">Especialidades</h3>
-                <ul class="list-unstyled mb-0">
-                  <li class="mb-3">
-                    <a href="/artroscopia" class="text-success d-flex align-items-center">
-                      <i class="fas fa-chevron-right me-2"></i>Artroscopia
-                    </a>
-                  </li>
-                  <li class="mb-3">
-                    <a href="/medicina-deportiva" class="text-success d-flex align-items-center">
-                      <i class="fas fa-chevron-right me-2"></i>Medicina Deportiva
-                    </a>
-                  </li>
-                  <li class="mb-3">
-                    <a href="/tratamientos-biologicos" class="text-success d-flex align-items-center">
-                      <i class="fas fa-chevron-right me-2"></i>Plasma Rico en Plaquetas
-                    </a>
-                  </li>
-                  <li class="mb-3">
-                    <a href="/rodilla" class="text-success d-flex align-items-center">
-                      <i class="fas fa-chevron-right me-2"></i>Artroscopia de Rodilla
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/hombro" class="text-success d-flex align-items-center">
-                      <i class="fas fa-chevron-right me-2"></i>Artroscopia de Hombro
-                    </a>
-                  </li>
-                </ul>
-              </div>
+            <div class="col-lg-5 text-center text-lg-end">
+              <a href="/booking" class="btn btn-light btn-lg rounded-pill px-4 py-3 shadow-sm">
+                <i class="fas fa-calendar-check me-2 text-success"></i><span class="fw-bold text-success">Agendar Cita Ahora</span>
+              </a>
             </div>
           </div>
         </div>
-        <div class="mt-5 pt-4 border-top border-success">
-          <p class="mb-0 text-success">© {{ site.time | date: '%Y' }} Dr. Sammy Orozco. Todos los derechos reservados.</p>
+      </div>
+
+      <!-- Main Footer Content -->
+      <div class="bg-dark text-white py-5">
+        <div class="container">
+          <div class="row g-4">
+            <!-- About Column -->
+            <div class="col-lg-4 mb-4">
+              <div class="d-flex align-items-center mb-4">
+                <div class="logo-circle bg-white me-3" style="width: 45px; height: 45px;">
+                  <span class="logo-text" style="font-size: 32px;">S</span>
+                </div>
+                <h3 class="mb-0 fw-bold">Dr. Sammy Orozco</h3>
+              </div>
+              <p class="text-white-50 mb-4">Especialista en Cirugía Ortopédica, Traumatología y Artroscopia con formación en México y Colombia.</p>
+              
+              <!-- Additional info can be added here in the future -->
+              <div class="mb-4"></div>
+            </div>
+            
+            <!-- Quick Links Column -->
+            <div class="col-md-4 col-lg-2 mb-4">
+              <h5 class="fw-bold mb-4 text-uppercase">Enlaces Rápidos</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-3">
+                  <a href="/#sammyOrozco" class="text-white-50 text-decoration-none hover-text-white">
+                    <i class="fas fa-chevron-right me-2 small"></i>Dr. Orozco
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="/#servicios" class="text-white-50 text-decoration-none hover-text-white">
+                    <i class="fas fa-chevron-right me-2 small"></i>Servicios
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="/#asociaciones" class="text-white-50 text-decoration-none hover-text-white">
+                    <i class="fas fa-chevron-right me-2 small"></i>Asociaciones
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="/#contact" class="text-white-50 text-decoration-none hover-text-white">
+                    <i class="fas fa-chevron-right me-2 small"></i>Contacto
+                  </a>
+                </li>
+              </ul>
+            </div>
+            
+            <!-- Clínica Farallones Column -->
+            <div class="col-md-4 col-lg-3 mb-4">
+              <h5 class="fw-bold mb-4 text-uppercase">Clínica Farallones</h5>
+              <ul class="list-unstyled">
+                <li class="d-flex mb-3">
+                  <i class="fas fa-map-marker-alt text-success mt-1 me-3"></i>
+                  <span class="text-white-50">Calle 9c # 50 - 25, Consultorio 709, Cali</span>
+                </li>
+                <li class="d-flex mb-3">
+                  <i class="fas fa-phone text-success mt-1 me-3"></i>
+                  <a href="tel:{{ site.phone1 }}" class="text-white-50 text-decoration-none hover-text-white">{{ site.phone1 }}</a>
+                </li>
+                <li class="d-flex mb-3">
+                  <i class="fas fa-envelope text-success mt-1 me-3"></i>
+                  <a href="mailto:{{ site.email }}" class="text-white-50 text-decoration-none hover-text-white">{{ site.email }}</a>
+                </li>
+                <li class="d-flex">
+                  <i class="fas fa-clock text-success mt-1 me-3"></i>
+                  <span class="text-white-50">Lun-Vie: 8:00 AM - 5:00 PM<br>Sáb: 8:00 AM - 12:00 M</span>
+                </li>
+              </ul>
+            </div>
+            
+            <!-- Clínica Lungavita Column -->
+            <div class="col-md-4 col-lg-3 mb-4">
+              <h5 class="fw-bold mb-4 text-uppercase">Clínica Lungavita</h5>
+              <ul class="list-unstyled">
+                <li class="d-flex mb-3">
+                  <i class="fas fa-map-marker-alt text-success mt-1 me-3"></i>
+                  <span class="text-white-50">Carrera 105 N° 15-20, Barrio Ciudad Jardín, Cali</span>
+                </li>
+                <li class="d-flex mb-3">
+                  <i class="fas fa-phone text-success mt-1 me-3"></i>
+                  <a href="tel:3175834699" class="text-white-50 text-decoration-none hover-text-white">317 583 4699</a>
+                </li>
+                <li class="d-flex mb-3">
+                  <i class="fas fa-envelope text-success mt-1 me-3"></i>
+                  <a href="mailto:consultoriomedico809@hotmail.com" class="text-white-50 text-decoration-none hover-text-white">consultoriomedico809@hotmail.com</a>
+                </li>
+                <li class="d-flex">
+                  <i class="fas fa-clock text-success mt-1 me-3"></i>
+                  <span class="text-white-50">Lun-Vie: 8:00 AM - 5:00 PM<br>Sáb: 8:00 AM - 12:00 M</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Copyright Bar -->
+      <div class="bg-black py-3">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+              <p class="mb-0 text-white-50 small"> 2024 Dr. Sammy Orozco. Todos los derechos reservados.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+              <a href="#top" class="btn btn-sm btn-outline-light rounded-circle" style="width: 36px; height: 36px;">
+                <i class="fas fa-arrow-up"></i>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

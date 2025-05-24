@@ -7,9 +7,23 @@
     <span class="badge bg-success mb-3 fs-6 py-2 px-3 rounded-pill">Especialista en</span>
     <h1 class="display-3 fw-bold mb-4">Artroscopia y Traumatología Deportiva</h1>
     <p class="lead mb-5 mx-auto" style="max-width: 700px;">Tratamientos avanzados y mínimamente invasivos para recuperación rápida y efectiva</p>
-    <div class="d-flex justify-content-center gap-3">
-      <a href="#contact" class="btn btn-warning btn-lg px-4 py-3 fw-medium rounded-pill">Solicitar Cita <i class="fas fa-arrow-right ms-2"></i></a>
-      <a href="#servicios" class="btn btn-outline-light btn-lg px-4 py-3 fw-medium rounded-pill">Nuestros Servicios</a>
+    <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+      <div class="text-center mb-3 mb-md-0">
+        <a href="/booking" class="btn btn-warning btn-lg px-4 py-3 fw-medium rounded-pill shadow">
+          <i class="fas fa-calendar-check me-2"></i>Agendar Cita Ahora
+        </a>
+        <p class="text-white-50 small mt-2 mb-0">Reserve su cita en línea en segundos</p>
+      </div>
+      <div class="d-flex flex-column align-items-center">
+        <div class="d-flex gap-3">
+          <a href="#ubicaciones" class="btn btn-outline-light btn-lg px-4 py-3 fw-medium rounded-pill">
+            <i class="fas fa-map-marker-alt me-2"></i>Ubicaciones
+          </a>
+          <a href="#servicios" class="btn btn-outline-light btn-lg px-4 py-3 fw-medium rounded-pill">
+            <i class="fas fa-list me-2"></i>Servicios
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -32,7 +46,7 @@
               <a href="tel:{{ site.phone1 }}" class="btn btn-sm btn-outline-success rounded-pill px-3">
                 <i class="fas fa-phone-alt me-2"></i> Llamar
               </a>
-              <a href="#contact" class="btn btn-sm btn-success rounded-pill px-3">
+              <a href="/booking" class="btn btn-sm btn-success rounded-pill px-3">
                 <i class="fas fa-calendar-check me-2"></i> Agendar Cita
               </a>
               <a href="mailto:{{ site.email }}" class="btn btn-sm btn-outline-success rounded-pill px-3">
@@ -90,7 +104,7 @@
                 <i class="fas fa-phone-alt text-success"></i>
               </div>
               <div>
-                <h5 class="mb-1 fs-5">Teléfonos</h5>
+                <h5 class="mb-1 fs-5">Teléfono</h5>
                 <p class="mb-0"><a href="tel:{{ site.phone1 }}" class="text-decoration-none">{{ site.phone1 }}</a> / <a href="tel:{{ site.phone2 }}" class="text-decoration-none">{{ site.phone2 }}</a></p>
               </div>
             </div>
@@ -268,20 +282,31 @@
 </section>
 
 <!-- Contact section with modern design -->
-<section class="py-5" id="contact">
+<!-- Locations Section -->
+<section class="py-5 bg-light" id="ubicaciones">
   <div class="container py-4">
     <div class="text-center mb-5">
-      <span class="badge bg-success-subtle text-success text-uppercase fw-semibold mb-2">Estamos para ayudarle</span>
-      <h2 class="display-5 fw-bold">Contacto y Ubicación</h2>
-      <p class="lead text-muted mx-auto" style="max-width: 700px;">Agenda una cita o visítanos en nuestra consulta médica</p>
+      <span class="badge bg-success-subtle text-success text-uppercase fw-semibold mb-2">Nuestras Sedes</span>
+      <h2 class="display-5 fw-bold">Ubicaciones</h2>
+      <p class="lead text-muted mx-auto" style="max-width: 700px;">Visítanos en nuestras consultas médicas</p>
     </div>
     
     <div class="row g-5">
-      <div class="col-lg-5">
-        <div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
+      <div class="col-lg-12 mb-5">
+        <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+          <div class="card-header bg-success text-white p-4 border-0">
+            <h3 class="mb-0 fw-bold text-center"><i class="fas fa-map-marker-alt me-2"></i>Nuestras Sedes</h3>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Clínica Farallones -->
+      <div class="col-md-6 col-lg-6 mb-4">
+        <div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100 hover-lift">
+          <div class="card-header bg-success-subtle p-3 border-0">
+            <h3 class="card-title fw-bold text-success text-center mb-0"><i class="fas fa-hospital me-2"></i>Centro Médico Clínica Farallones</h3>
+          </div>
           <div class="card-body p-4">
-            <h3 class="card-title mb-4 fw-bold"><i class="fas fa-map-marker-alt text-success me-2"></i>Centro Médico Clínica Farallones</h3>
-            
             <div class="location-info">
               <div class="d-flex mb-4">
                 <div class="icon-circle bg-success-subtle rounded-circle p-3 me-3 flex-shrink-0">
@@ -298,10 +323,9 @@
                   <i class="fas fa-phone-alt text-success"></i>
                 </div>
                 <div>
-                  <h4 class="fs-5 mb-2">Teléfonos</h4>
+                  <h4 class="fs-5 mb-2">Teléfono</h4>
                   <p class="text-muted mb-0">
-                    <a href="tel:{{ site.phone1 }}" class="text-decoration-none">{{ site.phone1 }}</a><br>
-                    <a href="tel:{{ site.phone2 }}" class="text-decoration-none">{{ site.phone2 }}</a>
+                    <a href="tel:{{ site.phone1 }}" class="text-decoration-none">{{ site.phone1 }}</a>
                   </p>
                 </div>
               </div>
@@ -316,27 +340,107 @@
                 </div>
               </div>
               
-              <div class="d-flex">
+              <div class="d-flex mb-4">
                 <div class="icon-circle bg-success-subtle rounded-circle p-3 me-3 flex-shrink-0">
                   <i class="fas fa-clock text-success"></i>
                 </div>
                 <div>
                   <h4 class="fs-5 mb-2">Horario de Atención</h4>
-                  <p class="text-muted mb-0">Lunes a Viernes: 8:00 AM - 6:00 PM</p>
+                  <p class="text-muted mb-0">Lunes a viernes: 8:00 AM a 5:00 PM<br>Sábados: 8:00 AM a 12:00 M</p>
                 </div>
+              </div>
+              
+              <div class="mt-4 text-center">
+                <a href="/booking" class="btn btn-success btn-lg rounded-pill px-4">
+                  <i class="fas fa-calendar-check me-2"></i>Agendar Cita
+                </a>
               </div>
             </div>
           </div>
-          
-          <div class="ratio ratio-4x3">
+          <div class="ratio ratio-16x9">
             <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.753887703216!2d-76.54180428524194!3d3.4100740975178354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6ae63805b6f%3A0x393ee0baff430b0f!2sLos%20Farallones%20Children&#39;s%20and%20Maternity%20Clinic!5e0!3m2!1ses!2sco!4v1587560303928!5m2!1ses!2sco" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
         </div>
       </div>
       
-      <div class="col-lg-7">
+      <!-- Clínica Lungavita -->
+      <div class="col-md-6 col-lg-6 mb-4" id="locations">
+        <div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100 hover-lift">
+          <div class="card-header bg-success-subtle p-3 border-0">
+            <h3 class="card-title fw-bold text-success text-center mb-0"><i class="fas fa-hospital me-2"></i>Clínica Lungavita</h3>
+          </div>
+          <div class="card-body p-4">
+            <div class="location-info">
+              <div class="d-flex mb-4">
+                <div class="icon-circle bg-success-subtle rounded-circle p-3 me-3 flex-shrink-0">
+                  <i class="fas fa-location-arrow text-success"></i>
+                </div>
+                <div>
+                  <h4 class="fs-5 mb-2">Dirección</h4>
+                  <p class="text-muted mb-0">Carrera 105 N° 15-20<br>Barrio Ciudad Jardín<br>Cali, Colombia</p>
+                </div>
+              </div>
+              
+              <div class="d-flex mb-4">
+                <div class="icon-circle bg-success-subtle rounded-circle p-3 me-3 flex-shrink-0">
+                  <i class="fas fa-phone-alt text-success"></i>
+                </div>
+                <div>
+                  <h4 class="fs-5 mb-2">Teléfono</h4>
+                  <p class="text-muted mb-0">
+                    <a href="tel:3175834699" class="text-decoration-none">317 583 4699</a>
+                  </p>
+                </div>
+              </div>
+              
+              <div class="d-flex mb-4">
+                <div class="icon-circle bg-success-subtle rounded-circle p-3 me-3 flex-shrink-0">
+                  <i class="fas fa-envelope text-success"></i>
+                </div>
+                <div>
+                  <h4 class="fs-5 mb-2">Email</h4>
+                  <p class="text-muted mb-0"><a href="mailto:consultoriomedico809@hotmail.com" class="text-decoration-none">consultoriomedico809@hotmail.com</a></p>
+                </div>
+              </div>
+              
+              <div class="d-flex mb-4">
+                <div class="icon-circle bg-success-subtle rounded-circle p-3 me-3 flex-shrink-0">
+                  <i class="fas fa-clock text-success"></i>
+                </div>
+                <div>
+                  <h4 class="fs-5 mb-2">Horario de Atención</h4>
+                  <p class="text-muted mb-0">Lunes a viernes: 8:00 AM a 5:00 PM<br>Sábados: 8:00 AM a 12:00 M</p>
+                </div>
+              </div>
+              
+              <div class="mt-4 text-center">
+                <a href="/booking" class="btn btn-success btn-lg rounded-pill px-4">
+                  <i class="fas fa-calendar-check me-2"></i>Agendar Cita
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="ratio ratio-16x9">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32873.07791695012!2d-76.55417075760444!3d3.3642112263677397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a19d98d835bf%3A0x3f84cae7395d3a54!2sCra.%20105%20%2315-20%2C%20Ciudad%20Jard%C3%ADn%2C%20Cali%2C%20Valle%20del%20Cauca%2C%20Colombia!5e0!3m2!1sen!2sau!4v1748062536542!5m2!1sen!2sau" allowfullscreen="" aria-hidden="false" tabindex="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact form section with modern design -->
+<section class="py-5 bg-white" id="contact">
+  <div class="container py-4">
+    <div class="text-center mb-5">
+      <span class="badge bg-success-subtle text-success text-uppercase fw-semibold mb-2">Contáctenos</span>
+      <h2 class="display-5 fw-bold">Solicitar Cita</h2>
+      <p class="lead text-muted mx-auto" style="max-width: 700px;">Complete el formulario y nos pondremos en contacto con usted a la brevedad</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
         <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
-          <div class="card-header bg-success text-white p-4 border-0">
+          <div class="card-header bg-success text-white p-4 border-0 text-center">
             <h3 class="mb-0 fw-bold"><i class="fas fa-paper-plane me-2"></i>Solicitar Cita</h3>
             <p class="mb-0 mt-2 opacity-75">Complete el formulario y nos pondremos en contacto con usted a la brevedad</p>
           </div>
