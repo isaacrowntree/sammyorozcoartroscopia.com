@@ -61,6 +61,12 @@
                     <i class="fas fa-chevron-right me-2 small"></i>Asociaciones
                   </a>
                 </li>
+
+                <li class="mb-3">
+                  <a href="/#locations" class="text-white-50 text-decoration-none hover-text-white">
+                    <i class="fas fa-chevron-right me-2 small"></i>Ubicaciones
+                  </a>
+                </li>
                 <li class="mb-3">
                   <a href="/#contact" class="text-white-50 text-decoration-none hover-text-white">
                     <i class="fas fa-chevron-right me-2 small"></i>Contacto
@@ -154,6 +160,44 @@
           "email": "{{ site.email }}",
           "description": "{{ site.seo.description }}",
           "medicalSpecialty": {{ site.seo.specialties | jsonify }},
+          "location": [
+            {
+              "@type": "Place",
+              "name": "Centro Médico Clínica Farallones",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "{{ site.seo.address.streetAddress }}",
+                "addressLocality": "{{ site.seo.address.addressLocality }}",
+                "addressRegion": "{{ site.seo.address.addressRegion }}",
+                "addressCountry": "{{ site.seo.address.addressCountry }}",
+                "postalCode": "{{ site.seo.address.postalCode }}"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": {{ site.seo.geo.latitude }},
+                "longitude": {{ site.seo.geo.longitude }}
+              },
+              "telephone": "{{ site.phone1 }}"
+            },
+            {
+              "@type": "Place",
+              "name": "Clínica Lungavita",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Carrera 105 N° 15-20",
+                "addressLocality": "Cali",
+                "addressRegion": "Valle del Cauca",
+                "addressCountry": "CO",
+                "postalCode": "760001"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 3.3642112263677397,
+                "longitude": -76.55417075760444
+              },
+              "telephone": "317 583 4699"
+            }
+          ],
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "{{ site.seo.address.streetAddress }}",
