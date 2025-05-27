@@ -27,58 +27,37 @@
       <!-- Main Footer Content -->
       <div class="bg-dark text-white py-5">
         <div class="container">
-          <div class="row g-4">
+          <div class="row justify-content-center">
             <!-- About Column -->
-            <div class="col-lg-4 mb-4">
-              <div class="d-flex align-items-center mb-4">
+            <div class="col-lg-6 text-center mb-5">
+              <div class="d-flex align-items-center justify-content-center mb-4">
                 <div class="logo-circle bg-white me-3" style="width: 45px; height: 45px;">
-                  <span class="logo-text" style="font-size: 32px;">S</span>
+                  <img src="/assets/logo.png" alt="Dr. Sammy Orozco Logo" class="img-fluid">
                 </div>
-                <h3 class="mb-0 fw-bold">Dr. Sammy Orozco</h3>
+                <h4 class="mb-0 fw-bold">Dr. Sammy Orozco</h4>
               </div>
-              <p class="text-white-50 mb-4">Especialista en Cirugía Ortopédica, Traumatología y Artroscopia con formación en México y Colombia.</p>
-              
-              <!-- Additional info can be added here in the future -->
-              <div class="mb-4"></div>
+              <p class="text-white-50 mx-auto" style="max-width: 600px;">Especialista en Cirugía Ortopédica y Traumatología con Subespecialidad en Cirugía Artroscópica.</p>
             </div>
-            
+          </div>
+          
+          <div class="row g-4 mt-4">
             <!-- Quick Links Column -->
-            <div class="col-md-4 col-lg-2 mb-4">
-              <h5 class="fw-bold mb-4 text-uppercase">Enlaces Rápidos</h5>
-              <ul class="list-unstyled mb-0">
-                <li class="mb-3">
-                  <a href="/#sammyOrozco" class="text-white-50 text-decoration-none hover-text-white">
-                    <i class="fas fa-chevron-right me-2 small"></i>Dr. Orozco
-                  </a>
-                </li>
-                <li class="mb-3">
-                  <a href="/#servicios" class="text-white-50 text-decoration-none hover-text-white">
-                    <i class="fas fa-chevron-right me-2 small"></i>Servicios
-                  </a>
-                </li>
-                <li class="mb-3">
-                  <a href="/#asociaciones" class="text-white-50 text-decoration-none hover-text-white">
-                    <i class="fas fa-chevron-right me-2 small"></i>Asociaciones
-                  </a>
-                </li>
-
-                <li class="mb-3">
-                  <a href="/#locations" class="text-white-50 text-decoration-none hover-text-white">
-                    <i class="fas fa-chevron-right me-2 small"></i>Ubicaciones
-                  </a>
-                </li>
-                <li class="mb-3">
-                  <a href="/#contact" class="text-white-50 text-decoration-none hover-text-white">
-                    <i class="fas fa-chevron-right me-2 small"></i>Contacto
-                  </a>
-                </li>
+            <div class="col-md-6 col-lg-3 offset-lg-3 mb-4">
+              <h5 class="fw-bold mb-4 text-uppercase text-center text-md-start">Enlaces Rápidos</h5>
+              <ul class="list-unstyled text-center text-md-start">
+                <li class="mb-2"><a href="/#inicio" class="text-white-50 text-decoration-none hover-text-white">Inicio</a></li>
+                <li class="mb-2"><a href="/#sammyOrozco" class="text-white-50 text-decoration-none hover-text-white">Sobre Mí</a></li>
+                <li class="mb-2"><a href="/#servicios" class="text-white-50 text-decoration-none hover-text-white">Servicios</a></li>
+                <li class="mb-2"><a href="/#asociaciones" class="text-white-50 text-decoration-none hover-text-white">Asociaciones</a></li>
+                <li class="mb-2"><a href="/#location" class="text-white-50 text-decoration-none hover-text-white">Ubicación</a></li>
+                <li><a href="/#contact" class="text-white-50 text-decoration-none hover-text-white">Contacto</a></li>
               </ul>
             </div>
             
-            <!-- Clínica Farallones Column -->
-            <div class="col-md-4 col-lg-3 mb-4">
-              <h5 class="fw-bold mb-4 text-uppercase">Clínica Farallones</h5>
-              <ul class="list-unstyled">
+            <!-- Contact Column -->
+            <div class="col-md-6 col-lg-3 mb-4">
+              <h5 class="fw-bold mb-4 text-uppercase text-center text-md-start">Contacto</h5>
+              <ul class="list-unstyled text-center text-md-start">
                 <li class="d-flex mb-3">
                   <i class="fas fa-map-marker-alt text-success mt-1 me-3"></i>
                   <span class="text-white-50">Calle 9c # 50 - 25, Consultorio 709, Cali</span>
@@ -90,29 +69,6 @@
                 <li class="d-flex mb-3">
                   <i class="fas fa-envelope text-success mt-1 me-3"></i>
                   <a href="mailto:{{ site.email }}" class="text-white-50 text-decoration-none hover-text-white">{{ site.email }}</a>
-                </li>
-                <li class="d-flex">
-                  <i class="fas fa-clock text-success mt-1 me-3"></i>
-                  <span class="text-white-50">Lun-Vie: 8:00 AM - 5:00 PM<br>Sáb: 8:00 AM - 12:00 M</span>
-                </li>
-              </ul>
-            </div>
-            
-            <!-- Clínica Lungavita Column -->
-            <div class="col-md-4 col-lg-3 mb-4">
-              <h5 class="fw-bold mb-4 text-uppercase">Clínica Lungavita</h5>
-              <ul class="list-unstyled">
-                <li class="d-flex mb-3">
-                  <i class="fas fa-map-marker-alt text-success mt-1 me-3"></i>
-                  <span class="text-white-50">Carrera 105 N° 15-20, Barrio Ciudad Jardín, Cali</span>
-                </li>
-                <li class="d-flex mb-3">
-                  <i class="fas fa-phone text-success mt-1 me-3"></i>
-                  <a href="tel:3175834699" class="text-white-50 text-decoration-none hover-text-white">317 583 4699</a>
-                </li>
-                <li class="d-flex mb-3">
-                  <i class="fas fa-envelope text-success mt-1 me-3"></i>
-                  <a href="mailto:consultoriomedico809@hotmail.com" class="text-white-50 text-decoration-none hover-text-white">consultoriomedico809@hotmail.com</a>
                 </li>
                 <li class="d-flex">
                   <i class="fas fa-clock text-success mt-1 me-3"></i>
@@ -178,24 +134,6 @@
                 "longitude": {{ site.seo.geo.longitude }}
               },
               "telephone": "{{ site.phone1 }}"
-            },
-            {
-              "@type": "Place",
-              "name": "Clínica Lungavita",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Carrera 105 N° 15-20",
-                "addressLocality": "Cali",
-                "addressRegion": "Valle del Cauca",
-                "addressCountry": "CO",
-                "postalCode": "760001"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 3.3642112263677397,
-                "longitude": -76.55417075760444
-              },
-              "telephone": "317 583 4699"
             }
           ],
           "address": {
