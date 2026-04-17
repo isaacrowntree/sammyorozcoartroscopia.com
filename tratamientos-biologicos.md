@@ -1,68 +1,66 @@
 ---
-title: Tratamientos Biológicos
+title: Plasma rico en plaquetas y viscosuplementación
+title_location: true
 layout: default
 hero: tratamientos
-description: Tratamientos biológicos con plasma rico en plaquetas (PRP) y viscosuplementación para lesiones articulares y tendinosas. Dr. Sammy Orozco, especialista en Cali, Colombia.
-keywords: plasma rico en plaquetas, PRP, viscosuplementación, tratamientos biológicos, regeneración, lesiones articulares, tendinitis, artrosis, medicina regenerativa, cali
-subtitle: Medicina regenerativa para lesiones osteoarticulares y tendinosas
+badge: Medicina regenerativa
+subtitle: Tratamientos biológicos para lesiones articulares y tendinosas con el Dr. Sammy Orozco.
+description: "Tratamientos biológicos en Cali: plasma rico en plaquetas (PRP) y viscosuplementación con ácido hialurónico para lesiones articulares, tendinosas y artrosis. Dr. Sammy Orozco, Clínica Farallones."
+keywords: plasma rico en plaquetas cali, PRP cali, viscosuplementación cali, tratamientos biológicos, medicina regenerativa, artrosis, tendinitis, ácido hialurónico, sammy orozco
 ---
 
-## Plasma Rico en Plaquetas (PRP)
+## Tratamientos sin cirugía que aprovechan la biología del propio paciente
 
-El Plasma Rico en Plaquetas (PRP) es un tratamiento biológico avanzado que utiliza las propias células y factores de crecimiento del paciente para acelerar la recuperación y regeneración de tejidos dañados. Este tratamiento se basa en la obtención de una fracción de la sangre del paciente, rica en plaquetas, que contiene numerosos factores de crecimiento capaces de estimular la regeneración tisular.
+No todas las lesiones articulares o tendinosas requieren cirugía. Los **tratamientos biológicos** usan componentes del propio organismo —o moléculas presentes de forma natural en la articulación— para **reducir el dolor**, **acelerar la recuperación** y **frenar el desgaste** articular. Son procedimientos ambulatorios, seguros y compatibles con otros tratamientos.
 
-### Proceso de Obtención del PRP
+## Plasma rico en plaquetas (PRP)
 
-El procedimiento para obtener PRP es sencillo y consta de los siguientes pasos:
+El **Plasma Rico en Plaquetas** es un tratamiento biológico avanzado que utiliza las células y factores de crecimiento del propio paciente para **acelerar la recuperación** y estimular la regeneración de tejidos dañados. Se obtiene de una fracción de la sangre del paciente, rica en plaquetas, que contiene numerosos factores de crecimiento con capacidad regenerativa.
 
-1. **Extracción sanguínea**: Se extrae una pequeña cantidad de sangre del paciente (similar a un análisis rutinario)
-2. **Centrifugación**: La sangre se centrifuga para separar sus componentes y obtener la fracción rica en plaquetas
-3. **Aplicación**: El plasma rico en plaquetas se inyecta en la zona lesionada mediante técnicas guiadas por ecografía para mayor precisión
+### Cómo se obtiene el PRP
 
-### Principales Indicaciones del PRP
+1. **Extracción**: se extrae una pequeña cantidad de sangre (similar a un análisis rutinario)
+2. **Centrifugación**: la sangre se centrifuga para separar sus componentes y obtener la fracción rica en plaquetas
+3. **Aplicación**: el plasma rico en plaquetas se inyecta en la zona lesionada, habitualmente **guiada por ecografía** para mayor precisión
 
-El PRP se utiliza con excelentes resultados en múltiples afecciones del sistema musculoesquelético, entre las que destacan:
+### Indicaciones del PRP
 
-- **Lesiones tendinosas**: Tendinitis, tendinosis, epicondilitis (codo de tenista), fascitis plantar
-- **Lesiones musculares**: Roturas fibrilares, contracturas, recuperación postquirúrgica
-- **Lesiones articulares**: Artrosis de rodilla, cadera, tobillo y hombro
-- **Lesiones ligamentosas**: Esguinces y lesiones de ligamentos crónicos
-- **Lesiones cartilaginosas**: Defectos condrales y osteocondrales
+El PRP se utiliza con excelentes resultados en múltiples afecciones musculoesqueléticas:
+
+- **Lesiones tendinosas**: tendinitis, tendinosis, epicondilitis (codo de tenista), fascitis plantar
+- **Lesiones musculares**: roturas fibrilares, contracturas, recuperación postquirúrgica
+- **Lesiones articulares**: artrosis de rodilla, cadera, tobillo y hombro
+- **Lesiones ligamentosas**: esguinces y lesiones de ligamentos crónicos
+- **Lesiones cartilaginosas**: defectos condrales y osteocondrales
 
 ## Viscosuplementación
 
-La viscosuplementación es un tratamiento que consiste en la inyección intraarticular de ácido hialurónico, un componente natural del líquido sinovial que actúa como lubricante y amortiguador en las articulaciones. Este tratamiento está especialmente indicado en pacientes con artrosis, donde la cantidad y calidad del líquido sinovial se encuentra disminuida.
+La viscosuplementación consiste en la inyección intraarticular de **ácido hialurónico**, un componente natural del líquido sinovial que actúa como **lubricante** y **amortiguador** en las articulaciones. Está especialmente indicada en pacientes con **artrosis**, cuando la calidad y cantidad del líquido sinovial ha disminuido.
 
-### Beneficios de la Viscosuplementación
+### Beneficios
 
-- **Mejora la lubricación articular**: Restaura las propiedades viscoelásticas del líquido sinovial
-- **Reduce el dolor**: Disminuye la inflamación y el dolor articular
-- **Efecto protector del cartílago**: Ayuda a prevenir la degradación adicional del cartílago
-- **Mejora la movilidad**: Permite mayor funcionalidad de la articulación
+- **Mejora la lubricación articular**: restaura las propiedades viscoelásticas del líquido sinovial
+- **Reduce el dolor** y la inflamación articular
+- **Efecto protector del cartílago**: ayuda a prevenir su degradación adicional
+- **Mejora la movilidad** y la funcionalidad de la articulación
 
-### Aplicaciones Clínicas
+### Aplicaciones clínicas
 
-La viscosuplementación se utiliza principalmente en:
+- Artrosis de **rodilla** (gonartrosis)
+- Artrosis de **cadera** (coxartrosis)
+- Artrosis de **tobillo**
+- Artrosis de **hombro**
 
-- Artrosis de rodilla (gonartrosis)
-- Artrosis de cadera (coxartrosis)
-- Artrosis de tobillo
-- Artrosis de hombro
+## Ventajas de los tratamientos biológicos
 
-## Ventajas de los Tratamientos Biológicos
+- **Mínimamente invasivos**: no requieren cirugía
+- **Seguros**: al utilizar componentes del propio paciente (autólogos), se minimiza el riesgo de reacciones adversas
+- **Efectivos**: proporcionan alivio del dolor y mejora funcional en la mayoría de pacientes
+- **Regenerativos**: no solo tratan los síntomas, promueven la reparación de los tejidos
+- **Compatibles**: pueden combinarse con otros tratamientos conservadores o con cirugía artroscópica
 
-Los tratamientos biológicos como el PRP y la viscosuplementación ofrecen numerosas ventajas:
+En cada consulta se realiza una **evaluación individualizada** para determinar si estos tratamientos son adecuados, considerando el tipo de lesión, la edad, el nivel de actividad y la presencia de otras condiciones médicas.
 
-- **Mínimamente invasivos**: No requieren cirugía
-- **Seguros**: Al utilizar componentes del propio paciente (autólogos), minimizan el riesgo de reacciones adversas
-- **Efectivos**: Proporcionan alivio del dolor y mejora funcional en la mayoría de pacientes
-- **Regenerativos**: No solo tratan los síntomas, sino que promueven la reparación de los tejidos
-- **Compatibles**: Pueden combinarse con otros tratamientos conservadores o quirúrgicos
+![PRP — tratamiento biológico](/assets/example.png "PRP y viscosuplementación")
 
-En nuestra consulta realizamos una evaluación individualizada para determinar si estos tratamientos son adecuados para cada paciente, considerando factores como el tipo de lesión, la edad, el nivel de actividad y la presencia de otras condiciones médicas.
-
-![ejemplo](/assets/example.png "ejemplo")
-
-**VISCOSUPLEMENTACIÓN**
-
-Los visco suplementos sirven como sustitutos del ácido hialurónico natural en el líquido de la articulación que se degrada en las personas que sufren osteoartritis (OA). El ácido hialurónico actúa como lubricante y amortiguador, permitiendo que la articulación se mueva sin problemas.
+**Sobre la viscosuplementación:** los visco-suplementos sustituyen el ácido hialurónico natural del líquido articular que se degrada en personas con osteoartritis (OA). El ácido hialurónico actúa como lubricante y amortiguador, permitiendo que la articulación se mueva sin problemas.

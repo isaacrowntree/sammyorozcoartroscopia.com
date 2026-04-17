@@ -1,119 +1,190 @@
 {% include head-scripts.html %}
-    <div class="jumbotron jumbotron-fluid hero-{{ page.hero }} text-light mb-5">
-      <div class="container text-center">
-        <h1 class="display-4">{{ page.title }}</h1>
-        <p class="lead">Técnicas mínimamente invasivas para el tratamiento de lesiones articulares</p>
+
+<!-- ============================================================
+     HERO — editorial
+     ============================================================ -->
+<section class="hero" id="inicio">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Cirugía mínimamente invasiva</p>
+        <h1 class="hero-h1">Artroscopia <em>en Cali</em></h1>
+        <p class="hero-lead">
+          Técnicas mínimamente invasivas para diagnosticar y tratar lesiones articulares con el Dr. Sammy Orozco, Subespecialista en cirugía artroscópica (UNAM).
+        </p>
+        <div class="hero-ctas">
+          <a href="/booking" class="btn btn-warning btn-lg">
+            <i class="fas fa-calendar-check"></i><span>Agendar cita</span>
+          </a>
+          <a href="tel:{{ site.phone1 }}" class="btn btn-outline-ink btn-lg">
+            <i class="fas fa-phone-alt"></i><span>{{ site.phone1 }}</span>
+          </a>
+        </div>
+      </div>
+      <div>
+        <figure class="hero-figure">
+          <img src="/assets/hero-artroscopia.jpg" alt="Cirugía artroscópica mínimamente invasiva" loading="eager">
+          <figcaption class="hero-figure-cap">Técnica artroscópica</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTENT + SIDEBAR
+     ============================================================ -->
+<section class="section">
+  <div class="container">
+    <div class="editorial editorial--reverse">
+      <article class="editorial-body page-content">
+        {{ content }}
+      </article>
+
+      <aside class="editorial-aside sidebar-sticky">
+        <div class="sidebar-block">
+          <p class="eyebrow">Consulta</p>
+          <p class="sidebar-text">
+            Dr. Sammy Orozco<br>
+            Consultorio 709<br>
+            Clínica Farallones · Cali
+          </p>
+          <div class="sidebar-ctas">
+            <a href="/booking" class="btn btn-warning w-100">Agendar cita</a>
+            <a href="tel:{{ site.phone1 }}" class="btn btn-outline-ink w-100">
+              <i class="fas fa-phone-alt"></i><span>{{ site.phone1 }}</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="sidebar-block">
+          <p class="eyebrow">Ventajas</p>
+          <ul class="sidebar-list sidebar-list--plain">
+            <li>Incisiones de 5 – 8 mm</li>
+            <li>Menor dolor postoperatorio</li>
+            <li>Recuperación más rápida</li>
+            <li>Menor riesgo de infección</li>
+            <li>Rehabilitación precoz</li>
+          </ul>
+        </div>
+
+        <div class="sidebar-block">
+          <p class="eyebrow">Otros servicios</p>
+          <ul class="sidebar-list">
+            <li><a href="/medicina-deportiva">Medicina deportiva <span class="arrow">→</span></a></li>
+            <li><a href="/tratamientos-biologicos">PRP y viscosuplementación <span class="arrow">→</span></a></li>
+            <li><a href="/tunel">Túnel carpiano <span class="arrow">→</span></a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     AREAS — three-up
+     ============================================================ -->
+<section class="section bg-paper-2">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-8">
+        <p class="section-num">01 — Por articulación</p>
+        <h2>Áreas que tratamos con <em>artroscopia</em></h2>
+        <p class="lead" style="max-width: 54ch; margin-top: 1rem;">
+          Cada articulación tiene lesiones específicas. Conozca el abordaje artroscópico para su caso.
+        </p>
       </div>
     </div>
 
-    <section class="container page-content mb-5">
-      <div class="row">
-        <div class="col-lg-8">
-          <article>
-            <h2 class="mb-4" id="artroscopia">{{ page.title }}</h2>
-            <div class="content-main mb-5">
-              {{ content }}
-            </div>
+    <div class="svc-grid">
+      <a href="/rodilla" class="svc-card">
+        <figure class="svc-figure">
+          <img src="/assets/rodilla.jpg" alt="Artroscopia de rodilla en Cali" loading="lazy">
+          <span class="svc-num">01</span>
+        </figure>
+        <h3 class="svc-title">Rodilla</h3>
+        <p class="svc-desc">Meniscos, ligamento cruzado anterior (LCA), cartílago, plica sinovial.</p>
+        <span class="link-arrow">Ver tratamiento <span class="arrow">→</span></span>
+      </a>
 
-            <h3 class="mb-4">Tipos de Artroscopia</h3>
-            <div class="row mb-5">
-              <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card h-100 shadow-sm">
-                  <img src="/assets/rodilla.jpg" class="card-img-top" alt="Artroscopia de Rodilla">
-                  <div class="card-body text-center">
-                    <h4 class="card-title h5">Rodilla</h4>
-                    <a href="#rodilla.md" class="btn btn-success btn-sm stretched-link">Ver detalles</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card h-100 shadow-sm">
-                  <img src="/assets/hombro.jpg" class="card-img-top" alt="Artroscopia de Hombro">
-                  <div class="card-body text-center">
-                    <h4 class="card-title h5">Hombro</h4>
-                    <a href="#hombro.md" class="btn btn-success btn-sm stretched-link">Ver detalles</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card h-100 shadow-sm">
-                  <img src="/assets/tobillo.png" class="card-img-top" alt="Artroscopia de Tobillo">
-                  <div class="card-body text-center">
-                    <h4 class="card-title h5">Tobillo</h4>
-                    <a href="#tobillo.md" class="btn btn-success btn-sm stretched-link">Ver detalles</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card h-100 shadow-sm">
-                  <img src="/assets/tunel.png" class="card-img-top" alt="Síndrome del Túnel Carpiano">
-                  <div class="card-body text-center">
-                    <h4 class="card-title h5">Túnel Carpiano</h4>
-                    <a href="#tunel.md" class="btn btn-success btn-sm stretched-link">Ver detalles</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <a href="/hombro" class="svc-card">
+        <figure class="svc-figure">
+          <img src="/assets/hombro.jpg" alt="Artroscopia de hombro en Cali" loading="lazy">
+          <span class="svc-num">02</span>
+        </figure>
+        <h3 class="svc-title">Hombro</h3>
+        <p class="svc-desc">Manguito rotador, inestabilidad, lesiones SLAP, síndrome subacromial.</p>
+        <span class="link-arrow">Ver tratamiento <span class="arrow">→</span></span>
+      </a>
 
-            {% for page in site.pages %}
-              {% if page.type == 'arthroscopy' %}
-                <div class="arthroscopy-section mb-5">
-                  <h3 id="{{ page.name }}" class="bg-success text-white p-3 rounded">{{ page.title }}</h3>
-                  <div class="py-3">
-                    {{ page.content | markdownify }}
-                  </div>
-                  <div class="text-right">
-                    <a href="#artroscopia" class="btn btn-outline-success"><i class="fas fa-arrow-up me-2"></i>Volver a Artroscopia</a>
-                  </div>
-                  <hr class="my-4">
-                </div>
-              {% endif %}
-            {% endfor %}
-          </article>
-        </div>
-        
-        <div class="col-lg-4">
-          <div class="sidebar-widget card mb-4 border-success">
-            <div class="card-header bg-success text-white">
-              <h3 class="mb-0 h5"><i class="fas fa-stethoscope me-2"></i>Otros Servicios</h3>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a href="/medicina-deportiva"><i class="fas fa-angle-right me-2 text-success"></i>Medicina Deportiva</a></li>
-              <li class="list-group-item"><a href="/tratamientos-biologicos"><i class="fas fa-angle-right me-2 text-success"></i>Plasma Rico en Plaquetas</a></li>
-            </ul>
-          </div>
-          
-          <div class="sidebar-widget card mb-4 border-success">
-            <div class="card-header bg-success text-white">
-              <h3 class="mb-0 h5"><i class="fas fa-info-circle me-2"></i>Contacto</h3>
-            </div>
-            <div class="card-body">
-              <p><i class="fas fa-phone-alt me-2 text-success"></i><a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a></p>
-              <p><i class="fas fa-envelope me-2 text-success"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-              <a href="/#contact" class="btn btn-success btn-block"><i class="fas fa-calendar-check me-2"></i>Solicitar Cita</a>
-            </div>
-          </div>
-          
-          <div class="sidebar-widget card mb-4">
-            <div class="card-body">
-              <h3 class="h5 mb-3">Beneficios de la Artroscopia</h3>
-              <ul class="list-unstyled">
-                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Técnica mínimamente invasiva</li>
-                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Menor tiempo de recuperación</li>
-                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Reducción del dolor post-operatorio</li>
-                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Menor riesgo de infección</li>
-                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Cicatrices más pequeñas</li>
-                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Menor pérdida de sangre</li>
-              </ul>
-            </div>
+      <a href="/tobillo" class="svc-card">
+        <figure class="svc-figure">
+          <img src="/assets/tobillo.png" alt="Artroscopia de tobillo en Cali" loading="lazy">
+          <span class="svc-num">03</span>
+        </figure>
+        <h3 class="svc-title">Tobillo</h3>
+        <p class="svc-desc">Lesiones osteocondrales, pinzamiento, inestabilidad crónica, sinovitis.</p>
+        <span class="link-arrow">Ver tratamiento <span class="arrow">→</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CTA BLOCK — dark ink
+     ============================================================ -->
+<section class="section-sm">
+  <div class="container">
+    <div class="cta-block">
+      <div class="row g-5 align-items-end">
+        <div class="col-lg-7">
+          <p class="eyebrow eyebrow-light">Próximo paso</p>
+          <h2>¿Listo para su <em>valoración</em>?</h2>
+          <p>Una consulta especializada permite confirmar el diagnóstico y definir el tratamiento más adecuado para su lesión.</p>
+          <div class="d-flex flex-wrap gap-2">
+            <a href="/booking" class="btn btn-warning btn-lg">Agendar cita ahora</a>
+            <a href="tel:{{ site.phone1 }}" class="btn btn-outline-light btn-lg">
+              <i class="fas fa-phone-alt"></i><span>{{ site.phone1 }}</span>
+            </a>
           </div>
         </div>
+        <div class="col-lg-5">
+          <dl class="cta-meta">
+            <div>
+              <dt>Dirección</dt>
+              <dd>Calle 9c&nbsp;#&nbsp;50&nbsp;-&nbsp;25<br>Consultorio 709, Cali</dd>
+            </div>
+            <div>
+              <dt>Horario</dt>
+              <dd>Lun&nbsp;–&nbsp;Vie · 8:00&nbsp;–&nbsp;17:00<br>Sáb · 8:00&nbsp;–&nbsp;12:00</dd>
+            </div>
+          </dl>
+        </div>
       </div>
-      
-      <div class="mt-4 d-flex justify-content-between align-items-center">
-        <a href="/" class="btn btn-outline-success"><i class="fas fa-home me-2"></i>Inicio</a>
-        <a href="#top" class="btn btn-outline-secondary"><i class="fas fa-arrow-up me-2"></i>Volver arriba</a>
-      </div>
-    </section>
+    </div>
+  </div>
+</section>
+
+<!-- MedicalProcedure JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Artroscopia",
+  "alternateName": "Cirugía artroscópica",
+  "procedureType": "https://schema.org/SurgicalProcedure",
+  "description": "Técnica quirúrgica mínimamente invasiva para el diagnóstico y tratamiento de lesiones articulares mediante una cámara introducida a través de incisiones de 5–8 mm.",
+  "bodyLocation": ["Rodilla", "Hombro", "Tobillo"],
+  "preparation": "Valoración previa con el especialista, exámenes de imagen (radiografía y resonancia magnética según el caso) y evaluación anestésica.",
+  "followup": "Rehabilitación progresiva supervisada; la duración depende del procedimiento realizado.",
+  "howPerformed": "Bajo anestesia general o regional, el cirujano realiza dos o más portales pequeños. Por uno introduce la cámara artroscópica y por los otros el instrumental para reparar la lesión. La mayoría de los casos son ambulatorios.",
+  "performer": {
+    "@id": "{{ site.url }}#doctor"
+  },
+  "location": {
+    "@id": "{{ site.url }}#medicalpractice"
+  }
+}
+</script>
 
 {% include footer-scripts.html %}

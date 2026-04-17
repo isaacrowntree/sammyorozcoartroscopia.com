@@ -80,10 +80,7 @@ seo:
     - dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
       opens: "08:00"
       closes: "18:00"
-  sameAs:
-    - https://www.facebook.com/drsammyorozco
-    - https://www.linkedin.com/in/drsammyorozco
-    - https://twitter.com/drsammyorozco
+  sameAs: []
   medicalAudience:
     - type: MedicalAudience
       audienceType: MedicalResearcher
@@ -130,10 +127,7 @@ seo:
       - Traumatología
       - Cirugía Artroscópica
       - Medicina Deportiva
-    sameAs:
-      - https://www.facebook.com/drsammyorozco
-      - https://www.linkedin.com/in/drsammyorozco
-      - https://twitter.com/drsammyorozco
+    sameAs: []
 
 # Build settings
 plugins:

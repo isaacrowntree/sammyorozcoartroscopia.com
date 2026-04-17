@@ -1,81 +1,96 @@
 ---
-title: Artroscopia de Hombro
+title: Artroscopia de hombro
+title_location: true
 layout: default
 type: arthroscopy
 hero: hombro
-description: Tratamiento especializado de lesiones de hombro mediante artroscopia. Especialista en reparación del manguito rotador, inestabilidad y lesiones del labrum. Dr. Sammy Orozco, Cali, Colombia.
-keywords: artroscopia hombro, manguito rotador, labrum, inestabilidad hombro, luxación, slap, cirugía artroscópica hombro, artroscopia cali
-subtitle: Tratamiento mínimamente invasivo para lesiones del manguito rotador e inestabilidad
+badge: Cirugía mínimamente invasiva
+subtitle: Tratamiento del manguito rotador, inestabilidad y lesiones del labrum con el Dr. Sammy Orozco.
+description: Artroscopia de hombro en Cali con el Dr. Sammy Orozco. Reparación del manguito rotador, estabilización por luxaciones recurrentes, lesiones SLAP y síndrome subacromial en la Clínica Farallones.
+keywords: artroscopia de hombro cali, manguito rotador, labrum, inestabilidad hombro, luxación, SLAP, cirugía artroscópica hombro, ortopedista hombro cali, sammy orozco
 ---
 
-## Artroscopia de Hombro: Técnica Mínimamente Invasiva
+## ¿Cuándo debería consultar por dolor de hombro?
 
-La artroscopia de hombro es un procedimiento quirúrgico mínimamente invasivo que permite diagnosticar y tratar diversas patologías de esta compleja articulación. Mediante pequeñas incisiones e instrumental especializado, se puede acceder al interior del hombro sin necesidad de grandes cortes, lo que facilita una recuperación más rápida y con menos complicaciones.
+Si presenta **dolor nocturno** que le impide dormir del lado afectado, **debilidad** al levantar el brazo, **chasquidos** al rotar el hombro, **luxaciones recurrentes** o dolor con movimientos por encima de la cabeza, la consulta con un especialista es fundamental. Estos síntomas suelen indicar lesiones del manguito rotador, inestabilidad o lesiones del labrum que, tratadas oportunamente, tienen excelente pronóstico.
 
-## Principales Patologías tratadas con Artroscopia de Hombro
+La artroscopia de hombro es un procedimiento **mínimamente invasivo** que permite diagnosticar y tratar diversas patologías de esta compleja articulación. Mediante pequeñas incisiones e instrumental especializado se accede al interior del hombro sin grandes cortes, logrando una recuperación más rápida y con menos complicaciones.
 
-### Lesiones del Manguito Rotador
+## Patologías tratadas con artroscopia de hombro
 
-El manguito rotador está formado por cuatro músculos y sus tendones (supraespinoso, infraespinoso, redondo menor y subescapular) que ayudan a estabilizar y mover el hombro. Las lesiones de estos tendones son muy frecuentes, especialmente en personas mayores de 40 años o deportistas.
+### Lesiones del manguito rotador
 
-**Tratamiento artroscópico**:
+El manguito rotador está formado por cuatro músculos y sus tendones —supraespinoso, infraespinoso, redondo menor y subescapular— que estabilizan y mueven el hombro. Las lesiones de estos tendones son muy frecuentes, especialmente en **mayores de 40 años** y en deportistas con movimientos repetitivos sobre la cabeza.
 
-- **Reparación del manguito**: Sutura de los tendones rotos a su inserción ósea en el húmero
-- **Acromioplastia**: Resección de una pequeña porción del acromion para descomprimir el manguito
-- **Tenotomía/tenodesis del bíceps**: Cuando hay lesiones asociadas del tendón de la porción larga del bíceps
+Opciones quirúrgicas por artroscopia:
 
-### Inestabilidad de Hombro
+- **Reparación del manguito**: sutura de los tendones rotos a su inserción ósea en el húmero
+- **Acromioplastia**: resección de una pequeña porción del acromion para descomprimir el manguito
+- **Tenotomía o tenodesis del bíceps**: cuando hay lesiones asociadas del tendón de la porción larga del bíceps
 
-La luxación o inestabilidad del hombro es una condición frecuente, especialmente en jóvenes deportistas. La articulación puede volverse inestable después de una o múltiples luxaciones.
+### Inestabilidad de hombro
 
-**Técnicas artroscópicas**:
+La **luxación o inestabilidad del hombro** es frecuente en jóvenes deportistas. Tras una o varias luxaciones, la articulación puede volverse crónicamente inestable.
 
-- **Reparación de Bankart**: Fijación del labrum desprendido en la zona anteroinferior
-- **Remplissage**: Técnica complementaria para defectos óseos del húmero
-- **Latarjet artroscópico**: En casos de inestabilidad con déficit óseo importante
+Técnicas artroscópicas disponibles:
 
-### Lesiones del Labrum (SLAP)
+- **Reparación de Bankart**: fijación del labrum desprendido en la zona anteroinferior
+- **Remplissage**: técnica complementaria para defectos óseos del húmero
+- **Latarjet artroscópico**: en casos de inestabilidad con déficit óseo importante
 
-El labrum glenoideo es un anillo de cartílago que rodea la cavidad glenoidea y ayuda a estabilizar la articulación. Las lesiones SLAP (Superior Labrum Anterior to Posterior) afectan a la parte superior del labrum donde se inserta el tendón del bíceps.
+### Lesiones del labrum (SLAP)
 
-**Tratamiento mediante artroscopia**:
+El labrum glenoideo es un anillo de cartílago que rodea la cavidad glenoidea y estabiliza la articulación. Las **lesiones SLAP** (Superior Labrum Anterior to Posterior) afectan la parte superior del labrum donde se inserta el tendón del bíceps.
 
-- **Reparación del labrum**: Fijación con anclajes
-- **Tenotomía/tenodesis del bíceps**: Dependiendo de la lesión y edad del paciente
+Tratamiento artroscópico:
 
-### Síndrome Subacromial
+- **Reparación del labrum**: fijación con anclajes
+- **Tenotomía o tenodesis del bíceps**: según el caso y la edad del paciente
 
-La inflamación de los tendones y bursa subacromial puede causar dolor persistente, sobre todo con movimientos por encima de la cabeza.
+### Síndrome subacromial
 
-**Abordaje artroscópico**:
+La inflamación de los tendones y bursa subacromial causa dolor persistente, especialmente con movimientos por encima de la cabeza. El abordaje artroscópico incluye:
 
-- **Bursectomía subacromial**: Eliminación de la bursa inflamada
-- **Acromioplastia**: Modelado del acromion
-- **Liberación del ligamento coracoacromial**: En casos seleccionados
+- **Bursectomía subacromial**: eliminación de la bursa inflamada
+- **Acromioplastia**: modelado del acromion
+- **Liberación del ligamento coracoacromial**: en casos seleccionados
 
-### Artritis Acromioclavicular
+### Artritis acromioclavicular
 
-La articulación acromioclavicular puede verse afectada por traumatismos o procesos degenerativos, causando dolor localizado.
+La articulación acromioclavicular puede verse afectada por traumatismos o procesos degenerativos, causando dolor localizado. El tratamiento artroscópico consiste en **resección distal de la clavícula (Mumford)**: eliminación de 5–10 mm del extremo distal de la clavícula.
 
-**Procedimiento artroscópico**:
+## Ventajas de la artroscopia de hombro
 
-- **Resección distal de la clavícula (Mumford)**: Eliminación de 5-10 mm del extremo distal de la clavícula
+- **Incisiones de 5–8 mm**: mínima invasión
+- **Mejor visualización**: la cámara permite ver estructuras difícilmente accesibles en cirugía abierta
+- **Menor dolor postoperatorio**
+- **Recuperación más rápida** y menor tiempo de hospitalización
+- **Mejor resultado estético**: cicatrices mínimas
+- **Rehabilitación temprana**
 
-## Ventajas de la Artroscopia de Hombro
+## Proceso de recuperación
 
-- **Mínima invasión**: Pequeñas incisiones de 5-8 mm
-- **Mejor visualización**: La cámara permite ver estructuras difícilmente accesibles en cirugía abierta
-- **Menor dolor postoperatorio**: Menor daño a tejidos blandos
-- **Recuperación más rápida**: Menor tiempo de hospitalización
-- **Mejor resultado estético**: Cicatrices mínimas
-- **Rehabilitación temprana**: Permite iniciar movimiento precozmente
+La recuperación depende del procedimiento:
 
-## Proceso de Recuperación
+- **Descompresión subacromial**: rehabilitación progresiva durante **4–6 semanas**
+- **Reparación del manguito rotador**: inmovilización inicial con cabestrillo, seguida de rehabilitación durante **3–4 meses**
+- **Estabilización por inestabilidad**: rehabilitación progresiva durante **4–6 meses**
 
-La recuperación tras una artroscopia de hombro depende del tipo de patología tratada:
+Cada paciente recibe un **protocolo de rehabilitación personalizado** según el procedimiento realizado, para asegurar un retorno óptimo a sus actividades.
 
-- **Descompresión subacromial**: Rehabilitación progresiva durante 4-6 semanas
-- **Reparación del manguito rotador**: Inmovilización inicial seguida de rehabilitación durante 3-4 meses
-- **Estabilización por inestabilidad**: Rehabilitación progresiva durante 4-6 meses
-
-Cada paciente recibe un protocolo de rehabilitación personalizado según el procedimiento realizado, para asegurar un retorno óptimo a sus actividades habituales.
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Artroscopia de hombro",
+  "alternateName": ["Cirugía artroscópica de hombro", "Arthroscopy of the shoulder"],
+  "procedureType": "https://schema.org/SurgicalProcedure",
+  "description": "Cirugía mínimamente invasiva para reparar lesiones del manguito rotador, inestabilidad del hombro, lesiones SLAP del labrum y síndrome subacromial mediante una cámara introducida a través de incisiones de 5–8 mm.",
+  "bodyLocation": "Hombro",
+  "preparation": "Valoración con el especialista, estudios de imagen (resonancia magnética) y evaluación anestésica.",
+  "followup": "Rehabilitación progresiva supervisada, de 4 semanas a 6 meses según el procedimiento.",
+  "howPerformed": "Bajo anestesia general o regional, se realizan portales de 5–8 mm sobre el hombro. Por uno se introduce la cámara artroscópica y por los otros el instrumental para reparar la lesión.",
+  "performer": { "@id": "https://sammyorozcoartroscopia.com#doctor" },
+  "location": { "@id": "https://sammyorozcoartroscopia.com#medicalpractice" }
+}
+</script>

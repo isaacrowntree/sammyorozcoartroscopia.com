@@ -269,7 +269,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
+  github-pages (~> 232)
   jekyll-seo-tag
   jekyll-sitemap
   tzinfo (~> 1.2)

@@ -1,52 +1,132 @@
 {% include head-scripts.html %}
-    <div class="jumbotron jumbotron-fluid hero-{{ page.hero }} text-light mb-5">
-      <div class="container text-center">
-        <h1 class="display-4">{{ page.title }}</h1>
-        {% if page.subtitle %}
-          <p class="lead">{{ page.subtitle }}</p>
-        {% endif %}
+
+{%- capture hero_img -%}
+{%- case page.hero -%}
+{%- when 'rodilla' -%}/assets/rodilla.jpg
+{%- when 'hombro' -%}/assets/hombro.jpg
+{%- when 'tobillo' -%}/assets/tobillo.png
+{%- when 'tunel' -%}/assets/tunel.png
+{%- when 'deportiva' -%}/assets/hero-deportiva.jpg
+{%- when 'tratamientos' -%}/assets/hero-tratamientos.jpeg
+{%- when 'sammy' -%}/assets/sammy.jpg
+{%- else -%}/assets/hero-artroscopia.jpg
+{%- endcase -%}
+{%- endcapture -%}
+
+<!-- ============================================================
+     HERO — editorial
+     ============================================================ -->
+<section class="hero" id="inicio">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        {% if page.badge %}<p class="eyebrow">{{ page.badge }}</p>{% endif %}
+        <h1 class="hero-h1">{{ page.title }}{% if page.title_location %} <em>en Cali</em>{% endif %}</h1>
+        {% if page.subtitle %}<p class="hero-lead">{{ page.subtitle }}</p>{% endif %}
+        <div class="hero-ctas">
+          <a href="/booking" class="btn btn-warning btn-lg">
+            <i class="fas fa-calendar-check"></i><span>Agendar cita</span>
+          </a>
+          <a href="tel:{{ site.phone1 }}" class="btn btn-outline-ink btn-lg">
+            <i class="fas fa-phone-alt"></i><span>{{ site.phone1 }}</span>
+          </a>
+        </div>
+      </div>
+      <div>
+        <figure class="hero-figure">
+          <img src="{{ hero_img | strip }}" alt="{{ page.title }} — Dr. Sammy Orozco" loading="eager">
+          {% if page.badge %}<figcaption class="hero-figure-cap">{{ page.badge }}</figcaption>{% endif %}
+        </figure>
       </div>
     </div>
+  </div>
+</section>
 
-    <section class="container page-content mb-5">
-      <div class="row">
-        <div class="col-lg-8 mb-4">
-          <h2 class="mb-4">{{ page.title }}</h2>
+<!-- ============================================================
+     CONTENT + SIDEBAR — editorial two-column
+     ============================================================ -->
+<section class="section">
+  <div class="container">
+    <div class="editorial editorial--reverse">
+      <article class="editorial-body page-content">
+        {{ content }}
+      </article>
 
-          <div class="content-wrapper">
-            {{ content }}
-          </div>
-
-          <div class="mt-5 d-flex justify-content-between align-items-center flex-wrap">
-            <a href="/" class="btn btn-outline-success"><i class="fas fa-home me-2"></i>Inicio</a>
-            <a href="#top" class="btn btn-outline-secondary"><i class="fas fa-arrow-up me-2"></i>Volver arriba</a>
+      <aside class="editorial-aside sidebar-sticky">
+        <div class="sidebar-block">
+          <p class="eyebrow">Consulta</p>
+          <p class="sidebar-text">
+            Dr. Sammy Orozco<br>
+            Consultorio 709<br>
+            Clínica Farallones · Cali
+          </p>
+          <div class="sidebar-ctas">
+            <a href="/booking" class="btn btn-warning w-100">Agendar cita</a>
+            <a href="tel:{{ site.phone1 }}" class="btn btn-outline-ink w-100">
+              <i class="fas fa-phone-alt"></i><span>{{ site.phone1 }}</span>
+            </a>
           </div>
         </div>
-        
-        <div class="col-lg-4">
-          <div class="sidebar-widget card mb-4 border-success">
-            <div class="card-header bg-success text-white">
-              <h3 class="mb-0 h5"><i class="fas fa-stethoscope me-2"></i>Servicios</h3>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a href="/artroscopia"><i class="fas fa-angle-right me-2 text-success"></i>Artroscopia</a></li>
-              <li class="list-group-item"><a href="/medicina-deportiva"><i class="fas fa-angle-right me-2 text-success"></i>Medicina Deportiva</a></li>
-              <li class="list-group-item"><a href="/tratamientos-biologicos"><i class="fas fa-angle-right me-2 text-success"></i>Plasma Rico en Plaquetas</a></li>
-            </ul>
+
+        <div class="sidebar-block">
+          <p class="eyebrow">Horario</p>
+          <p class="sidebar-text">
+            Lun&nbsp;–&nbsp;Vie · 8:00&nbsp;–&nbsp;17:00<br>
+            Sáb · 8:00&nbsp;–&nbsp;12:00
+          </p>
+        </div>
+
+        <div class="sidebar-block">
+          <p class="eyebrow">Otros servicios</p>
+          <ul class="sidebar-list">
+            {% assign current = page.url %}
+            {% unless current == '/artroscopia' or current == '/artroscopia/' %}<li><a href="/artroscopia">Artroscopia <span class="arrow">→</span></a></li>{% endunless %}
+            {% unless current == '/rodilla' or current == '/rodilla/' %}<li><a href="/rodilla">Artroscopia de rodilla <span class="arrow">→</span></a></li>{% endunless %}
+            {% unless current == '/hombro' or current == '/hombro/' %}<li><a href="/hombro">Artroscopia de hombro <span class="arrow">→</span></a></li>{% endunless %}
+            {% unless current == '/tobillo' or current == '/tobillo/' %}<li><a href="/tobillo">Artroscopia de tobillo <span class="arrow">→</span></a></li>{% endunless %}
+            {% unless current == '/tunel' or current == '/tunel/' %}<li><a href="/tunel">Túnel carpiano <span class="arrow">→</span></a></li>{% endunless %}
+            {% unless current == '/medicina-deportiva' or current == '/medicina-deportiva/' %}<li><a href="/medicina-deportiva">Medicina deportiva <span class="arrow">→</span></a></li>{% endunless %}
+            {% unless current == '/tratamientos-biologicos' or current == '/tratamientos-biologicos/' %}<li><a href="/tratamientos-biologicos">PRP y viscosuplementación <span class="arrow">→</span></a></li>{% endunless %}
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CTA BLOCK — dark ink
+     ============================================================ -->
+<section class="section-sm">
+  <div class="container">
+    <div class="cta-block">
+      <div class="row g-5 align-items-end">
+        <div class="col-lg-7">
+          <p class="eyebrow eyebrow-light">Próximo paso</p>
+          <h2>¿Listo para su <em>valoración</em>?</h2>
+          <p>Una consulta especializada permite confirmar el diagnóstico y definir el tratamiento más adecuado para su caso.</p>
+          <div class="d-flex flex-wrap gap-2">
+            <a href="/booking" class="btn btn-warning btn-lg">Agendar cita ahora</a>
+            <a href="tel:{{ site.phone1 }}" class="btn btn-outline-light btn-lg">
+              <i class="fas fa-phone-alt"></i><span>{{ site.phone1 }}</span>
+            </a>
           </div>
-          
-          <div class="sidebar-widget card mb-4 border-success">
-            <div class="card-header bg-success text-white">
-              <h3 class="mb-0 h5"><i class="fas fa-info-circle me-2"></i>Contacto</h3>
+        </div>
+        <div class="col-lg-5">
+          <dl class="cta-meta">
+            <div>
+              <dt>Dirección</dt>
+              <dd>Calle 9c&nbsp;#&nbsp;50&nbsp;-&nbsp;25<br>Consultorio 709, Cali</dd>
             </div>
-            <div class="card-body">
-              <p><i class="fas fa-phone-alt me-2 text-success"></i><a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a></p>
-              <p><i class="fas fa-envelope me-2 text-success"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-              <a href="/#location" class="btn btn-success btn-block"><i class="fas fa-map-marker-alt me-2"></i>Ver ubicación</a>
+            <div>
+              <dt>Horario</dt>
+              <dd>Lun&nbsp;–&nbsp;Vie · 8:00&nbsp;–&nbsp;17:00<br>Sáb · 8:00&nbsp;–&nbsp;12:00</dd>
             </div>
-          </div>
+          </dl>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
 {% include footer-scripts.html %}

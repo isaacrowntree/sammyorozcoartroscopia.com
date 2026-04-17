@@ -1,36 +1,116 @@
 ---
 layout: booking
-title: Agendar Cita | Dr. Sammy Orozco
-description: Agende su cita con el Dr. Sammy Orozco, especialista en Cirugía Ortopédica, Traumatología y Artroscopia Deportiva.
+title: Agendar cita | Dr. Sammy Orozco
+description: Agende su cita en línea con el Dr. Sammy Orozco, especialista en cirugía ortopédica, traumatología y artroscopia deportiva en Cali.
 ---
 
-<!-- Full-height booking iframe -->
-<section class="booking-section position-relative vh-100">
-    <div class="booking-iframe-container" style="height: calc(100vh - 100px); ">
-    <iframe src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0kEsXYkLKeS01TWMGcck7w7qfW971sBLnqSvd8JWBd3bFfpjIKk688QCpJ9XxuXtpdConuMpru" frameborder="0" allowfullscreen style="width: 100%; height: 100%; border: 0;"></iframe>
+<!-- ============================================================
+     HERO — editorial
+     ============================================================ -->
+<section class="hero hero--compact" id="inicio">
+  <div class="container">
+    <div class="hero-grid hero-grid--single">
+      <div>
+        <p class="eyebrow">Agendamiento en línea</p>
+        <h1 class="hero-h1">Agende su <em>cita</em>.</h1>
+        <p class="hero-lead">
+          Seleccione el día y la hora que mejor le convenga con el Dr. Sammy Orozco. La consulta se realiza en el Consultorio 709 del Centro Médico Clínica Farallones, Cali.
+        </p>
+        <div class="hero-ctas">
+          <a href="tel:{{ site.phone1 }}" class="btn btn-outline-ink btn-lg">
+            <i class="fas fa-phone-alt"></i><span>¿Prefiere llamar? {{ site.phone1 }}</span>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<style>
-  body {
-    overflow-x: hidden;
+<!-- ============================================================
+     CALENDAR IFRAME
+     ============================================================ -->
+<section class="booking-section" aria-label="Calendario de citas">
+  <div class="booking-iframe-container">
+    <div class="booking-loading" id="bookingLoading">
+      <div class="spinner" role="status" aria-live="polite">
+        <span class="visually-hidden">Cargando sistema de citas…</span>
+      </div>
+      <p class="booking-loading-text">Cargando sistema de citas…</p>
+    </div>
+    <iframe
+      src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0kEsXYkLKeS01TWMGcck7w7qfW971sBLnqSvd8JWBd3bFfpjIKk688QCpJ9XxuXtpdConuMpru"
+      frameborder="0"
+      allowfullscreen
+      loading="lazy"
+      onload="document.getElementById('bookingLoading').style.display='none'; this.style.visibility='visible';"
+      style="visibility: hidden;"
+      title="Agendar cita con el Dr. Sammy Orozco">
+    </iframe>
+  </div>
+
+  <noscript>
+    <div class="container section-sm">
+      <div class="booking-noscript">
+        <p><strong>Para agendar en línea necesita habilitar JavaScript.</strong></p>
+        <p>O comuníquese directamente al <a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a>.</p>
+      </div>
+    </div>
+  </noscript>
+</section>
+
+<!-- ============================================================
+     FALLBACK CTA — dark ink
+     ============================================================ -->
+<section class="section-sm">
+  <div class="container">
+    <div class="cta-block">
+      <div class="row g-5 align-items-end">
+        <div class="col-lg-7">
+          <p class="eyebrow eyebrow-light">¿El calendario no carga?</p>
+          <h2>Comuníquese <em>directamente</em>.</h2>
+          <p>Llame al consultorio para agendar por teléfono o consultar disponibilidad.</p>
+          <div class="d-flex flex-wrap gap-2">
+            <a href="tel:{{ site.phone1 }}" class="btn btn-warning btn-lg">
+              <i class="fas fa-phone-alt"></i><span>Llamar al {{ site.phone1 }}</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <dl class="cta-meta">
+            <div>
+              <dt>Dirección</dt>
+              <dd>Calle 9c&nbsp;#&nbsp;50&nbsp;-&nbsp;25<br>Consultorio 709, Cali</dd>
+            </div>
+            <div>
+              <dt>Horario</dt>
+              <dd>{{ site.consultation_hours }}</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Consultorio del Dr. Sammy Orozco",
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sammyorozcoartroscopia.com/booking",
+      "actionPlatform": [
+        "https://schema.org/DesktopWebPlatform",
+        "https://schema.org/MobileWebPlatform"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Consulta con el Dr. Sammy Orozco"
+    }
   }
-  
-  .booking-section {
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-  }
-  
-  .booking-iframe-container {
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
-  
-</style>
+}
+</script>

@@ -1,265 +1,32 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169186256-1"></script>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3E3HGKM11"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-169186256-1');
+      gtag('config', 'G-W3E3HGKM11');
     </script>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <meta name="theme-color" content="#eaf2ee">
+
     <!-- Fonts and CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=Lavishly+Yours&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/custom.css">
     <link rel="stylesheet" href="/assets/css/hero-images.css">
-    
+
     <!-- SEO tags -->
     {% seo json_ld=false %}
-    
-    <style>
-      body {
-        font-family: 'Merriweather', serif !important;
-        color: #333;
-        line-height: 1.8;
-      }
-      
-      /* Navigation and footer */
-      footer {
-        background-color: #198754;
-      }
-      
-      .navbar {
-        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-        padding: 0.5rem 0;
-        background-color: #fff;
-      }
-      
-      .navbar-nav .nav-item {
-        margin: 0 0.35rem;
-      }
-      
-      .navbar-nav .nav-link {
-        color: #333;
-        font-weight: 500;
-        padding: 0.75rem 1.25rem;
-        border-radius: 0.5rem;
-        transition: all 0.3s ease;
-      }
-      
-      .navbar-nav .nav-link:hover {
-        color: #198754;
-        background-color: rgba(25, 135, 84, 0.08);
-      }
-      
-      .navbar-nav .nav-link.active {
-        color: #198754;
-        background-color: rgba(25, 135, 84, 0.1);
-      }
-      
-      .navbar-brand {
-        font-weight: 700;
-        color: #333 !important;
-        display: flex;
-        align-items: center;
-        transition: all 0.3s ease;
-      }
-      
-      .navbar-brand:hover {
-        transform: scale(1.03);
-      }
-      
-      .logo-circle {
-        width: 50px;
-        height: 50px;
-        background-color: white;
-        border: 2px solid #000;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 0.75rem;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        position: relative;
-      }
-      
-      .logo-text {
-        font-family: 'Lavishly Yours', cursive;
-        font-size: 36px;
-        font-weight: 400;
-        color: #000;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        line-height: 1;
-        margin: 0;
-      }
-      
-      .btn-contact {
-        background-color: #198754;
-        color: white;
-        border-radius: 0.5rem;
-        padding: 0.75rem 1.5rem;
-        font-weight: 500;
-        transition: all 0.3s ease;
-        border: none;
-      }
-      
-      .btn-contact:hover {
-        background-color: #156d43;
-        color: white;
-        transform: translateY(-2px);
-        box-shadow: 0 4px 8px rgba(25, 135, 84, 0.3);
-      }
-
-      /* Common elements */
-      iframe {
-        width: 100%;
-        border: 0;
-      }
-
-      a {
-        color: #198754;
-        transition: color 0.3s ease;
-        text-decoration: none;
-      }
-      
-      a:hover {
-        color: #146c43;
-      }
-
-      .page-content img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 0.5rem;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      }
-
-      button a {
-        color: inherit;
-      }
-      
-      .btn {
-        transition: all 0.3s ease;
-      }
-      
-      .btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-      }
-
-      /* Image overlay effect */
-      .img-container {
-        position: relative;
-        overflow: hidden;
-        border-radius: 0.5rem;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-      }
-      
-      .img-container img {
-        transition: transform 0.5s ease;
-      }
-      
-      .img-container:hover img {
-        transform: scale(1.03);
-      }
-
-      .img-container:hover .overlay {
-        opacity: 1;
-      }
-
-      .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(25, 135, 84, 0.85);
-        opacity: 0;
-        overflow: hidden;
-        width: 100%;
-        height: 100%;
-        transition: .4s ease;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      .overlay a {
-        color: #fff;
-        font-weight: bold;
-      }
-
-      .overlay-text {
-        text-align: center;
-        width: 90%;
-        max-width: 400px;
-      }
-      
-      /* Card styling */
-      .card {
-        transition: all 0.3s ease;
-        border-radius: 0.75rem;
-        overflow: hidden;
-        border: none;
-      }
-      
-      .card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-      }
-      
-      /* Typography */
-      .spaced {
-        line-height: 1.8;
-      }
-      
-      h1, h2, h3, h4, h5, h6 {
-        font-weight: 700;
-      }
-
-      /* Responsive styles */
-      @media (min-width: 768px) {
-        .nav-link {
-          font-size: 1rem;
-        }
-
-        .spaced {
-          line-height: 2;
-        }
-        
-        .navbar-brand {
-          font-size: 1.5rem;
-        }
-      }
-      
-      @media (max-width: 767px) {
-        .navbar-brand {
-          font-size: 1.2rem;
-        }
-        
-        .logo-circle {
-          width: 40px;
-          height: 40px;
-        }
-        
-        .logo-text {
-          font-size: 28px;
-        }
-      }
-    </style>
-
-    <!-- Meta tags generated by Jekyll SEO Tag plugin above -->
 
   </head>
   <body id="top">
@@ -267,33 +34,34 @@
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
         <a class="navbar-brand" href="/">
-          <div class="logo-circle">
-            <span class="logo-text">S</span>
-          </div>
-          Dr. Sammy Orozco
+          <span class="logo-circle"><span class="logo-text">S</span></span>
+          <span>Dr. Sammy Orozco</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto align-items-center">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
             <li class="nav-item">
-              <a class="nav-link" href="/#sammyOrozco">Dr. Orozco</a>
+              <a class="nav-link" href="/dr-sammy-orozco">Dr. Orozco</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Servicios
               </a>
-              <ul class="dropdown-menu dropdown-menu-end shadow border-0" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="/artroscopia">Artroscopia General</a></li>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                <li><h6 class="dropdown-header">Artroscopia</h6></li>
+                <li><a class="dropdown-item" href="/artroscopia">Artroscopia general</a></li>
+                <li><a class="dropdown-item" href="/rodilla">Artroscopia de rodilla</a></li>
+                <li><a class="dropdown-item" href="/hombro">Artroscopia de hombro</a></li>
+                <li><a class="dropdown-item" href="/tobillo">Artroscopia de tobillo</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="/rodilla">Artroscopia de Rodilla</a></li>
-                <li><a class="dropdown-item" href="/hombro">Artroscopia de Hombro</a></li>
-                <li><a class="dropdown-item" href="/tobillo">Artroscopia de Tobillo</a></li>
-                <li><a class="dropdown-item" href="/tunel">Síndrome del Túnel Carpiano</a></li>
+                <li><h6 class="dropdown-header">Cirugía de mano</h6></li>
+                <li><a class="dropdown-item" href="/tunel">Síndrome del túnel carpiano</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="/medicina-deportiva">Medicina Deportiva​</a></li>
-                <li><a class="dropdown-item" href="/tratamientos-biologicos">Plasma Rico en Plaquetas</a></li>
+                <li><h6 class="dropdown-header">Medicina deportiva</h6></li>
+                <li><a class="dropdown-item" href="/medicina-deportiva">Medicina deportiva</a></li>
+                <li><a class="dropdown-item" href="/tratamientos-biologicos">Plasma rico en plaquetas</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -302,15 +70,13 @@
             <li class="nav-item">
               <a class="nav-link" href="/#contact">Contacto</a>
             </li>
-            <li class="nav-item me-md-2 mb-2 mb-md-0">
-              <a class="btn btn-contact px-3 py-2" href="tel:{{ site.phone1 }}">
-                <i class="fas fa-phone-alt me-2"></i>Llamar
+            <li class="nav-item nav-cta">
+              <a class="btn btn-contact btn-sm" href="tel:{{ site.phone1 }}">
+                <i class="fas fa-phone-alt"></i><span>Llamar</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="btn btn-warning px-3 py-2" href="/booking">
-                <i class="fas fa-calendar-check me-2"></i>Agendar Cita
-              </a>
+            <li class="nav-item nav-cta">
+              <a class="btn btn-warning btn-sm" href="/booking">Agendar cita</a>
             </li>
           </ul>
         </div>

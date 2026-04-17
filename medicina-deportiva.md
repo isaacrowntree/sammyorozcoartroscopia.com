@@ -1,56 +1,64 @@
 ---
-title: Medicina Deportiva​
+title: Medicina deportiva
+title_location: true
 layout: default
 hero: deportiva
-description: Tratamientos especializados en medicina deportiva para lesiones y rehabilitación de deportistas. Dr. Sammy Orozco, especialista en Traumatología Deportiva en Cali, Colombia.
-keywords: medicina deportiva, traumatología deportiva, lesiones deportivas, deportistas, rehabilitación deportiva, ligamentos, meniscos, cirugía deportiva, cali
-subtitle: Diagnóstico y tratamiento especializado de lesiones deportivas
+badge: Traumatología deportiva
+subtitle: Diagnóstico y tratamiento especializado de lesiones deportivas con el Dr. Sammy Orozco.
+description: Medicina deportiva en Cali con el Dr. Sammy Orozco. Diagnóstico y tratamiento de lesiones de rodilla, hombro, tobillo y más en deportistas y personas activas. Clínica Farallones.
+keywords: medicina deportiva cali, traumatología deportiva, lesiones deportivas cali, lesiones ligamento cruzado, meniscos, manguito rotador, sammy orozco, rehabilitación deportiva
 ---
 
-## ¿Qué es la Medicina Deportiva?
+## ¿Se lesionó haciendo deporte?
 
-La Medicina Deportiva es la especialidad médica que estudia los efectos del ejercicio y la actividad física en el organismo humano, tanto desde el punto de vista preventivo como terapéutico. Esta disciplina se enfoca en el diagnóstico, tratamiento y rehabilitación de lesiones relacionadas con la práctica deportiva, permitiendo un retorno seguro y efectivo a la actividad.
+Una **lesión deportiva bien manejada** puede devolverle a su nivel previo —e incluso prevenir problemas futuros. Una lesión mal manejada, en cambio, puede cronificarse y limitar su actividad por años. El objetivo de la medicina deportiva es claro: que vuelva a entrenar **en el menor tiempo posible y sin secuelas**.
 
-## Lesiones Deportivas Frecuentes
+La medicina deportiva estudia los efectos del ejercicio en el organismo, tanto desde el punto de vista preventivo como terapéutico. Combina valoración clínica, estudios de imagen y un abordaje **individualizado** para diagnosticar, tratar y rehabilitar lesiones —desde esguinces simples hasta reconstrucciones ligamentarias complejas.
 
-Entre las lesiones deportivas más comunes que tratamos se encuentran:
+## Lesiones deportivas que tratamos
 
-### Lesiones de Rodilla
+### Lesiones de rodilla
 
-- **Ruptura del Ligamento Cruzado Anterior (LCA)**: Lesión frecuente en deportes con cambios bruscos de dirección
-- **Lesiones del Ligamento Cruzado Posterior (LCP)**: Menos común pero igualmente limitante
-- **Lesiones de Ligamentos Colaterales**: Medial y lateral
-- **Lesiones de Menisco**: Medial o lateral, frecuentes en deportes de impacto
-- **Lesiones de Cartílago Articular**: Pueden ser agudas o por desgaste
+- **Ruptura del ligamento cruzado anterior (LCA)**: lesión frecuente en deportes con cambios bruscos de dirección, saltos o giros (fútbol, baloncesto, tenis, esquí)
+- **Lesiones del ligamento cruzado posterior (LCP)**: menos común pero igualmente limitante
+- **Lesiones de ligamentos colaterales** (medial y lateral)
+- **Lesiones de menisco** medial o lateral, frecuentes en deportes de impacto
+- **Lesiones del cartílago articular**: agudas o por desgaste
 
-### Lesiones de Hombro
+### Lesiones de hombro
 
-- **Luxación de Hombro**: Frecuente en deportes de contacto
-- **Lesiones Acromio-claviculares**: Por caídas o impactos directos
-- **Lesiones del Manguito Rotador**: Comunes en deportes con movimientos repetitivos sobre la cabeza
+- **Luxación de hombro**: frecuente en deportes de contacto
+- **Lesiones acromioclaviculares**: por caídas o impactos directos
+- **Lesiones del manguito rotador**: comunes en deportes con movimientos repetitivos sobre la cabeza (natación, tenis, voleibol, lanzamiento)
 
-### Lesiones de Tobillo
+### Lesiones de tobillo
 
-- **Esguinces**: De diferentes grados de severidad
-- **Lesiones Cartilaginosas**: Pueden limitar significativamente el rendimiento deportivo
+- **Esguinces** de diferentes grados de severidad
+- **Lesiones cartilaginosas** que pueden limitar significativamente el rendimiento deportivo
 
-### Otras Lesiones Deportivas Comunes
+### Otras lesiones frecuentes
 
-- Tendinitis
-- Bursitis
-- Fracturas por estrés
-- Contracturas musculares
+- **Tendinitis** (rotuliana, de Aquiles, del codo "epicondilitis")
+- **Bursitis**
+- **Fracturas por estrés**
+- **Contracturas y desgarros musculares**
 
-## Tratamiento y Rehabilitación
+## Diagnóstico
 
-La mayoría de estas lesiones deportivas pueden ser diagnosticadas mediante una adecuada valoración clínica complementada con estudios de imagen como radiografías, resonancia magnética o ecografía.
+La mayoría de lesiones deportivas se diagnostican con una **valoración clínica** detallada complementada con estudios de imagen:
 
-Dependiendo de la severidad y tipo de lesión, el tratamiento puede incluir:
+- **Radiografía**: descarta fracturas
+- **Resonancia magnética**: evalúa meniscos, ligamentos, cartílago y tejidos blandos
+- **Ecografía**: útil para tendones y lesiones musculares
 
-- **Manejo conservador**: Fisioterapia, medicamentos antiinflamatorios, reposo controlado
-- **Tratamientos biológicos**: Como plasma rico en plaquetas (PRP)
-- **Cirugía Artroscópica**: Técnica mínimamente invasiva que permite una recuperación más rápida
+## Tratamiento y rehabilitación
 
-Nuestro enfoque en medicina deportiva busca no solo recuperar al atleta de su lesión actual, sino también fortalecer las estructuras para prevenir futuras lesiones y optimizar su rendimiento deportivo.
+Según la severidad y el tipo de lesión, el tratamiento puede incluir:
+
+- **Manejo conservador**: fisioterapia, medicamentos antiinflamatorios, reposo controlado y modificación de la actividad
+- **Tratamientos biológicos**: [Plasma Rico en Plaquetas (PRP)](/tratamientos-biologicos) y viscosuplementación con ácido hialurónico
+- **Cirugía artroscópica**: técnica mínimamente invasiva que permite una recuperación más rápida —disponible para [rodilla](/rodilla), [hombro](/hombro) y [tobillo](/tobillo)
+
+El enfoque no se limita a tratar la lesión actual: también se trabaja en **fortalecer las estructuras** para prevenir futuras lesiones y **optimizar el rendimiento**.
 
 ![Medicina Deportiva](/assets/medicina-deportiva.png "Medicina deportiva")

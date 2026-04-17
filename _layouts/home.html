@@ -1,569 +1,563 @@
 {% include head-scripts.html %}
 
-<!-- Hero section with full viewport height and modern gradient overlay -->
-<section class="hero-section position-relative d-flex align-items-center vh-100">
-  <div class="hero-bg-image position-absolute top-0 start-0 w-100 h-100" style="background: url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80') center/cover no-repeat; filter: brightness(0.8);"></div>
-  <div class="container position-relative z-3 text-center text-white">
-    <span class="badge bg-success mb-3 fs-6 py-2 px-3 rounded-pill">Especialista en</span>
-    <h1 class="display-3 fw-bold mb-4">Artroscopia y Traumatología Deportiva</h1>
-    <p class="lead mb-5 mx-auto" style="max-width: 700px;">Tratamientos avanzados y mínimamente invasivos para recuperación rápida y efectiva</p>
-    <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
-      <div class="text-center mb-3 mb-md-0">
-        <a href="/booking" class="btn btn-warning btn-lg px-4 py-3 fw-medium rounded-pill shadow">
-          <i class="fas fa-calendar-check me-2"></i>Agendar Cita Ahora
-        </a>
-        <p class="text-white-50 small mt-2 mb-0">Reserve su cita en línea en segundos</p>
-      </div>
-      <div class="d-flex flex-column align-items-center">
-        <div class="d-flex gap-3">
-          <a href="#location" class="btn btn-outline-light btn-lg px-4 py-3 fw-medium rounded-pill">
-            <i class="fas fa-map-marker-alt me-2"></i>Ubicación
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero" id="inicio">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Cirugía ortopédica · Cali, Colombia</p>
+        <h1 class="hero-h1">Artroscopia y <em>traumatología deportiva</em>, mínimamente invasivas.</h1>
+        <p class="hero-lead">
+          Dr. Sammy Orozco — subespecialista en cirugía artroscópica (UNAM). Rodilla, hombro, tobillo y túnel carpiano en el Centro Médico Clínica Farallones.
+        </p>
+        <div class="hero-ctas">
+          <a href="/booking" class="btn btn-warning btn-lg">
+            <i class="fas fa-calendar-check"></i><span>Agendar cita</span>
           </a>
-          <a href="#servicios" class="btn btn-outline-light btn-lg px-4 py-3 fw-medium rounded-pill">
-            <i class="fas fa-list me-2"></i>Servicios
+          <a href="tel:{{ site.phone1 }}" class="btn btn-outline-ink btn-lg">
+            <i class="fas fa-phone-alt"></i><span>{{ site.phone1 }}</span>
           </a>
         </div>
+        <dl class="hero-meta">
+          <div>
+            <dt>Consulta</dt>
+            <dd>Consultorio 709<br>Clínica Farallones</dd>
+          </div>
+          <div>
+            <dt>Horario</dt>
+            <dd>Lun-Vie 8:00-17:00<br>Sáb 8:00-12:00</dd>
+          </div>
+          <div>
+            <dt>Formación</dt>
+            <dd>UNAM · IMSS<br>Subespecialidad artroscópica</dd>
+          </div>
+        </dl>
+      </div>
+      <div>
+        <figure class="hero-figure">
+          <img src="/assets/pages/surgery-1807541_1280.jpg" alt="Cirugía artroscópica mínimamente invasiva" loading="eager">
+          <figcaption class="hero-figure-cap">Técnica artroscópica</figcaption>
+        </figure>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Doctor profile section with modern card design -->
-<section class="py-5 bg-light" id="sammyOrozco">
-  <div class="container py-4">
-    <div class="row justify-content-between align-items-center g-5">
-      <div class="col-lg-5">
-        <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
-          <div class="doctor-image position-relative">
-            <img src="/assets/sammy.jpg" class="img-fluid" alt="Dr. Sammy Orozco - Especialista en Artroscopia y Traumatología Deportiva">
-            <div class="position-absolute bottom-0 start-0 w-100 p-4 bg-gradient-dark text-white">
-              <h3 class="mb-1">Dr. Sammy Orozco</h3>
-              <p class="mb-0 opacity-75">Cirugía Ortopédica y Traumatología</p>
-            </div>
-          </div>
-          <div class="card-body p-4">
-            <div class="d-flex justify-content-between align-items-center mb-4">
-              <a href="tel:{{ site.phone1 }}" class="btn btn-sm btn-outline-success rounded-pill px-3">
-                <i class="fas fa-phone-alt me-2"></i> Llamar
-              </a>
-              <a href="/booking" class="btn btn-sm btn-success rounded-pill px-3">
-                <i class="fas fa-calendar-check me-2"></i> Agendar Cita
-              </a>
-              <a href="mailto:{{ site.email }}" class="btn btn-sm btn-outline-success rounded-pill px-3">
-                <i class="fas fa-envelope me-2"></i> Email
-              </a>
-            </div>
-            <h5 class="card-title mb-3 fw-bold"><i class="fas fa-user-md text-success me-2"></i>Especialidades</h5>
-            <div class="specialties-list">
-              <div class="d-flex align-items-center mb-2">
-                <span class="badge rounded-pill bg-success-subtle text-success me-2"><i class="fas fa-check"></i></span>
-                <span>Artroscopia de Rodilla</span>
-              </div>
-              <div class="d-flex align-items-center mb-2">
-                <span class="badge rounded-pill bg-success-subtle text-success me-2"><i class="fas fa-check"></i></span>
-                <span>Artroscopia de Hombro</span>
-              </div>
-              <div class="d-flex align-items-center mb-2">
-                <span class="badge rounded-pill bg-success-subtle text-success me-2"><i class="fas fa-check"></i></span>
-                <span>Artroscopia de Tobillo</span>
-              </div>
-              <div class="d-flex align-items-center mb-2">
-                <span class="badge rounded-pill bg-success-subtle text-success me-2"><i class="fas fa-check"></i></span>
-                <span>Traumatología Deportiva</span>
-              </div>
-              <div class="d-flex align-items-center">
-                <span class="badge rounded-pill bg-success-subtle text-success me-2"><i class="fas fa-check"></i></span>
-                <span>Tratamientos Biológicos (PRP)</span>
-              </div>
-            </div>
-          </div>
-        </div>
+<!-- ============================================================
+     CREDENTIALS STRIP
+     ============================================================ -->
+<section class="strip" aria-label="Credenciales">
+  <div class="container">
+    <div class="strip-grid">
+      <div>
+        <span class="strip-num">15<span style="font-size:0.5em; vertical-align: 0.45em;">+</span></span>
+        <p class="strip-label">Años de experiencia</p>
       </div>
-      <div class="col-lg-6">
-        <span class="badge bg-success-subtle text-success text-uppercase fw-semibold mb-2">Experto en traumatología</span>
-        <h2 class="display-5 fw-bold mb-4">Dr. Sammy Orozco</h2>
-        <p class="lead text-muted mb-4">
-          Especialista en <strong class="text-dark">Cirugía Ortopédica y Traumatología</strong> con Subespecialidad en <strong class="text-dark">Cirugía Artroscópica</strong>.
+      <div>
+        <span class="strip-num">UNAM</span>
+        <p class="strip-label">Subespecialidad<br>en artroscopia</p>
+      </div>
+      <div>
+        <span class="strip-num strip-num--mono">SCCOT · ISAKOS<br>AANA · SLARD</span>
+        <p class="strip-label">Miembro activo</p>
+      </div>
+      <div>
+        <span class="strip-num strip-num--sm">Clínica<br>Farallones</span>
+        <p class="strip-label">Cali · Valle del Cauca</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     DOCTOR INTRO (editorial two-column)
+     ============================================================ -->
+<section class="section" id="sammyOrozco">
+  <div class="container">
+    <div class="editorial">
+      <aside class="editorial-aside">
+        <figure class="portrait">
+          <img src="/assets/sammy.jpg" alt="Dr. Sammy Orozco, especialista en cirugía ortopédica y traumatología" loading="lazy">
+        </figure>
+      </aside>
+      <div class="editorial-body">
+        <p class="eyebrow">El especialista</p>
+        <h2>Dr. Sammy Orozco.</h2>
+        <p class="lead" style="margin-top: 1.25rem; margin-bottom: 1.75rem;">
+          Especialista en cirugía ortopédica y traumatología, con subespecialidad en cirugía artroscópica por la Universidad Nacional Autónoma de México — IMSS. Cirujano adjunto del Centro Médico Clínica Farallones en Cali.
         </p>
-        <p class="mb-4">
-          Miembro activo de prestigiosas asociaciones médicas como la <strong>Sociedad Colombiana de Cirugía de Ortopedia y Traumatología</strong> (SCCOT), <strong>Sociedad Colombiana de Artroscopia y Traumatología Deportiva</strong> (SOCARTD), <strong>Asociación Colombiana de Cirugía Artroscópica</strong> (ACCART), <strong>Artroscopy Association of North America</strong> (AANA), <strong>Sociedad Latinoamericana de Artroscopia, Rodilla y Deporte</strong> (SLARD) y <strong>International Society of Arthroscopy, Knee Surgery and Orthopaedic Sports Medicine</strong> (ISAKOS).
+        <p>
+          Su práctica se centra en tratamientos de conservación articular, cirugía artroscópica, medicina deportiva y tratamientos biológicos (plasma rico en plaquetas y viscosuplementación). Cada técnica se elige para lograr una recuperación completa en el menor tiempo posible.
         </p>
-        
-        <p class="mb-4">
-          Cirujano adjunto del Centro Médico Farallones donde ejerce su especialidad
-          destacando tratamientos de conservación articular, cirugía artroscópica, medicina
-          deportiva y plasma rico en plaquetas (PRP y VISCOSUPLEMENTACIÓN).
-          Todos los tratamientos y técnicas quirúrgicas empleadas están enfocadas a la
-          recuperación completa en el menor tiempo posible.
+        <p>
+          Miembro activo de <strong>SCCOT</strong>, <strong>SOCARTD</strong>, <strong>ACCART</strong>, <strong>AANA</strong>, <strong>SLARD</strong> e <strong>ISAKOS</strong>.
         </p>
 
-        <div class="row g-4 mb-4">
-          <div class="col-md-6">
-            <div class="d-flex align-items-center">
-              <div class="icon-circle bg-success-subtle rounded-circle p-3 me-3">
-                <i class="fas fa-phone-alt text-success"></i>
-              </div>
-              <div>
-                <h5 class="mb-1 fs-5">Teléfono</h5>
-                <p class="mb-0"><a href="tel:{{ site.phone1 }}" class="text-decoration-none">{{ site.phone1 }}</a> / <a href="tel:{{ site.phone2 }}" class="text-decoration-none">{{ site.phone2 }}</a></p>
-              </div>
+        <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; font-size: var(--step-3);">Formación</h3>
+        <ul class="cred-list">
+          <li>
+            <span class="cred-year">Pregrado</span>
+            <div>
+              <span class="cred-name">Medicina y Cirugía</span>
+              <span class="cred-org">Universidad del Cauca</span>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="d-flex align-items-center">
-              <div class="icon-circle bg-success-subtle rounded-circle p-3 me-3">
-                <i class="fas fa-envelope text-success"></i>
-              </div>
-              <div>
-                <h5 class="mb-1 fs-5">Email</h5>
-                <p class="mb-0"><a href="mailto:{{ site.email }}" class="text-decoration-none">{{ site.email }}</a></p>
-              </div>
+          </li>
+          <li>
+            <span class="cred-year">Especialidad</span>
+            <div>
+              <span class="cred-name">Cirugía Ortopédica y Traumatología</span>
+              <span class="cred-org">Hospital de Ortopedia Magdalena de las Salinas</span>
             </div>
-          </div>
-        </div>
-        
-        <div class="education-box bg-white rounded-4 shadow-sm p-4">
-          <h3 class="fs-4 mb-3"><i class="fas fa-graduation-cap text-success me-2"></i>Formación Académica</h3>
-          <ul class="list-unstyled mb-0">
-            <li class="d-flex mb-3">
-              <div class="me-3 mt-1">
-                <span class="badge rounded-circle bg-success-subtle p-2"><i class="fas fa-check text-success"></i></span>
-              </div>
-              <div>
-                <h5 class="fs-5 mb-1">Medicina y Cirugía</h5>
-                <p class="text-muted mb-0">Universidad del Cauca</p>
-              </div>
-            </li>
-            <li class="d-flex mb-3">
-              <div class="me-3 mt-1">
-                <span class="badge rounded-circle bg-success-subtle p-2"><i class="fas fa-check text-success"></i></span>
-              </div>
-              <div>
-                <h5 class="fs-5 mb-1">Especialista en Cirugía Ortopédica y Traumatología</h5>
-                <p class="text-muted mb-0">Hospital de Ortopedia y Traumatología Magdalena de las Salinas</p>
-              </div>
-            </li>
-            <li class="d-flex">
-              <div class="me-3 mt-1">
-                <span class="badge rounded-circle bg-success-subtle p-2"><i class="fas fa-check text-success"></i></span>
-              </div>
-              <div>
-                <h5 class="fs-5 mb-1">Subespecialidad en Cirugía Artroscópica</h5>
-                <p class="text-muted mb-0">Instituto Mexicano del Seguro Social – Universidad Nacional Autónoma de México UNAM</p>
-              </div>
-            </li>
-          </ul>
+          </li>
+          <li>
+            <span class="cred-year">Subespecialidad</span>
+            <div>
+              <span class="cred-name">Cirugía Artroscópica</span>
+              <span class="cred-org">IMSS — Universidad Nacional Autónoma de México (UNAM)</span>
+            </div>
+          </li>
+        </ul>
+
+        <div class="d-flex flex-wrap gap-2" style="margin-top: 2.25rem;">
+          <a href="/dr-sammy-orozco" class="link-arrow">Leer biografía completa <span class="arrow">→</span></a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Services section with modern card design -->
-<section class="py-5" id="servicios">
-  <div class="container py-4">
-    <div class="text-center mb-5">
-      <span class="badge bg-success-subtle text-success text-uppercase fw-semibold mb-2">Especialidades</span>
-      <h2 class="display-5 fw-bold">Nuestros Servicios</h2>
-      <p class="lead text-muted mx-auto" style="max-width: 700px;">Tratamientos especializados y técnicas de vanguardia para una recuperación efectiva</p>
-    </div>
-    
-    <div class="row g-4">
-      <div class="col-md-4">
-        <a href="/artroscopia" class="text-decoration-none service-card-link">
-          <div class="card h-100 border-0 shadow-sm rounded-4 hover-lift">
-            <div class="service-img-container">
-              <img src="/assets/pages/scope-4256715_1280.jpg" class="card-img-top rounded-top-4" alt="Artroscopia">
-            </div>
-            <div class="card-body p-4">
-              <div class="d-flex align-items-center mb-3">
-                <span class="icon-circle bg-success-subtle rounded-circle p-2 me-3">
-                  <i class="fas fa-notes-medical text-success"></i>
-                </span>
-                <h3 class="card-title h4 mb-0 text-dark">Artroscopia</h3>
-              </div>
-              <p class="card-text text-muted mb-4">Técnica mínimamente invasiva para el diagnóstico y tratamiento de lesiones articulares. Rápida recuperación y mínimas cicatrices.</p>
-              <span class="btn btn-outline-success rounded-pill">Más Información <i class="fas fa-arrow-right ms-2"></i></span>
-            </div>
-          </div>
-        </a>
-      </div>
-      
-      <div class="col-md-4">
-        <a href="/medicina-deportiva" class="text-decoration-none service-card-link">
-          <div class="card h-100 border-0 shadow-sm rounded-4 hover-lift">
-            <div class="service-img-container">
-              <img src="/assets/pages/skate-6781021_1280.jpg" class="card-img-top rounded-top-4" alt="Medicina Deportiva">
-            </div>
-            <div class="card-body p-4">
-              <div class="d-flex align-items-center mb-3">
-                <span class="icon-circle bg-success-subtle rounded-circle p-2 me-3">
-                  <i class="fas fa-running text-success"></i>
-                </span>
-                <h3 class="card-title h4 mb-0 text-dark">Medicina Deportiva</h3>
-              </div>
-              <p class="card-text text-muted mb-4">Tratamiento especializado de lesiones relacionadas con actividades deportivas. Enfoque en el retorno rápido a la actividad física.</p>
-              <span class="btn btn-outline-success rounded-pill">Más Información <i class="fas fa-arrow-right ms-2"></i></span>
-            </div>
-          </div>
-        </a>
-      </div>
-      
-      <div class="col-md-4">
-        <a href="/tratamientos-biologicos" class="text-decoration-none service-card-link">
-          <div class="card h-100 border-0 shadow-sm rounded-4 hover-lift">
-            <div class="service-img-container">
-              <img src="/assets/pages/hand-4566535_1280.jpg" class="card-img-top rounded-top-4" alt="Tratamientos Biológicos">
-            </div>
-            <div class="card-body p-4">
-              <div class="d-flex align-items-center mb-3">
-                <span class="icon-circle bg-success-subtle rounded-circle p-2 me-3">
-                  <i class="fas fa-vial text-success"></i>
-                </span>
-                <h3 class="card-title h4 mb-0 text-dark">Plasma Rico en Plaquetas</h3>
-              </div>
-              <p class="card-text text-muted mb-4">Tratamiento regenerativo que acelera la recuperación de lesiones musculares y articulares utilizando factores de crecimiento.</p>
-              <span class="btn btn-outline-success rounded-pill">Más Información <i class="fas fa-arrow-right ms-2"></i></span>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
+<hr class="rule">
 
-<!-- CTA section with parallax effect -->
-<section class="py-5 bg-success text-white position-relative cta-section" style="background: url('/assets/solicita.jpg') center/cover no-repeat fixed; background-blend-mode: overlay; background-color: rgba(25, 135, 84, 0.85);">
-  <div class="container py-4 text-center">
-    <h2 class="display-5 fw-bold mb-4">¿Necesita atención especializada?</h2>
-    <p class="lead mb-4 mx-auto" style="max-width: 700px;">Diagnóstico preciso y tratamiento personalizado para sus problemas ortopédicos con tecnología de vanguardia</p>
-    
-    <div class="bg-white text-dark p-4 rounded-3 shadow-sm d-inline-block mb-4">
-      <h4 class="fw-bold mb-3">Sitios de atención:</h4>
-      <ul class="list-unstyled text-start mb-0">
-        <li class="mb-2">
-          <i class="fas fa-map-marker-alt text-success me-2"></i>
-          <strong>Miércoles:</strong> Clínica Farallones - Calle 9C N° 50 – 25 Barrio Camino Real – Cali – Valle del Cauca
-        </li>
-      </ul>
+<!-- ============================================================
+     SERVICES (primary three)
+     ============================================================ -->
+<section class="section" id="servicios">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-8">
+        <p class="section-num">01 — Qué hacemos</p>
+        <h2>Tratamientos <em>especializados</em>.</h2>
+        <p class="lead" style="max-width: 54ch; margin-top: 1rem;">
+          Cirugía artroscópica, medicina deportiva y tratamientos regenerativos — con enfoque en el retorno rápido a la actividad.
+        </p>
+      </div>
     </div>
-    
-    <div class="mt-4">
-      <a href="#contact" class="btn btn-light btn-lg text-success px-5 py-3 rounded-pill fw-semibold">
-        <i class="fas fa-calendar-check me-2"></i>Solicitar Cita Ahora
+
+    <div class="svc-grid">
+      <a href="/artroscopia" class="svc-card">
+        <figure class="svc-figure">
+          <img src="/assets/pages/scope-4256715_1280.jpg" alt="Artroscopia" loading="lazy">
+          <span class="svc-num">01</span>
+        </figure>
+        <h3 class="svc-title">Artroscopia</h3>
+        <p class="svc-desc">Diagnóstico y tratamiento de lesiones articulares por incisiones milimétricas. Menor dolor, menos cicatrices, recuperación más rápida.</p>
+        <span class="link-arrow">Ver más <span class="arrow">→</span></span>
+      </a>
+
+      <a href="/medicina-deportiva" class="svc-card">
+        <figure class="svc-figure">
+          <img src="/assets/pages/skate-6781021_1280.jpg" alt="Medicina deportiva" loading="lazy">
+          <span class="svc-num">02</span>
+        </figure>
+        <h3 class="svc-title">Medicina deportiva</h3>
+        <p class="svc-desc">Tratamiento de lesiones relacionadas con el deporte y manejo del retorno progresivo a la actividad física.</p>
+        <span class="link-arrow">Ver más <span class="arrow">→</span></span>
+      </a>
+
+      <a href="/tratamientos-biologicos" class="svc-card">
+        <figure class="svc-figure">
+          <img src="/assets/pages/hand-4566535_1280.jpg" alt="Plasma rico en plaquetas" loading="lazy">
+          <span class="svc-num">03</span>
+        </figure>
+        <h3 class="svc-title">Plasma rico en plaquetas</h3>
+        <p class="svc-desc">Infiltraciones con factores de crecimiento y viscosuplementación para acelerar la reparación de tejidos articulares.</p>
+        <span class="link-arrow">Ver más <span class="arrow">→</span></span>
       </a>
     </div>
   </div>
 </section>
 
-<!-- Associations section with modern logos display -->
-<section class="py-5 bg-light" id="asociaciones">
-  <div class="container py-4">
-    <div class="text-center mb-5">
-      <span class="badge bg-success-subtle text-success text-uppercase fw-semibold mb-2">Reconocimiento</span>
-      <h2 class="display-5 fw-bold">Asociaciones Médicas</h2>
-      <p class="lead text-muted mx-auto" style="max-width: 700px;">El Dr. Sammy Orozco es miembro activo de prestigiosas asociaciones médicas nacionales e internacionales</p>
+<!-- ============================================================
+     AREAS (four articulations)
+     ============================================================ -->
+<section class="section bg-paper-2" id="areas">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-8">
+        <p class="section-num">02 — Por articulación</p>
+        <h2>¿Qué lesión está <em>tratando</em>?</h2>
+        <p class="lead" style="max-width: 54ch; margin-top: 1rem;">
+          Procedimientos artroscópicos y de cirugía de mano por zona anatómica.
+        </p>
+      </div>
     </div>
-    <div class="row justify-content-center align-items-center g-5">
-      <div class="col-6 col-md-2">
-        <div class="association-logo bg-white p-3 rounded-4 shadow-sm text-center h-100 d-flex align-items-center justify-content-center">
-          <img src="/assets/sccot.jpg" class="img-fluid" alt="Sociedad Colombiana de Cirugía Ortopédica y Traumatología" />
+
+    <div class="areas-grid">
+      <a href="/rodilla" class="area-card">
+        <figure class="area-figure">
+          <img src="/assets/rodilla.jpg" alt="Artroscopia de rodilla" loading="lazy">
+          <span class="area-figure-num">A1</span>
+        </figure>
+        <h3 class="area-title">Rodilla</h3>
+        <p class="area-desc">Meniscos, ligamento cruzado anterior, cartílago.</p>
+        <span class="area-link">Ver más <span>→</span></span>
+      </a>
+      <a href="/hombro" class="area-card">
+        <figure class="area-figure">
+          <img src="/assets/hombro.jpg" alt="Artroscopia de hombro" loading="lazy">
+          <span class="area-figure-num">A2</span>
+        </figure>
+        <h3 class="area-title">Hombro</h3>
+        <p class="area-desc">Manguito rotador, labrum, inestabilidad.</p>
+        <span class="area-link">Ver más <span>→</span></span>
+      </a>
+      <a href="/tobillo" class="area-card">
+        <figure class="area-figure">
+          <img src="/assets/tobillo.png" alt="Artroscopia de tobillo" loading="lazy">
+          <span class="area-figure-num">A3</span>
+        </figure>
+        <h3 class="area-title">Tobillo</h3>
+        <p class="area-desc">Lesiones osteocondrales, pinzamiento.</p>
+        <span class="area-link">Ver más <span>→</span></span>
+      </a>
+      <a href="/tunel" class="area-card">
+        <figure class="area-figure">
+          <img src="/assets/tunel.png" alt="Síndrome del túnel carpiano" loading="lazy">
+          <span class="area-figure-num">A4</span>
+        </figure>
+        <h3 class="area-title">Túnel carpiano</h3>
+        <p class="area-desc">Liberación del nervio mediano.</p>
+        <span class="area-link">Ver más <span>→</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CTA BLOCK
+     ============================================================ -->
+<section class="section-sm">
+  <div class="container">
+    <div class="cta-block">
+      <div class="row g-5 align-items-end">
+        <div class="col-lg-7">
+          <p class="eyebrow eyebrow-light">Agendar consulta</p>
+          <h2>¿Necesita una valoración especializada?</h2>
+          <p>
+            Reserve en línea o comuníquese directamente. La atención se realiza en el Consultorio 709 del Centro Médico Clínica Farallones, en Cali.
+          </p>
+          <div class="d-flex flex-wrap gap-2">
+            <a href="/booking" class="btn btn-warning btn-lg">Agendar cita ahora</a>
+            <a href="tel:{{ site.phone1 }}" class="btn btn-outline-light btn-lg">
+              <i class="fas fa-phone-alt"></i><span>{{ site.phone1 }}</span>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="col-6 col-md-2">
-        <div class="association-logo bg-white p-3 rounded-4 shadow-sm text-center h-100 d-flex align-items-center justify-content-center">
-          <img src="/assets/accart.jpg" class="img-fluid" alt="Asociación Colombiana de Cirugía Artroscópica" />
-        </div>
-      </div>
-      <div class="col-6 col-md-2">
-        <div class="association-logo bg-white p-3 rounded-4 shadow-sm text-center h-100 d-flex align-items-center justify-content-center">
-          <img src="/assets/aana.gif" class="img-fluid" alt="Artroscopy Association of North America" />
-        </div>
-      </div>
-      <div class="col-6 col-md-2">
-        <div class="association-logo bg-white p-3 rounded-4 shadow-sm text-center h-100 d-flex align-items-center justify-content-center">
-          <img src="/assets/slard.gif" class="img-fluid" alt="Sociedad Latinoamericana de Artroscopia, Rodilla y Deporte" />
-        </div>
-      </div>
-      <div class="col-6 col-md-2">
-        <div class="association-logo bg-white p-3 rounded-4 shadow-sm text-center h-100 d-flex align-items-center justify-content-center">
-          <img src="/assets/isakos.gif" class="img-fluid" alt="International Society of Arthroscopy, Knee Surgery and Orthopaedic Sports Medicine" />
+        <div class="col-lg-5">
+          <dl class="cta-meta">
+            <div>
+              <dt>Dirección</dt>
+              <dd>Calle 9c&nbsp;#&nbsp;50&nbsp;-&nbsp;25<br>Consultorio 709, Cali</dd>
+            </div>
+            <div>
+              <dt>Horario</dt>
+              <dd>Lun&nbsp;-&nbsp;Vie 8:00&nbsp;-&nbsp;17:00<br>Sáb 8:00&nbsp;-&nbsp;12:00</dd>
+            </div>
+          </dl>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Contact section with modern design -->
-<!-- Locations Section -->
-<section class="py-5 bg-light" id="location">
-  <div class="container py-4">
-    <div class="text-center mb-5">
-      <h2 class="display-5 fw-bold">Ubicación</h2>
-      <p class="lead text-muted mx-auto" style="max-width: 700px;">Visítenos en nuestra consulta médica</p>
-    </div>
-    
-    <div class="row justify-content-center">
-      <div class="col-12 text-center mb-5">
-        <h3 class="fw-bold text-success"><i class="fas fa-map-marker-alt me-2"></i>Nuestra Sede</h3>
-      </div>
-      
-      <!-- Clínica Farallones -->
+<!-- ============================================================
+     ASSOCIATIONS
+     ============================================================ -->
+<section class="section-sm" id="asociaciones">
+  <div class="container">
+    <div class="row mb-5">
       <div class="col-lg-8">
-        <div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100 hover-lift">
-          <div class="card-header bg-success-subtle p-4 border-0">
-            <h3 class="card-title fw-bold text-success text-center mb-0"><i class="fas fa-hospital me-2"></i>Centro Médico Clínica Farallones</h3>
-          </div>
-          <div class="card-body p-4">
-            <div class="location-info">
-              <div class="d-flex mb-4">
-                <div class="icon-circle bg-success-subtle rounded-circle p-3 me-3 flex-shrink-0">
-                  <i class="fas fa-location-arrow text-success"></i>
-                </div>
-                <div>
-                  <h4 class="fs-5 mb-2">Dirección</h4>
-                  <p class="text-muted mb-0">Calle 9c # 50 - 25<br>Consultorio 709<br>Cali, Colombia</p>
-                </div>
-              </div>
-              
-              <div class="d-flex mb-4">
-                <div class="icon-circle bg-success-subtle rounded-circle p-3 me-3 flex-shrink-0">
-                  <i class="fas fa-phone-alt text-success"></i>
-                </div>
-                <div>
-                  <h4 class="fs-5 mb-2">Teléfono</h4>
-                  <p class="text-muted mb-0">
-                    <a href="tel:{{ site.phone1 }}" class="text-decoration-none">{{ site.phone1 }}</a>
-                  </p>
-                </div>
-              </div>
-              
-              <div class="d-flex mb-4">
-                <div class="icon-circle bg-success-subtle rounded-circle p-3 me-3 flex-shrink-0">
-                  <i class="fas fa-envelope text-success"></i>
-                </div>
-                <div>
-                  <h4 class="fs-5 mb-2">Email</h4>
-                  <p class="text-muted mb-0"><a href="mailto:{{ site.email }}" class="text-decoration-none">{{ site.email }}</a></p>
-                </div>
-              </div>
-              
-              <div class="d-flex mb-4">
-                <div class="icon-circle bg-success-subtle rounded-circle p-3 me-3 flex-shrink-0">
-                  <i class="fas fa-clock text-success"></i>
-                </div>
-                <div>
-                  <h4 class="fs-5 mb-2">Horario de Atención</h4>
-                  <p class="text-muted mb-0">Lunes a viernes: 8:00 AM a 5:00 PM<br>Sábados: 8:00 AM a 12:00 M</p>
-                </div>
-              </div>
-              
-              <div class="mt-4 text-center">
-                <a href="/booking" class="btn btn-success btn-lg rounded-pill px-4">
-                  <i class="fas fa-calendar-check me-2"></i>Agendar Cita
-                </a>
-              </div>
+        <p class="section-num">03 — Reconocimiento</p>
+        <h2>Asociaciones <em>médicas</em>.</h2>
+        <p class="lead" style="max-width: 54ch; margin-top: 1rem;">
+          Miembro activo de sociedades médicas nacionales e internacionales en ortopedia, artroscopia y traumatología deportiva.
+        </p>
+      </div>
+    </div>
+
+    <div class="assoc-grid">
+      <div class="assoc-item"><img src="/assets/sccot.jpg" alt="SCCOT — Sociedad Colombiana de Cirugía Ortopédica y Traumatología"></div>
+      <div class="assoc-item"><img src="/assets/accart.jpg" alt="ACCART — Asociación Colombiana de Cirugía Artroscópica"></div>
+      <div class="assoc-item"><img src="/assets/aana.gif" alt="AANA — Arthroscopy Association of North America"></div>
+      <div class="assoc-item"><img src="/assets/slard.gif" alt="SLARD — Sociedad Latinoamericana de Artroscopia, Rodilla y Deporte"></div>
+      <div class="assoc-item"><img src="/assets/isakos.gif" alt="ISAKOS — International Society of Arthroscopy, Knee Surgery and Orthopaedic Sports Medicine"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     LOCATION
+     ============================================================ -->
+<section class="section bg-paper-2" id="location">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-8">
+        <p class="section-num">04 — Ubicación</p>
+        <h2>Centro Médico <em>Clínica Farallones</em>.</h2>
+        <p class="lead" style="max-width: 54ch; margin-top: 1rem;">
+          Consulta especializada en el sur de Cali, con acceso directo al servicio hospitalario y de imágenes diagnósticas.
+        </p>
+      </div>
+    </div>
+
+    <div class="location-grid">
+      <div class="location-info">
+        <div class="loc-item">
+          <span class="loc-label">Dirección</span>
+          <p class="loc-value">Calle 9c&nbsp;#&nbsp;50&nbsp;-&nbsp;25<br>Consultorio 709<br>Cali, Valle del Cauca</p>
+        </div>
+        <div class="loc-item">
+          <span class="loc-label">Teléfono</span>
+          <p class="loc-value"><a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a></p>
+        </div>
+        <div class="loc-item">
+          <span class="loc-label">Email</span>
+          <p class="loc-value"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        </div>
+        <div class="loc-item">
+          <span class="loc-label">Horario</span>
+          <p class="loc-value">Lun&nbsp;-&nbsp;Vie · 8:00&nbsp;-&nbsp;17:00<br>Sáb · 8:00&nbsp;-&nbsp;12:00</p>
+        </div>
+        <div style="margin-top: 0.5rem;">
+          <a href="/booking" class="btn btn-warning">Agendar cita ahora</a>
+        </div>
+      </div>
+      <div class="location-map">
+        <iframe title="Mapa - Centro Médico Clínica Farallones" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.753887703216!2d-76.54180428524194!3d3.4100740975178354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6ae63805b6f%3A0x393ee0baff430b0f!2sLos%20Farallones%20Children&#39;s%20and%20Maternity%20Clinic!5e0!3m2!1ses!2sco!4v1587560303928!5m2!1ses!2sco" loading="lazy" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ
+     ============================================================ -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="faq-grid">
+      <div>
+        <p class="section-num">05 — Preguntas</p>
+        <h2>Lo que más nos <em>preguntan</em>.</h2>
+        <p class="lead" style="margin-top: 1rem; max-width: 40ch;">
+          Antes de su consulta, revise las respuestas a las dudas más frecuentes.
+        </p>
+        <div class="d-none d-lg-block" style="margin-top: 2rem;">
+          <a href="/booking" class="btn btn-ink">Agendar cita</a>
+        </div>
+      </div>
+
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="faq1h">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+              ¿Qué es la artroscopia?
+            </button>
+          </h3>
+          <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1h" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Es una técnica quirúrgica mínimamente invasiva que permite diagnosticar y tratar lesiones dentro de una articulación a través de una incisión de apenas 5 a 8 milímetros. Al introducir una cámara artroscópica, el especialista visualiza con precisión estructuras como meniscos, ligamentos, cartílago y manguito rotador, y puede repararlas sin necesidad de cirugía abierta.
             </div>
           </div>
-          <div class="ratio ratio-16x9">
-            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.753887703216!2d-76.54180428524194!3d3.4100740975178354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6ae63805b6f%3A0x393ee0baff430b0f!2sLos%20Farallones%20Children&#39;s%20and%20Maternity%20Clinic!5e0!3m2!1ses!2sco!4v1587560303928!5m2!1ses!2sco" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="faq2h">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+              ¿Cuándo debo consultar con un ortopedista?
+            </button>
+          </h3>
+          <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2h" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Si presenta dolor articular persistente, inflamación, limitación del movimiento, inestabilidad tras una lesión deportiva, bloqueos de rodilla, hormigueo en la mano o molestias que no ceden con manejo conservador, es recomendable una valoración especializada. Una evaluación oportuna permite preservar la articulación y evitar complicaciones.
+            </div>
           </div>
         </div>
-      </div>
-      
 
-    </div>
-  </div>
-</section>
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="faq3h">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+              ¿Cómo agendo una cita con el Dr. Orozco?
+            </button>
+          </h3>
+          <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3h" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Puede <a href="/booking">agendar su cita en línea</a> a través del sistema de citas y escoger el día y hora disponibles, o comunicarse al <a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a>. La atención se realiza en el Consultorio 709 del Centro Médico Clínica Farallones, en Cali.
+            </div>
+          </div>
+        </div>
 
-<!-- Contact form section with modern design -->
-<section class="py-5 bg-white" id="contact">
-  <div class="container py-4">
-    <div class="text-center mb-5">
-      <span class="badge bg-success-subtle text-success text-uppercase fw-semibold mb-2">Contáctenos</span>
-      <h2 class="display-5 fw-bold">Contáctenos</h2>
-      <p class="lead text-muted mx-auto" style="max-width: 700px;">¿Tiene alguna pregunta? Escríbanos un mensaje o programe una cita</p>
-      
-      <!-- Prominent Booking Button -->
-      <div class="d-flex justify-content-center gap-3 mt-4">
-        <a href="/booking" class="btn btn-success btn-lg rounded-pill px-4">
-          <i class="fas fa-calendar-check me-2"></i>Agendar Cita Ahora
-        </a>
-        <span class="d-flex align-items-center text-muted">o</span>
-        <a href="tel:{{ site.phone1 }}" class="btn btn-outline-success btn-lg rounded-pill px-4">
-          <i class="fas fa-phone-alt me-2"></i>Llamar Ahora
-        </a>
-      </div>
-    </div>
-    
-    <div class="row justify-content-center mt-5">
-      <div class="col-lg-8">
-        <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
-          <div class="card-header bg-light p-4 border-0 text-center">
-            <h3 class="mb-0 fw-bold text-dark"><i class="fas fa-envelope me-2"></i>Envíanos un Mensaje</h3>
-            <p class="mb-0 mt-2 text-muted">Responderemos a su consulta lo antes posible</p>
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="faq4h">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+              ¿Qué lesiones trata el Dr. Orozco?
+            </button>
+          </h3>
+          <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4h" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              El Dr. Sammy Orozco se especializa en lesiones meniscales y del ligamento cruzado anterior, lesiones del manguito rotador e inestabilidad del hombro, lesiones osteocondrales y pinzamiento de tobillo, síndrome del túnel carpiano, así como medicina deportiva y tratamientos biológicos como plasma rico en plaquetas (PRP) y viscosuplementación.
+            </div>
           </div>
-          <div class="card-body p-4">
-            <form action="https://formspree.io/f/xbloberd" method="POST" class="row g-3">
-              <div class="col-md-6">
-                <label for="name" class="form-label">Nombre Completo</label>
-                <div class="input-group">
-                  <span class="input-group-text bg-light border-0"><i class="fas fa-user text-muted"></i></span>
-                  <input type="text" class="form-control bg-light border-0" id="name" name="name" placeholder="Ingrese su nombre completo" required>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <label for="email" class="form-label">Correo Electrónico</label>
-                <div class="input-group">
-                  <span class="input-group-text bg-light border-0"><i class="fas fa-envelope text-muted"></i></span>
-                  <input type="email" class="form-control bg-light border-0" id="email" name="email" placeholder="nombre@ejemplo.com" required>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <label for="phone" class="form-label">Teléfono</label>
-                <div class="input-group">
-                  <span class="input-group-text bg-light border-0"><i class="fas fa-phone-alt text-muted"></i></span>
-                  <input type="tel" class="form-control bg-light border-0" id="phone" name="phone" placeholder="Ingrese su número de teléfono" required>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <label for="service" class="form-label">Servicio de Interés</label>
-                <div class="input-group">
-                  <span class="input-group-text bg-light border-0"><i class="fas fa-list text-muted"></i></span>
-                  <select class="form-select bg-light border-0" id="service" name="service">
-                    <option selected value="">Seleccione un servicio...</option>
-                    <option value="Artroscopia de Rodilla">Artroscopia de Rodilla</option>
-                    <option value="Artroscopia de Hombro">Artroscopia de Hombro</option>
-                    <option value="Artroscopia de Tobillo">Artroscopia de Tobillo</option>
-                    <option value="Traumatología Deportiva">Traumatología Deportiva</option>
-                    <option value="Tratamientos Biológicos">Tratamientos Biológicos (PRP)</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-12">
-                <label for="message" class="form-label">Mensaje</label>
-                <div class="input-group">
-                  <span class="input-group-text bg-light border-0"><i class="fas fa-comment text-muted"></i></span>
-                  <textarea class="form-control bg-light border-0" id="message" name="message" rows="4" placeholder="Describa su consulta o solicitud" required></textarea>
-                </div>
-              </div>
-              <div class="col-12 mt-4">
-                <button type="submit" class="btn btn-outline-success btn-lg w-100 rounded-pill">
-                  <i class="fas fa-paper-plane me-2"></i>Enviar Mensaje
-                </button>
-              </div>
-              <div class="col-12 text-center mt-3">
-                <p class="text-muted mb-0">¿Prefiere una cita inmediata? <a href="/booking" class="text-success fw-semibold">Agendar cita en línea</a></p>
-              </div>
-            </form>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="faq5h">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+              ¿Qué ventajas tiene la cirugía artroscópica frente a la abierta?
+            </button>
+          </h3>
+          <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faq5h" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              La artroscopia utiliza incisiones mucho más pequeñas, lo que se traduce en menor dolor postoperatorio, menor riesgo de infección, cicatrices más discretas, recuperación más rápida y rehabilitación precoz. En la mayoría de los casos es un procedimiento ambulatorio, permitiendo que el paciente regrese a su casa el mismo día.
+            </div>
           </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="faq6h">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+              ¿Ofrecen tratamientos sin cirugía?
+            </button>
+          </h3>
+          <div id="faq6" class="accordion-collapse collapse" aria-labelledby="faq6h" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Sí. Muchas lesiones se manejan con fisioterapia, medicamentos antiinflamatorios, infiltraciones y tratamientos biológicos como plasma rico en plaquetas (PRP) y viscosuplementación con ácido hialurónico. La cirugía se considera cuando el manejo conservador no logra resolver el problema.
+            </div>
+          </div>
+        </div>
+
+        <div class="d-lg-none" style="margin-top: 2rem;">
+          <a href="/booking" class="btn btn-ink w-100">Agendar cita</a>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- ============================================================
+     CONTACT FORM
+     ============================================================ -->
+<section class="section bg-paper-2" id="contact">
+  <div class="container">
+    <div class="form-grid">
+      <div>
+        <p class="section-num">06 — Contacto</p>
+        <h2>¿Una duda previa a su <em>consulta</em>?</h2>
+        <p class="lead" style="margin-top: 1rem; max-width: 42ch;">
+          Para agendar, use el <a href="/booking">sistema en línea</a> o llame al <a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a>. Para consultas generales, escríbanos por este medio.
+        </p>
+      </div>
+
+      <form action="https://formspree.io/f/xbloberd" method="POST" class="form-card">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label for="name" class="form-label">Nombre completo</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Su nombre" required>
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+          </div>
+          <div class="col-md-6">
+            <label for="phone" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Su número" required>
+          </div>
+          <div class="col-md-6">
+            <label for="service" class="form-label">Tema de consulta</label>
+            <select class="form-select" id="service" name="service">
+              <option selected value="">Seleccione…</option>
+              <option value="Artroscopia de Rodilla">Artroscopia de rodilla</option>
+              <option value="Artroscopia de Hombro">Artroscopia de hombro</option>
+              <option value="Artroscopia de Tobillo">Artroscopia de tobillo</option>
+              <option value="Túnel Carpiano">Túnel carpiano</option>
+              <option value="Medicina Deportiva">Medicina deportiva</option>
+              <option value="Tratamientos Biológicos">Tratamientos biológicos (PRP)</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Describa su consulta o solicitud" required></textarea>
+          </div>
+          <div class="col-12 d-flex flex-column flex-sm-row justify-content-between align-items-stretch align-items-sm-center gap-3" style="margin-top: 0.5rem;">
+            <p class="mb-0" style="font-size: 0.875rem; color: var(--color-muted);">
+              ¿Prefiere cita inmediata? <a href="/booking">Agendar en línea →</a>
+            </p>
+            <button type="submit" class="btn btn-ink">Enviar mensaje</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FAQPage schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué es la artroscopia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Es una técnica quirúrgica mínimamente invasiva que permite diagnosticar y tratar lesiones dentro de una articulación a través de una incisión de apenas 5 a 8 milímetros. Al introducir una cámara artroscópica, el especialista visualiza estructuras como meniscos, ligamentos, cartílago y manguito rotador, y puede repararlas sin cirugía abierta."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuándo debo consultar con un ortopedista?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Si presenta dolor articular persistente, inflamación, limitación del movimiento, inestabilidad tras una lesión deportiva, bloqueos de rodilla, hormigueo en la mano o molestias que no ceden con manejo conservador, es recomendable una valoración especializada."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo agendo una cita con el Dr. Sammy Orozco?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Puede agendar la cita en línea desde la página de reservas del sitio web, o comunicarse al 317 583 4699. La atención se realiza en el Consultorio 709 del Centro Médico Clínica Farallones, en Cali, Colombia."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué lesiones trata el Dr. Orozco?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lesiones meniscales y del ligamento cruzado anterior (LCA), lesiones del manguito rotador e inestabilidad del hombro, lesiones osteocondrales y pinzamiento de tobillo, síndrome del túnel carpiano, medicina deportiva y tratamientos biológicos como plasma rico en plaquetas (PRP) y viscosuplementación."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué ventajas tiene la cirugía artroscópica frente a la cirugía abierta?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Menor dolor postoperatorio, menor riesgo de infección, cicatrices más pequeñas, recuperación más rápida y rehabilitación precoz. En la mayoría de los casos es un procedimiento ambulatorio."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Ofrecen tratamientos sin cirugía?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Muchas lesiones se manejan con fisioterapia, medicamentos antiinflamatorios, infiltraciones y tratamientos biológicos como plasma rico en plaquetas (PRP) y viscosuplementación con ácido hialurónico."
+      }
+    }
+  ]
+}
+</script>
 
 {% include footer-scripts.html %}
-
-<style>
-  :root {
-    --bs-primary: #198754;
-    --bs-primary-rgb: 25, 135, 84;
-  }
-  
-  /* Custom hover effect for cards */
-  .hover-lift {
-    transition: transform 0.3s ease;
-  }
-  
-  .hover-lift:hover {
-    transform: translateY(-10px);
-  }
-  
-  /* Custom background for hero section */
-  .hero-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(25,135,84,0.5) 100%);
-    z-index: 1;
-  }
-  
-  /* Styling for icon circles */
-  .icon-circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
-  
-  /* Image overlay gradient for doctor card */
-  .bg-gradient-dark {
-    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
-  }
-  
-  /* Additional utility classes */
-  .rounded-4 {
-    border-radius: 1rem;
-  }
-  
-  .fw-medium {
-    font-weight: 500;
-  }
-  
-  .z-3 {
-    z-index: 3;
-  }
-  
-  /* Service image container styling */
-  .service-img-container {
-    height: 240px;
-    overflow: hidden;
-    border-radius: 1rem 1rem 0 0;
-  }
-  
-  .service-img-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-  }
-  
-  .hover-lift:hover .service-img-container img {
-    transform: scale(1.05);
-  }
-  
-  /* Add these styles to the existing style section */
-  .service-card-link {
-    display: block;
-    color: inherit;
-    transition: all 0.3s ease;
-  }
-  
-  .service-card-link:hover {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .service-card-link .card {
-    transition: all 0.3s ease;
-  }
-  
-  .service-card-link:hover .card {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.15) !important;
-  }
-  
-  .service-card-link:hover .service-img-container img {
-    transform: scale(1.05);
-  }
-  
-  .service-card-link .btn-outline-success {
-    pointer-events: none;
-  }
-</style>

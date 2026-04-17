@@ -2,37 +2,29 @@
 title: Artroscopia
 layout: artroscopia
 hero: artroscopia
-description: Tratamiento quirúrgico mínimamente invasivo para lesiones articulares mediante artroscopia. Dr. Sammy Orozco, especialista en Cirugía Artroscópica en Cali, Colombia.
-keywords: artroscopia, artroscopia rodilla, artroscopia hombro, artroscopia tobillo, cirugía artroscópica, técnica mínimamente invasiva, artroscopia cali
+description: Artroscopia en Cali con el Dr. Sammy Orozco. Cirugía mínimamente invasiva para lesiones de rodilla, hombro y tobillo. Subespecialista en cirugía artroscópica (UNAM).
+keywords: artroscopia cali, cirugía artroscópica, artroscopia rodilla, artroscopia hombro, artroscopia tobillo, cirugía mínimamente invasiva, Sammy Orozco, Clínica Farallones
 ---
 
-## ¿Qué es la Artroscopia?
+## ¿Qué es la artroscopia?
 
-La artroscopia es una técnica quirúrgica mínimamente invasiva utilizada en Cirugía Ortopédica y Traumatología. Consiste en la introducción de una pequeña cámara a través de una incisión en la piel de apenas 5-8 mm, que permite visualizar, diagnosticar y tratar con precisión las lesiones dentro de una articulación.
+La artroscopia es una técnica quirúrgica **mínimamente invasiva** utilizada en cirugía ortopédica y traumatología. A través de una incisión de apenas **5 a 8 milímetros**, se introduce una pequeña cámara que permite **visualizar, diagnosticar y tratar con precisión** las lesiones dentro de una articulación.
 
-Esta técnica moderna ofrece importantes ventajas frente a la cirugía tradicional abierta:
+Comparada con la cirugía abierta tradicional, la artroscopia ofrece ventajas claras: menos dolor postoperatorio, cicatrices mínimas, menor riesgo de infección y una recuperación considerablemente más rápida.
 
-- **Menor invasión:** Solo requiere pequeñas incisiones
-- **Recuperación más rápida:** Menor tiempo de hospitalización y rehabilitación
-- **Menos dolor postoperatorio:** Menor daño a tejidos circundantes
-- **Mejor visualización:** Permite ver con detalle estructuras articulares
-- **Preservación articular:** Favorece tratamientos menos agresivos
-- **Menor riesgo de complicaciones:** Reduce infecciones y cicatrices
+## ¿Cómo se realiza el procedimiento?
 
-## ¿Cómo se realiza la Artroscopia?
+El especialista realiza al menos **dos portales** (pequeñas incisiones) sobre la articulación. Por uno introduce la cámara artroscópica y por el otro el instrumental necesario para reparar la lesión. En procedimientos más complejos pueden requerirse portales adicionales para un acceso óptimo.
 
-Normalmente se necesitan al menos dos "portales" o pequeñas incisiones para poder realizar la cirugía. Por uno de los portales se introduce la cámara artroscópica y por el otro los instrumentos necesarios para realizar el tratamiento. En algunas intervenciones más complejas, pueden requerirse portales adicionales para garantizar el correcto acceso y reparación de las lesiones.
+La intervención se realiza bajo anestesia general o regional, según el caso, y en la mayoría de situaciones es **ambulatoria**: el paciente regresa a su domicilio el mismo día. El tiempo de recuperación depende del tipo de lesión tratada, pero suele ser mucho más corto que con técnicas convencionales.
 
-La intervención se realiza bajo anestesia (general o regional, según el caso) y habitualmente es ambulatoria, permitiendo al paciente regresar a su domicilio el mismo día de la intervención. El tiempo de recuperación depende del tipo de lesión tratada, pero generalmente es mucho más rápido que con técnicas convencionales.
+## Por qué elegir la artroscopia
 
-## Principales Aplicaciones
+- **Incisiones de 5–8 mm** en lugar de cortes extensos
+- **Menor dolor postoperatorio** y menos daño a tejidos circundantes
+- **Recuperación más rápida** y rehabilitación precoz
+- **Menor riesgo de infección**
+- **Mejor visualización** de las estructuras articulares con una cámara de alta definición
+- **Preservación articular**: favorece tratamientos menos agresivos
 
-La artroscopia tiene numerosas aplicaciones en diferentes articulaciones y patologías:
-
-- **Rodilla:** Lesiones meniscales, ligamentosas (como ligamento cruzado anterior), cartílago articular y plica sinovial
-- **Hombro:** Lesiones del manguito rotador, inestabilidad, lesiones del labrum y tendinitis
-- **Tobillo:** Lesiones osteocondrales, impingement, problemas sinoviales y artritis
-- **Codo:** Cuerpos libres, artritis y epicondilitis
-- **Muñeca:** Lesiones del fibrocartílago triangular y síndrome del túnel carpiano
-
-La artroscopia es una técnica altamente efectiva y especialmente adecuada para deportistas por su rápida rehabilitación y reincorporación a la actividad física.
+La artroscopia es especialmente adecuada para **deportistas** y personas con alta demanda funcional, por su rápida rehabilitación y pronta reincorporación a la actividad física.

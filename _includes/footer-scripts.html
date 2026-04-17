@@ -1,105 +1,78 @@
     <!-- Floating Appointment Button (Mobile) -->
-    <div class="d-md-none position-fixed bottom-0 start-0 w-100 p-3 bg-white shadow-lg" style="z-index: 1030;">
-      <a href="/booking" class="btn btn-warning w-100 rounded-pill shadow-sm">
-        <i class="fas fa-calendar-check me-2"></i>Agendar Cita
-      </a>
+    <div class="d-md-none position-fixed bottom-0 start-0 w-100" style="z-index: 1030;">
+      <a href="/booking" class="btn btn-warning w-100">Agendar cita ahora</a>
     </div>
 
     <!-- Footer -->
-    <footer class="pt-0">
-      <!-- Appointment CTA Banner -->
-      <div class="py-5" style="background: linear-gradient(135deg, #198754 0%, #146c43 100%);">
+    <footer>
+      <div class="footer-top">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-7 mb-4 mb-lg-0">
-              <h2 class="text-white fw-bold mb-3">¡Agende su cita ahora!</h2>
-              <p class="lead text-white-50 mb-0">Seleccione el día y la hora que mejor le convenga con nuestro sistema de citas en línea</p>
+          <div class="row g-5">
+            <div class="col-12 col-lg-5">
+              <p class="eyebrow eyebrow-light" style="margin-bottom: 1rem;">Dr. Sammy Orozco</p>
+              <p class="footer-wordmark">Artroscopia y traumatología <em>deportiva</em> en Cali.</p>
+              <p class="mt-3 mb-4" style="color: rgba(255,255,255,0.65); max-width: 44ch; line-height: 1.55;">
+                Consulta especializada en el Centro Médico Clínica Farallones. Agende en línea o llame directamente para reservar su cita.
+              </p>
+              <div class="d-flex flex-wrap gap-2">
+                <a href="/booking" class="btn btn-warning">Agendar cita</a>
+                <a href="tel:{{ site.phone1 }}" class="btn btn-outline-light">
+                  <i class="fas fa-phone-alt"></i><span>{{ site.phone1 }}</span>
+                </a>
+              </div>
             </div>
-            <div class="col-lg-5 text-center text-lg-end">
-              <a href="/booking" class="btn btn-light btn-lg rounded-pill px-4 py-3 shadow-sm">
-                <i class="fas fa-calendar-check me-2 text-success"></i><span class="fw-bold text-success">Agendar Cita Ahora</span>
-              </a>
+
+            <div class="col-6 col-md-4 col-lg-2 offset-lg-1">
+              <h5>Navegación</h5>
+              <ul class="footer-list">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/dr-sammy-orozco">Dr. Orozco</a></li>
+                <li><a href="/artroscopia">Artroscopia</a></li>
+                <li><a href="/medicina-deportiva">Medicina deportiva</a></li>
+                <li><a href="/tratamientos-biologicos">PRP</a></li>
+                <li><a href="/booking">Agendar cita</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+              <h5>Áreas</h5>
+              <ul class="footer-list">
+                <li><a href="/rodilla">Rodilla</a></li>
+                <li><a href="/hombro">Hombro</a></li>
+                <li><a href="/tobillo">Tobillo</a></li>
+                <li><a href="/tunel">Túnel carpiano</a></li>
+              </ul>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-2">
+              <h5>Contacto</h5>
+              <ul class="footer-list">
+                <li>Calle 9c&nbsp;#&nbsp;50&nbsp;-&nbsp;25</li>
+                <li>Consultorio 709</li>
+                <li>Cali, Colombia</li>
+                <li style="margin-top: 0.75rem;"><a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a></li>
+                <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                <li style="margin-top: 0.75rem; color: rgba(255,255,255,0.55);">Lun&nbsp;-&nbsp;Vie · 8:00&nbsp;-&nbsp;17:00</li>
+                <li style="color: rgba(255,255,255,0.55);">Sáb · 8:00&nbsp;-&nbsp;12:00</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Main Footer Content -->
-      <div class="bg-dark text-white py-5">
-        <div class="container">
-          <div class="row justify-content-center">
-            <!-- About Column -->
-            <div class="col-lg-6 text-center mb-5">
-              <div class="d-flex align-items-center justify-content-center mb-4">
-                <div class="logo-circle bg-white me-3" style="width: 45px; height: 45px;">
-                  <img src="/assets/logo.png" alt="Dr. Sammy Orozco Logo" class="img-fluid">
-                </div>
-                <h4 class="mb-0 fw-bold">Dr. Sammy Orozco</h4>
-              </div>
-              <p class="text-white-50 mx-auto" style="max-width: 600px;">Especialista en Cirugía Ortopédica y Traumatología con Subespecialidad en Cirugía Artroscópica.</p>
-            </div>
-          </div>
-          
-          <div class="row g-4 mt-4">
-            <!-- Quick Links Column -->
-            <div class="col-md-6 col-lg-3 offset-lg-3 mb-4">
-              <h5 class="fw-bold mb-4 text-uppercase text-center text-md-start">Enlaces Rápidos</h5>
-              <ul class="list-unstyled text-center text-md-start">
-                <li class="mb-2"><a href="/#inicio" class="text-white-50 text-decoration-none hover-text-white">Inicio</a></li>
-                <li class="mb-2"><a href="/#sammyOrozco" class="text-white-50 text-decoration-none hover-text-white">Sobre Mí</a></li>
-                <li class="mb-2"><a href="/#servicios" class="text-white-50 text-decoration-none hover-text-white">Servicios</a></li>
-                <li class="mb-2"><a href="/#asociaciones" class="text-white-50 text-decoration-none hover-text-white">Asociaciones</a></li>
-                <li class="mb-2"><a href="/#location" class="text-white-50 text-decoration-none hover-text-white">Ubicación</a></li>
-                <li><a href="/#contact" class="text-white-50 text-decoration-none hover-text-white">Contacto</a></li>
-              </ul>
-            </div>
-            
-            <!-- Contact Column -->
-            <div class="col-md-6 col-lg-3 mb-4">
-              <h5 class="fw-bold mb-4 text-uppercase text-center text-md-start">Contacto</h5>
-              <ul class="list-unstyled text-center text-md-start">
-                <li class="d-flex mb-3">
-                  <i class="fas fa-map-marker-alt text-success mt-1 me-3"></i>
-                  <span class="text-white-50">Calle 9c # 50 - 25, Consultorio 709, Cali</span>
-                </li>
-                <li class="d-flex mb-3">
-                  <i class="fas fa-phone text-success mt-1 me-3"></i>
-                  <a href="tel:{{ site.phone1 }}" class="text-white-50 text-decoration-none hover-text-white">{{ site.phone1 }}</a>
-                </li>
-                <li class="d-flex mb-3">
-                  <i class="fas fa-envelope text-success mt-1 me-3"></i>
-                  <a href="mailto:{{ site.email }}" class="text-white-50 text-decoration-none hover-text-white">{{ site.email }}</a>
-                </li>
-                <li class="d-flex">
-                  <i class="fas fa-clock text-success mt-1 me-3"></i>
-                  <span class="text-white-50">Lun-Vie: 8:00 AM - 5:00 PM<br>Sáb: 8:00 AM - 12:00 M</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Copyright Bar -->
-      <div class="bg-black py-3">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-6 text-center text-md-start">
-              <p class="mb-0 text-white-50 small"> 2025 Dr. Sammy Orozco. Todos los derechos reservados.</p>
-            </div>
-            <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
-              <a href="#top" class="btn btn-sm btn-outline-light rounded-circle" style="width: 36px; height: 36px;">
-                <i class="fas fa-arrow-up"></i>
-              </a>
-            </div>
-          </div>
+      <div class="footer-bottom">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+          <span>&copy; {{ site.time | date: '%Y' }} Dr. Sammy Orozco · Todos los derechos reservados</span>
+          <a href="#top" class="link-arrow" style="color: rgba(255,255,255,0.6); border-color: rgba(255,255,255,0.2); font-size: 0.8125rem;">
+            Volver arriba <span class="arrow">↑</span>
+          </a>
         </div>
       </div>
     </footer>
 
     <!-- Bootstrap and JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    
+
     <!-- Custom JSON-LD structured data -->
     <script type="application/ld+json">
     {
@@ -214,36 +187,28 @@
       ]
     }
     </script>
-    
+
     <!-- Smooth scrolling for anchor links -->
     <script>
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
-          e.preventDefault();
-          
           const targetId = this.getAttribute('href').substring(1);
           if (!targetId) return;
-          
           const targetElement = document.getElementById(targetId);
           if (!targetElement) return;
-          
+          e.preventDefault();
           window.scrollTo({
             top: targetElement.offsetTop - 80,
             behavior: 'smooth'
           });
         });
       });
-      
+
       // Add active class to current nav item
       const currentLocation = location.pathname;
-      const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-      const navLinksLength = navLinks.length;
-      
-      for (let i = 0; i < navLinksLength; i++) {
-        if (navLinks[i].getAttribute('href') === currentLocation) {
-          navLinks[i].classList.add('active');
-        }
-      }
+      document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+        if (link.getAttribute('href') === currentLocation) link.classList.add('active');
+      });
     </script>
   </body>
 </html>
